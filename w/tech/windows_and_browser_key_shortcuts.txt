@@ -1,0 +1,40 @@
+Windows
+  win .          emoji                  
+  win Shift s    clip screen
+  win d          clear/fill desktop  **** 
+  win e          explorer
+  win f          search folder
+  win i          settings
+  win l          lock windows
+  win p          monitor
+  win r          run menu            ****
+  win v          clipboard history
+  win rt-arrow   max window on right
+  win up-arrow   max window
+  win v     </b>    new window
+  Ctrl-f        find
+  Ctrl-v        paste
+  Ctrl-w        close tab /save
+  F2            rename
+  F5            refresh browser       
+
+Browser
+  Alt-D           address bar
+  Alt-enter       open address in new tab  **** 
+  Alt-back-arrow  back
+  Ctrl-+          zoom
+  Ctrl-0          default zoom
+  Ctrl-1..8       open tabs 1,2..,8
+  Ctrl-9          open last tab
+  Ctrl-D          add bookmark
+  Ctrl-F5         reload and skip cache
+  Ctrl-Shift-del  clear browsing history ******
+  Ctrl-h          open browse history
+  Ctrl-j          open download history
+  Ctrl-t          open new tab
+  Ctrl-u          source code             *****
+  F11             full/normal screen
+  F12             developer tools
+  F3              find
+  xy-Alt-enter    create: www.xy.com
+

@@ -1,0 +1,55 @@
+https://www.editage.com/insights/7-major-problems-science-is-facing-a-survey-overview
+
+1. Financial crunch
+   Short term grants (2 yrs)  --> short-term projects; no complex questions;
+     make institutions happy
+     --> increasing published papers of low quality and research impact.
+
+2. Poor study design in published papers
+   Poorly designed studies; statistical flaws goes undetected.
+   Breakthroughs valued most  -->
+      researchers: 1. hype results to get published
+                   2. focus on particular data & manipulate designs to make results attractive
+   Biomedical “p-hacking”: report only those hypotheses that end in statistically significant results.
+   Published results are inincentivized; significant & waste of money and resources.
+
+3. Lack of replication studies
+   Most scientists; “crisis of reproducibility” is real. Inherent problems in studies also hinder replication, such as
+   inadequate data and complicated study design hinder replication .
+   Science stakeholders skeptical about doing replication studies.
+   Journals, researchers, & founders prefer original/groundbreaking results not replication(lack novelty).
+   Results of most experiments never validated.
+
+4. Peer review
+   Peer reviewers weed out bad research & eliminate obvious flaws.
+   Not incentivized --> reviewers delay work or provide unhelpful reviews.
+   Reviewer bullying: authors forced to conduct additional experiments,
+       cite certain papers, make unnecessary changes, and so on.
+   Mostly single-blind peer review --> biases and professional jealousy
+   Excessive dependence on the peer review --> peer review scams by authors, editors
+   Questioned by many academics.
+
+5. Research accessibility
+   Trend for signing open data mandates and making data sharing mandatory.
+   But many big publishers that operate their journals on subscription-based models.
+   Problem of increasing subscription fees especially in developing countries.
+     --> unauthorized access (Sci-Hub) to almost all paywalled papers.
+
+6. Adequate and accurate science communication
+   Communication gap between the scientific and the non-scientific community
+     --> miscommunication, divided opinions, and lack of informed decision-making
+   Researchers responsible; no time/inclination.
+     --> media dependence, likely to misconstrue facts.
+   Competitive nature of research --> poor communication of research
+   Attention grabbing by researchers, universities, and journals by hyping results
+     or promoting only positive results.
+   Researchers should communicate accurate science to the public;
+     public decides how their tax money is invested.
+
+7. Stressful nature of academic/postdoc life
+   Postdoc's: life is grueling,
+     drive academic research and face fierce competition, low income, and low job security,
+     numbers are increasing faster than permanent positions,
+   PhD programs fail to train postdocs to find a non-academic job,
+     --> postdocs struggle to advance their career.
+

@@ -1,0 +1,4 @@
+transliterate==1.10.2
+googletrans==2.4.0
+pytest==5.2.2
+pytest-cov==2.7.1

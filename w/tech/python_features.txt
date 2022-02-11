@@ -1,0 +1,22 @@
+Python idioms etc..
+    help(x)
+    dir(x)
+
+    x, y = y, x
+    "".join(lst)
+    dct_reverse = {v: k for k, v in dct.items()}
+    f = lamda x: 2 *x
+    for (k, v in my_dixct.iteritems():
+    for i, x in enumerate(lst):
+    if 2 > x > 10:
+    min = x if x < y else y
+    pythom -m this
+    return x, y
+    s = "aaaaaaaaa"
+        "bbbbbbbbbb"
+
+    s_reverse = x[::-1]
+    with open('a.txt') as f:
+        txt = f.read()
+        lines = f.readlines()
+    list2 = [x/2 for x in list1 if x > 5]

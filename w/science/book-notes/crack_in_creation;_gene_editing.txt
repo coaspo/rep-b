@@ -1,0 +1,703 @@
+A Crack In Creation; Gene editing an the unthinkable power to control evolution 🗓 2017
+Jennifer Doudna UC Berkley biochemist molecular biologist, 2020 Nobel in chemistry
+Samuel H. Sternberg Columbia assistant biochemist
+
+PROLOGUE
+  CRISPR generate:
+    muscular dogs,  micro pigs (cat size), Shannbei goats to make more cashmere,
+    transform Asian elephant DNA to woolly mammoth
+    Disease resistant rice, tomatoes that ripen slowly,
+    soybean with healthier polyunsaturate fat
+    potatoes with lower neurotoxins
+    humanize pigs - for organs
+    wild mosquitoes to eradicate Zika & malaria
+  Laboratory hum cells corrected for:
+    cystic fibrosis, sickle , blindness, severe immunodeficiency
+  Find and fix single incorrect letter in 3.2 billion human genome letters
+    Delete damaged region of gene causing Duchenne muscular dystrophy
+    Rearrange half million letters for hemophilia A
+    Cutting HIV virus out of infected cells
+  Basis of CRISPR: how bacteria defend viral infections
+  Someday it may be unethical not to edit erroneous human germline.
+    2020:  CRISPR–Cas9 can make unwanted changes at or near the target genome site.
+
+1. QUEST FOR A CURE
+  WHIM syndrome (Warts, Hypogammaglobulinemia, Infections, and Myelokathexis)
+    few dozen world wide; single letter (dozen atoms) mutation
+    --> susceptible to HPV (human papillomavirus);  uncontrollable warts, cancer
+  WHIM patient after 40 years seamed cured;
+    gene defect in skin cells but not in blood cells, CXCR4 gene, 35M letters, missing
+    CXCR4; chemokine receptor type 4; chemokines small chemoattractant protein molecules
+    CXCR4 missing, other chromosome 2 letters seemed scrambled
+      Cause: single cell chromothripsis - chromosome shatters, repairs, rearranges genes;
+        cell may die or cause cancer
+        Cell was hematopoietic stem cells - repopulated entire immune system
+  Natural gene editing (chromothripsis) cures:
+    2 severe combined immunodeficiency (SCID; "bubble boy") cases, SCID kills before age 2
+    10%-20% of Wiskott-Aldrich immune syndrome,
+    tyrosinemia liver, unable to breakdown tyrosine amino acid
+    ichthyosis with ; red flaky skin has mutation, other skin fixed mutation
+  Odds of spontaneous gene editing cure is minute.
+
+  Genome: gene/chromosome portmanteau
+    DNA deoxyribonucleic acid;  deoxy -sugar backbone one less oxygen than RNA
+      4 nucleotides: A,G,C,T other uses:
+        purine Adenine - energy storage; A-T
+        purine Guanine ("bird/bat droppings")- shampoo, paints, plastics; C-G
+        pyrimidine Cytosine - stabilizes DNA;
+        pyrimidine Thymine
+      Backbone: phosphate group and deoxyribose (sugar)
+    RNA A,G,C,U;  U:uracil demethylated thymine
+      Backbone: phosphate group and ribose (sugar)
+      DNA --> transcription (T-->U ) --> RNA
+      3 RNA letters = 1 amino acid
+  Central dogma of molecular biology:
+    DNA --> replication --> DNA
+    DNA --> transcription --> RNA
+    RNA --> translation --> protein
+  Gene / protein <--> nucleotide / amino acid
+               DNA letters,   Genes
+      virus    few thousand,  handful
+      bacteria millions,      4,000
+      fly      100s millions, 14,000
+      human    3.2 billion    21,000 roughly same as mouse
+      lungfish 130 billion
+      plant*   150 billion           * Paris Japonica
+  Humans:
+    23 chromosome pairs; 50 to 250 million letters each
+      Down syndrome: 3 copies of chromosome 21
+      23rd pair is XX or XY
+    + mini mitochondria chromosome 16,000 letters from mother
+  Sickle cell disease:
+    17th letter of the beta-goblin mutated from A to T
+    glutamate is replaced with valine in hemoglobin
+    10 atom change in 80,000 atoms --> stroke, infection, bone pain
+    Recessive genetic disease: both copies of HBB (Hemoglobin Subunit Beta) have mutation
+  WHIM syndrome:
+    one letter in CXCR4 mutate from C to T
+    Dominant genetic disease: only one bad copy causes disease
+  Huntington's disease (dominant) uncontrolled movement:  defective HHT gene;
+    3 DNA letters repeated too many times
+  Cystic fibrosis (cells that produce mucus sweat & digestive juice):
+    3 letters deleted in cystic fibrosis transmembrane conductance regulator (CFTR) gene
+  Human genome sequencing: clone large chunks of human DNA in yeast, laboratory automation,
+    computational algorithms, $3 billion/2001
+    4K mutations identified causing disease
+    identify risks
+    custom treatments
+    $200 to $600 per test
+  Attempted gene therapy 1960s via Shope papillomavirus - causes rabbit warts
+    for hyperargininemia high plasma arginine and ammonia levels
+  Viruses
+    Vector virus: transfer gene into cells with near 100% efficiency
+    May hide in bacteria chromosomes; HIV retro virus
+      8% of human genome (250 million letters) is remnant of ancient retrovirus
+    Retooled retroviruses - insert good genes and remove bad ones; 1st attempt 1960s
+      first therapy for ADA-SCID (sever combined immunodeficiency) was indeterminate
+        improved version Strimvelis 2016 EU approval but stopped at 2020 (leukemia)
+        cost 600,000 Euros
+      1999 patient died after massive immune response
+      2000  5 patients with ADA-SCID treatment died from leukemia
+  Gene therapy (adding new gene) does not work in dominant diseases like Huntington's
+    Fixing genes is needed: 1. fix RNA or 2. fix DNA
+
+  Instead of using viruses, inject DNA into cells:
+    How do mice eggs incorporate injected DNA to next generations?
+      Homologous recombination: during formation of of egg and sperm cells - 2 sets
+        of chromosomes are pared to 1.  Each pair exchange large chunks of DNA
+        ---> diversity;
+        Gene-editing: mix DNA with calcium phosphate and mixed with cells:
+          some cells replaced old with new DNA; cell tricked to treat re-combatant
+          DNA as en extra chromosome that needed to be paired with defective gene
+         1980s: created custom mice by editing embryonic stem cells.
+  Non-homogeneous of illegitimate recombination:new DNA haphazardly integrated
+    by 100:1 to homogeneous - could not use gene-editing
+  Damaged DNA can repair itself via homologous recombination of second chromosome copy
+    Gene edit by cutting chromosome at damaged gene; cell would search and find the synthetic gene
+      I-cel endonuclease from yeast to cut DNA requires match of 18 DNA letters.
+        18 letters first added to mouse chromosome - succeed in 10% of the cells
+  I-cel could not be modified to target specific sequence
+    found dozens of other nucleases - but they only target 6 to 8 letters
+    8-letter sequence can occur hundred of times in human genome
+  1996 Chandrasegaran created chimeric nuclease by mixing section of natural nucleases
+    FokI (breaks any where) + zinc finder proteins (ZFN; matches 3-letter DNA)
+  2000s: ZFNs used in human, corn, tobacco, thale cress (small genome)
+    not adopted - ZFNs very expensive to make; not consistent - cut too much or not at all..
+  2009 TALE (transcripion activator-like effectors) proteins in Xanthomonas
+    (plant -infecting bacterium) - similar to ZFNs
+    eahc ZFN finger bind to 3 letters, each TALE bind to one
+    But TALE nucleases (TALENs)supplanted by CRISPR
+
+2. NEW DEFENSE
+   ribozymes (RNA enzyme catalyst- RNA both genetic & catlyst)
+     viriod: strand of cirular ribozymes < 30 letters
+       self-cleavages & replicates
+     designed ribozymes as specific catalysts
+     self-splicing ribozymes suggest life arose from RNA molecules
+   Therapies: 1. gene therapy - add healthy genes
+              2. gene editing - replace defective gene
+              3. ribozymes - fix defective RNA - no clinical trial was effective
+   CRISPR: ===Clustered Regularly Inter-spaced Short Palindromic Repeats===
+     region of bacterial DNA
+       Bacteria get snippets of virus DNA from invading use them to create DNA
+       segments - CRISPR arrays to "remember" the viruses,
+       The bacteria produce RNA from CRISPR arrays to target viruses
+       They use Cas9 or a similar enzyme to cut the DNA apart and kill viruses.
+       Palidrome - word/phrase that read same backwards;
+       Mr. Owl ate my metal worm; complement of ACCTAGGT is TGGATCCA
+   CRISPRs in half bacteria & nearly all archaea -
+     most widely shared repeating DNA sequence in prokaryots
+     CRISPR spacers: matching DNA of bacteria viruses
+     More matches less chance for viral infection
+     Interspaced sequences mathedviral DN sequences;
+       --> part of bacterial/archaea immune system to fight viruses
+  1917 d'Herelle Canadian doctor; dysentery in WWI from Shigella (related to Escherichia coli)
+    discovered bacteriophages or phages
+    Phage therapy in Georgia 20% of infections - Soviet production of tons of phages
+    Forgotten in west after antibiotics in 1030s 1940s
+    Phages:
+     1. Proved genetic code in triples(codons)- 1 triplet = 1 amino acid
+        20 not 64 (4^3=64) amino acids because: some are coded by different
+          codons; 3 are stop codons (end of protein)
+        Lederberg's bacterial conjugation - bacteria mating.  Viruses getting
+          foreign genes into infected cells  --> 1st attempt for gene therapy
+      2. How genes turn on/off: 1. transcription factor protein
+         2. epigenetic- environment via DNA methylation (CH3)
+      3. start of molecular biology; restriction endonucleases to cut synthetic DNA;
+         design and clone synthetic DNA (1950s) --> synthetic genes
+         ΦX174 E.coli phage:
+           1977: sequenced by Fred Sanger; 11 genes; 5.3 KB letters (nucleotides)
+           2003: synthesized in vitro from synthesized oligonucleotides  (human 3G/30K LTRs/genes)
+      4. Found anywhere there is life, ice cores, hot springs...
+           10^31 in earth = 10xbacteria
+           40% of bacteria in ocean die every day
+      4. spherical with tail, alien spacecraft, cylindrical, icosahedral
+      5. 2 hijackings: 1. parasitic (lysogenic) - integrate DNA into host and wait
+                       2. infectious(lytic); invade/high-jack, replicate/propagate:
+                          1 phage wipes out bacterial population in hours
+          Bacteria defenses:
+            1. and DNA markers (chemical change) keeping genetic expression
+               release restriction endonuclease enzymes to destroy DNA WO markers
+            2. pFirefly Aerospacelug holes made by phages
+            3. mask protein molecules that phages latch to
+            4. sense phages and commit suicide to protect other bacteria
+            5. embed phage DNA into its CRISPR DNA; molecular vaccination card
+               adaptive and inheritable immunity
+  Cas: CRISPR associated genes - not repeat or spacers - enzymes (proteins) to zip or cut DNA?
+    when there is CRISP there is also Cas
+  Research: adventure, curiosity, instinct, grit
+  Yellowstone/Kamchatka viruses shared DNA --> large separation but common ancestor
+    same enzyme to splice their genome to bacteria
+    ---> problem: find bacterial genes that blocks virus
+  Danish company: strains of Streptococcus Thermophilus (yogurt) more phage resistance
+    CRISPR spacers varied in strains some matchedpart of phage genome
+    more spacers ---> better phage resistance
+  Bacteria creates RNA (DNA T-->U) that matches the CRISPR DNA
+    enzyme break RNA into smaller pieces each having a phage sequence
+    RNA pieces target both RNA and DNA of phages
+    Similar to RNA interference - animal/plant cells create RNA-RNA helixes to destroy viruses
+  Bacteria & human cells have complex reactions to infection.
+
+3. CRACKING THE CODE
+   Questions: How bacteria in middle of phage infection take phage DNA and add it
+              to existing CRISPR array so that it can target virus?
+              How CRISPR RNA produced in side the ceslls and converted from long
+              to short strands? - each one virus matching sequence
+              Most important, how a piece of RNA paired up with the phage DNA and
+              destroyed the phage?
+   4 DNA letters --> 20 amino acids (protein letters)
+     Find protein: lookup amino acid chains in known protein/amino-acids.
+   Study of any gene: 1. clone gene into artificial mini chromosome (plasmid)
+                      2. engineer apdicalized strin of E.coli to add plasmid to its genome
+                      3. add other synthetic DNA
+                        --> e. coli becomes a custom protein factory
+   1. create Cas plasmid from E. coli and P. aeruginosa
+   2. grow overnight dozens of liters of culture of different E. coli strains
+   3. separate cells from liquid in 4K g centrifuges
+   4. suspend cells in small volume of salt solution
+   5. burst cells with high energy acoustic waves
+   6. extract Cas from thousands of other proteins using its tag
+      --> found Cas1 that cuts DNA
+                Cas6 that cuts RNA into small pieces
+   Designed new enzymes to detect human viruses (dengue, yellow fever...)
+     in blood and saliva.
+   2011: Caribou Bio-sciences to commercialize Cas
+      detect viral/bacterial RNA
+  Type I:
+     CRISPR RNA loaded with 10-11 different Cas proteins marked DNA to be destroyed
+       Cas3 tear apart targeted DNA - 300 base pairs / second
+       electron microscope showed Cas helical structure
+       CRISPR RNA recognized viral DNA
+     CRISPR diversity: 2 classes/6 types/19 subtypes
+   Type II (S.pyrogenes); different Cas
+     Cas9 surgically cuts viral DNA without dismantling it
+     similar to gene editing ZFNs &TALENs
+     S.themophilis has economic value, S.pyogenes have medical value;
+       causes toxic syndrome. scarlet fever,strep throat....flesh eating bacteria
+  1. create artificial chromosome containing Cas9 from S.pyrogenes
+  2. add it to strains of E. coli
+  3. optimize parameters  for maximum yield
+  4. use chromatography totest different way of cracking E.coli
+  5. test stability of Cas9 - was stable
+  6. mix Cas9 with CRISPR RNA and target DNA: no DNA cutting
+  7  added tracrRNA (trans-activating CRISPR RNA); DNA was cut
+  Programmable DNA cutting:
+    Cas9 attaches to DNA, forming DNA strand attached to CRISPR & tracrRNA strands
+    --> bacteria programs Cas9 to cut specific viral DNA
+    CRISPR RNA targets, tracrRNA holds CRISPR RNA and Cas9
+  Experiment: fuse tails of CRISPR RNA & tracrRNA & add Cas9
+              edit green fluorescent protein (GFP) gene of jellyfish; target 25 letters
+              DNA was cut
+      bacterial weapons --> rewriting code of life  --> joy of discovery (2012)
+
+4. COMMAND & CONTROL
+  2013 genetic engineering for sickle cell - change A to T cure millions of people
+    sickle cell DNA + genetic instructions to produce Cas9 from Streptococcus
+      + CRISPR derived guide RNA molecule to target the mutate cite
+      + synthetic DNA replacement
+    --->  Edita Medicine $43 mil venture by Doudna & four others
+         blindness therapy in clinical trials
+  CRISPR Therapeutics, Synthego, Vertex Pharmaceuticals,....
+    CTX001 for thalasimia; clinical trial start/finish 22018/2022
+  Transfer bacterial DNA for Cas9 and  CRISPR-derived RNA into 2plasmids;
+    (plasmid: small circular DNA molecule in bacteria, archaea, eukaryote; replicons)
+    plasmid 1: DNA for guide RN  + human cell instructions to produce it
+    plasmid 2: humanized Cas9 gene (so that it could be interpreted in human cells)
+               + gene for nuclear localization signal (directs protein to cell's nucleus)
+               + gene for green fluorescence (for cells producing Cas9 to glow green)
+  Humans & all eukaryotes suffer DNA damage; carcinogens, UV, x-rays,...
+  Cells repair DNA via non-homologous end joining (of broken DNA) - no repair template
+    - sloppy;  add remove few letters to create clean ends- gene changed
+    verify CRIPSR found & cut target DNA by finding sloppy DNA repair
+    ZFN $25K, CRISPR < $100 with computer
+  Edit human DNA - CTLA (endocytosis) gene:
+    Kidney cell (aborted fetus) + Cas9 + CTLA-specific guide RNA
+      --> 20 letter DNA target --> cut --> repair --> gel evidence
+  2012: Science magazine: Higgs 1st, CRIPSR 2nd
+    Used with cells: human stem, leukemia, mouse neuroblastoma (cancer of immature nerve cells),
+       bacterial, one-cell Zebra fish embryo
+  1974: 1st transgenic mouse years effort,
+  2013: CRIPSR one month multiple RN guides (gene edits)
+  1. Simple & common CRISPER use: cut DNA & let cell repair it: sloppy, error prone, & useful
+      Nucleus DNA copy (T-->U) --> mRNA, mRNA leaves nucleus ---> ribosome (protein factory)
+        Codon (2 letter RNA) ---> 20 amino acids (protein letters) + 3 protein synthesis markers
+      Gene knockout: small insert or delete during DNA repair --> protein synthesis abort
+        TYR gene (in plants, animals & fungi): produce tyrosinase enzyme which make melanin in
+        albino white read-eyed mice: 97% CRIPSR efficiency in Japan
+  2. DNA repair of joining segments with similar sequence: homology-directed repair
+       CRIPSR + repair template
+  3. cut large swath of DNA; 3 possible repairs:
+      a. mend both ends; less likely; DNA is moving....
+      b. leave cut segment out and glue ends
+      c. invert cut segment - flip cut segment & glue it
+  4. Puppeteer function: disable cutting and control gene expression
+      Cas9 or guide RNA + protein payloads (to enhance of diminish gene expression)
+      Similar to gene expression which creates different types of cells.
+      Protein 100s to 100s amino acids; most define 3-D shape, few control catalysis
+  Edits: 1. Knock out (messy delete)/delete/replace/insert (add).
+  Gene engineering: fluorescent CRISPER 3D gene mapping in cells,
+    CRISPER for mRNA instead of DNA; add bar-codes to record cell history
+  CRISPER: cure genetic disease & cancer, improve food production,
+           eradicate pathogens, resurrect extinct species...
+           get started with CRISPER plasmid (artificial chromosome) from Addgene.org
+   Addgene.org clone & advertise ... $65/plasmid
+     2015 60,000 plasmids to 80 countries
+   Computer algorithms using emprical target sequences to design plasmida
+   Years in sophisticated laboratory + millions --> days in high school + $2,000
+   DIY gene editing for $169;  different beer flavors?
+   CRISPER danger vs benefits....
+
+
+5. THE CRISPER MENAGERIE
+  Tomatoes that slowly ripen, drought tolerant plants, mosquitoes without malaria,
+  muscular dogs for police,cows WO horns, micro- pigs
+  Animla models for human disease: autism in monkeys, Parkinson's in pigs, flu in ferrets
+  In future:  high yield crops, healthier livestock, more nutritious food,
+    pigs as human organ donors, woolly mammoths, winged lizards, unicorns
+  CRISPR vs natural or induced (x-rays or chemical) mutagenesis, hybrids
+  Powdery mildew resistant Barley found in 1930's in Ethiopia via
+    spontaneous mutation of Mlo gene; Mlo discovered form x-ray irradiation in 1942
+    2004 identify gene in barley ---> found in other plants  ---> make them resistant
+  2014 China changed six Mlo genes in Common wheat (Triticum aestivum) with CRISPER
+    no worries of bad side effects...
+  Done: rice for bacterial blight, herbicide resistant corn/soybeans/potatoes
+        mushrooms WO browning/spoiling, soybean oil WO trans fat - similar to olive oil
+  Attempts: Cavendish bananas protected from soil fungus, citrus from huangglongbing bacteria
+  Potato glucose fructose (from cold storage) + heat (frying)
+    --> acrylamide (neurotoxin/carcinogen)
+    15% potatoes in making chips thrown because sugar browning/bitter
+    Ranger Russet has 70% acrylamide reduction
+  GMO opposition is misinformed
+    GMO definitions:
+      USDA: heritable improvements of plants/animals via genetic engineering or
+            traditional methods; gene editing or mutation breeding
+      common: recombinant DNA/gene splicing,adding foreign DNA
+    1974: slow ripen tomato (FlavrSavr) 1st GMO (discontinued)
+    2015: 92/94/94% corn/cotton/soybean are GMO
+    Random GMO mutations:
+      Neutron radiation ---> pink grapefruit
+      colchicine (treats gout) ---> seedless watermelon
+    CRISPR: minor changes, no new DNA, not GMO
+      Scarless gene editing: CRISPR makes changes, then cell degrades it
+    EU, WHO considers them safe; 60% Americans have them not safe
+  Gene editing (CRISPER) that does not add new DNA is not GMO
+    similar to mutation inducing chemicals/radiation
+    2016 CRISPER shifted
+    Protest process not end product; use natural mutations or CRISPER....
+    not USDA approval for new crops, but need FDA approval
+  Start with open mind; tackle food security, malnutrition, climate adaptation
+  GMO salmon - AuaAdvantage after $80 mil & 20 year FDA battle
+    growth hormone 1/2 to mature; 75% people would not eat it
+    Whole foods, Target.. promised not to sell
+  Terminated GMOs:
+    healthy pig in Japan with spinach gene to improve fat
+    enviro-pig in Canada digested phytate ---> manure 75% less phosphorus
+  CRISPER: muscular cows, pigs, sheep, goats
+  Muscle doubling --> deactivate myostatin gene with CRISPR
+    Belgian blue and Piedmontese cows 20% more muscle
+    Texel sheep in Netherlands
+    whippet dogs; fastest are heterozygotes (2 different gene alleles)
+      AB blood is co-dominance of 2 alleles (heterozygote)
+        Allele == gene version
+      Blue eyes phenotype: dominant/recessive alleles
+    Humans; heterozygotes --> professional athletes
+      both alleles --> superman/bodybuilder
+      Deactivate gene to cure musclular dystrophy?
+    Pigs: 10% more lean tender meat
+    Shanbei goats: myostatin & growth --> more food & cashmere
+  Working on:
+    Chicken female reproduction bias
+    Sterile farm fish - to not pollute natural stock
+    Male beef cattle bias
+    Cattle resistance to parasite causing sleeping sickness
+    Pigs fattened with less food
+    Remove allergen in egg white/milk(Casein & whey)
+    Pigs resistant to:
+      PRRSV virus (Betaarterivirus suid 1 or blue ear virus)
+        effects 15% of pigs; knock out susceptibility gene
+      African swine fever - up to 100% mortality
+        edited gene to be similar to warthog
+  Recombinetics: milk cattle WO horns
+    lengthy breeding replaced by CRISPR
+    13 million de-hornings in USA every year
+  Cynomolgus Monkeys with: immunodeficiency, obesity, human cancers;
+    possible behavioral/cognitive abnormalities
+  Pigs
+    model: Parkinson's, immunological disorders...
+    as bioreactors to produce therapeutic proteins
+    micro pigs - 30 instead of 300 lbs
+      $1500 as pet
+  Drugs from transgenic:
+    Low , high yield, easy scale-up
+    Antithreombine: anticoagulant in milk goat approved by FDA
+    other drugs in egg-white, rabbit milk
+    With CRISPR replace pig genes with human genes
+  Xenotransplantation of kidney, lungs.. from pigs
+    124,000 on waiting list, 22 die each day
+    pig kidney/heart lasted .5/2.5 in baboon  by Revivicor
+  Inbreeding of dogs --> Labradors prone to 30 genetic conditions,
+    60% golden retrievers get cancer,
+    Beagles get epilepsy,
+    Cavalier King Charles spaniels have seizures/pain from deformed skulls
+      cannot be left alone more than one hour
+    Biotech dogs avoid this....
+  Can create bizarre or mythical creatures that never existed
+  Resurrect:
+    auroch (wild ox) in Europe
+    saddleback tortoisein Galapagos
+    Pyrenean ibex (wild goat) - cloned from frozen tissue but died after birth
+    Woolly mammoth in Russia & Korea
+      in Harvard - correct 1,668 genes (1.5M letters) difference with elephants
+  Long now foundation: goal to resurrect passenger pigeons, great auks,
+    gastric-brooding frogs
+  De-extinction & designer pets:
+    distraction from helping endangered & animal welfare
+  Gene drive: drive new genes into wild populations; defy inheritance
+    selfish genes: increase frequency in genome with each generation without
+      any advantage to offspring  --> spread trait with 100% probability
+    Add new DNA and DNA of CRISPR
+    2015: fruit flies made yellow - if escaped would spread world wide
+    mosquitoes resistant to malaria & sterile females
+      sterile males & lethal genes self liming
+    Bad:
+      gene bombs - target human microbiome or food sources
+    Good:
+      Reverse herbicide insecticide resistance, controlling evasive species,
+      Eliminate Lyme disease, schistosomiasis (from contact with water/snails),
+      mosquitoes
+  Inactivate gene drive: undo gene drive
+  Plant/animal gene editing: dry run for curing disease
+
+6. TO HEAL THE SICK
+  1st genetic mice cures:
+    China, congenial cataracts
+    muscular dystrophy, metabolic disorders
+  Human cell cures: sickle cell, hemophilia, cystic fibrosis, immunodeficiency,
+    block HIV virus.
+  1st cancer cure = gene edit + immunotherapy
+  Decision for: somatic (hard/impossible) or germ (easy) cell therapies
+  CRISPR:
+    not good for Schizophrenia/obesity; genetics are complex, have small effect
+    good for monogenic genetic diseases (delivery is hard):
+      white blood cells/immunodeficieny
+      brain neurons/Huntington's'
+      sickle cell/red blood cells
+      lung cells/cystic fibrosis
+        ex vivo (out living) easiest - cells edited outside of body
+          have technology and rigorous quality control
+            Sickle cell & beta thalassemia; beta-globin gene (globin: heme-protein);
+              Marrow transplant for thalassimia with matched donor may have
+                graft-versus-host disease - gene edit (repair) avoid this.
+                (Gene therapy adds new healthy genes)
+              Bluebird inserted beta-globin gene into blood stem cells
+        vivo is simpler but hardest
+          work/research using adenovirus for thalassemia treatment
+          Adeno associated virus (AAV): mild immune response, no known disease
+          AAV custom strains for: liver, lungs, eyes, heart, nerves
+            Duchene muscular dystrophy 1;3,600 males; starts/kills at 4/25 years
+              DMD gene- largest human gene- encodes dystrophin to contract muscles
+                in X chromosome - females are carriers
+                2015: 4 laboratories: AAV vectors to muscles & heart cured mice
+            Tyrosinemia: liver dame from accumulated toxic metabolites, die before 10
+              for example: liver oxidizes methanol into formaldehyde and formic acid
+              MIT cured tyrosinemia in mice - for Huntington's
+            Delivered to brains/lungs/eyes of mice,;
+              Huntington's/cystic fibrosis/congenital blindness
+  HIV immunity: missing 32 letters in DNA for protein CCR5 (HIV virus latches to it)
+    10%-20% Caucasians have one copy - other races 0%
+    1% (northern Europe) have two copies (homozygous); more susceptible to West Nile virus
+    ZFN: editing CCR5 gene in white blood cells
+      cutt 155the letter of the CCR6 gne - end joining DNA repair inactivated gene
+    CRISPR: 1. remove genetic material from HIV virus
+            2. deactivated CRISPR to awaken HIV virus so that it can be targeted with drugs
+  Cancer:
+    Half million persons /year die
+    Rate of DNA mutations increase --> difficult to find cause
+    Use CRISPR to make mutations that cause cancer- quicker & cheaper than before.
+      Harvard determined combination of mutation that cause leukemia
+        by mutating several genes at once.
+        (every gene in human genome can be knocked out in one experiment)
+      Discovery of gene mutation that disable cancers: colorectal, servical,
+         melenoma, glioblastoma (brain)
+    New cancer treatment, immunotherapy: 1. check point inhibitors; shut off
+      mechanisms that restrain immune response
+      2. adaptive cell transfer (ACT); use generically engineered T-cells
+        2015 one year old cure of leukemia using TALEN gene edited T-cells
+        2016 Chinese used T-cells modified with CRISPR
+        2019 clinical trial started.
+    CRISPR flaw: sometimes DNA gets cut that does not match the guide RNA
+      similar to drugs having off-target activity (side effects);
+        antibiotics kill good and bad bacteria
+      But gene therapy side effects can be very dangerous;
+        Off-target edits are predictable; 20 letter CRISPR may cut 19 letter match-
+          probability is less if no-match is not close to match
+        Reduction/elimination of off-targets:
+          1. Algorithms to scan 3B-letter genome for off-target sequences - not always successful
+          2. Empirical tests for off-target edits; if none do clinical trials
+          3. Change Cas9 to be more discriminate (lengthen the password)
+          4. Adjust the dose - more CRISPR, more likely the off-targets
+      Improved accuracy --> more clinical trials
+    Expanded possible cures:
+      Achondroplasia (dwarfism),
+      Chronic granulomatous disease (ineffective white blood cells),
+      Alzheimer's,
+      Congenital hearing loss,
+      Amyolotrophic lateral sclerosis (ALS) voluntary nerves (10% are genetic),
+      High cholesterol,
+      Diabetes,
+      Tay-Sachs (no enzyme to break down fats),
+      Skin disorders,
+      Fragile X chromosome (missing brain development protein),
+      Infertility
+    Not so for non-genetic or genetic/environment:
+      Autism,
+      Heart disease
+    Germline editing: ethics, implications, ....
+
+
+7. THE RECKONING
+  CRISPR: make human genome as editable as that of bacteria
+    --> eliminate human disease before birth/conception
+    Genome is like palimpsest - book erased and written over
+    "A living creature understands its origin and can design its future"
+    Mot if, but when and how.
+    1978: first test tube baby Louise Brown in England - In vitro Fertilization
+    1990s: mouse models of human diseases
+    1996: cloned sheep Dolly (after 277 attempts)
+    1998: "Engineering the Human Genome" conference
+    PGD (Pre-implantation genetic diagnosis): single gene defects: Down syndrome
+      cystic fibrosis, Tay-Sachs disease, sickle cell anemia, and Huntington disease.
+      using polymerase chain reaction (PCR)
+      $4,000-$10,000 (gender choosing ~$4,000); CNY fertility
+      (natural 106 males to 100 females, China up to 140, India, Caucasus....)
+      Down syndrome detectable from blood test (mother blood has baby DNA)
+      Selective abortion
+      PGD avoidsFamilies of Sandy Hook victims say they have been harassed by Jones' followers issues of embryo selection
+    Gender selection illegal in China, India...
+      Legal in US
+      Legal in Uk to avoid X-linked disease (mostly for males)
+    Savior siblings (2015): born to provide HLA (human leukocyte antigens); 1% of PGD;
+      compatible body parts
+        umbilical cord blood for bone marrow transplantation, kidney...
+        prone to graft-versus-host disease
+      controversial but legal
+    Future: physical appearance, behavior,intelligence ---> best embryo
+    Mitochondrial replacement therapy - 3-parent IVF; avoid mitochondrial diseases
+      approved in UK 2015; controversial; changes the human genome.
+    Doudna has dream with Hitler having a pig face
+      (humanized pig genome written by CRISPR)
+      Goal: cure disease,  Unintended: DIY bio-hacking for few hundred dollars
+      Risks:
+        Science may not be done openly
+        Public discussion way behind science
+        Backlash hinder gene therapies
+      feel like Dr. Frankenstein,
+        Oppenheimer: "do the technically sweet then argue what to do about it"
+        fear of nuclear weapons --> fear of undermining trust of bio technology
+      How to save CRISPR from itself
+    Paul Berg: 2070s gene spliced (chemical fusion) of: 1. lamda phage,
+      2. E. coli, 3.simian virus 40 (SV40)  to study genes outside their environment
+      Concerns:
+        Synthetic DNA get out of lab, SV40 causes cancer in mice...
+      "Berg letter": moratorium on: Creating antibiotic resistant bacteria,
+                                    DNA hybrids with virus that causes cancer
+        Later dFamilies of Sandy Hook victims say they have been harassed by Jones' followersecided to proceed with safeguards...
+    Society cannot decide for technologies it does not understand
+    Go from reaction kinetics, biophysical mechanism, structure-function relationships..
+      to discussion of ethics, policy, regulation
+      Pause human germline editing check societal, etFamilies of Sandy Hook victims say they have been harassed by Jones' followershical, & philosophical....
+    2015: "A prudent path forward for Genomic engineering and germline gene modification"
+
+8. WHAT LIES AHEAD
+  2015: Huang injected CRISPR into 86 human (triploid; non-viable) embryos
+    for beta-globin gene; cure for beta-thalassemia.
+      1. CRISPR (RNA with GPS coordinates),
+      2. synthetic DNA to repair bad gene
+      3. jellyfish gene for green fluorescence
+    4/86 had intended mutations, others edited off-target DNA, cut DNA  WO repair,
+    mosaic of repairs (differently edited versions of beta-globin gene)
+    Experiments with triploid embryos are legal in the US.
+    Published in "Protein and Cell" (Springer)
+    Nature/Science rejected paper on ethical grounds
+  2018 He Jiankui created babies designed with HIV protection
+    got 3 year jail sentence
+  Russian scientist  plans to create babies without deaf mutation
+  Genome editing weapon of mass destruction and proliferation;
+    virus, or mosquito may hurt people by altering their genes
+  Most scientists against human genome editing,
+    some not so; "gene-editing is a moral necessity",
+    "primary goal of bioethics is to get out of the way"
+  World conference on genome editing:
+    1. safety: benefits outweigh risks?  anticipate worst effects
+    2. ethical: abortion, experimental viable/un-viable embryos
+    3. regulatory: prevent disease acceptable, enhancements not
+  2-10 DNA mutations every time a cell divides;
+    each person: one million mutations/second
+    In intestinal epithelium, every letter in the genome has mutated by 60
+    sex cells have new mutations
+    zygote starts with 50-100 random mutations
+    genetic editing mutation is a drop in the maelstrom of natural mutations
+      (CRISPR is safe?)
+  Genome editing options:
+    Edit embryo and use PGD to detect rare(?) undesirable mutations
+    Edit sex cells instead of embryo; this maybe possible in the future
+  Given the speed of technology, germline editing will have no more risks
+    than natural reproduction.
+  Editing:
+     1. CCR5 improves/degrades HIV/West-Nile-Virus resistance.
+     2. sickle-cell gene, increases malaria susceptibility
+     3. cystic fibrosis carrier gene, increase tuberculosis susceptibility
+     4. Alzheimer's, may reduce cognitive function, memory in young adults?
+  George Church (Harvard):
+    1. Requirement for complete knowledge of genome at odds with medical reality
+    2. Four centuries fighting smallpox without knowing immune system
+    3. Changing genome to healthy version that billion share, more certain
+       than a new drug never tested on humans
+  Cautious approval based on safety; but if we can, should we?
+  Recessive genetic disorders: cystic fibrosis, sickle cell, albinism, Fanconi anemia
+  Dominant: Huntington's, early-onset Alzheimer's, Marfan syndrome (tall & thin)
+    US adults 50%/48% in-favor/against
+  Christians oppose it, Jews/Muslims not so
+  Evolution:
+    worked at it 3.85 billion years, can we do better without side-effects?
+    did nothing for modern life...
+    more of tinkerer than engineer
+  Natural vs unnatural:
+    in medicine there is no distinction...
+  People with genetic disease are 100% pro edit;
+    issue of choice - people will do the right thing(?)
+  UNESCO: "human genome is heritage of humanity", genome editing renew eugenics
+    disguised as improvement.
+  If we use CRISPR to eliminate disease, we will use it for enhancements
+    intelligence, beauty, talents... no identified genes, but may change...
+    Slippery slope...
+      Genes for enhancements:
+        EPOR - erythropoietin (sport doping)
+        LRP5 - stong bones
+        MSTN (myostatin) - more muscle (super pigs & dogs)
+        ABCC11 - lower armpit odor
+        DEC2 - lower sleep requirement
+      Genes for cures:
+        PCSK9 - regulate low-density cholesterol
+        CCR5 - HIV resistance
+        APOE - reduce Alzheimer's risk
+        1F1H1/SLC30A8 - reduces type 1/2 diabetes
+        GRH - reduce cancer
+   Gene therapy ~ $1M; for rich
+   IVF/PGD costs thousands of dollars - not covered by insurance
+     Not so in France, Swede, Israel....
+   Gene gap (like digital divide), inequality will increase....
+   Germline editing ---> transcribe inequality into genetic code
+     --> exacerbate existing prejudices
+     (Nazis perfect race; eliminate Jews, homosexuals, mentally ill...)
+     Eugenics (literally well born)
+       Ultra sound, PGD, prenatal vitamins, alcohol abstinence
+   Clinical genome edit needs FDA approval;
+     IVF  & PGD had no clinical trials or FDA review
+   Editing:
+     US: Legal in most states, government cannot fund it, FDA cannot review drugs
+       developed by editing - because drugs are automatically approved after 30
+       days, it must act as it did not receive them.
+     UK: legal, active, approved by Human Fertilization & Embryology Authority
+     EU: "genetic therapy" legal if not change "germline genetic identity"
+     France: illegal if it undermines integrity of human species; PGD is legal
+     Mexico: legal if it reduces serious disease
+   Restrictions --> CRISPR tourism (China, Japan, India...)
+     now millions spent for stem cell treatments, muscle/lifespan increase
+   Nuclear weapons reshaped global politics & peoples lives
+     this will do the same....
+   Discovery:
+     space travel --> explore planets
+     particle physics --> understanding of matter
+     gene editing --> rewrite language of life, control genetic identity
+   Brave New World, 2540, genetic castes; will be sooner
+  CRISPR
+    is to genetic disease as vaccine to smallpox
+    solve world hunger
+    weather climate change
+
+EPILOGUE: THE BEGINNING
+  Public distrust of science:
+    climate change deniers
+    anti vaccine
+    anti genetically modified food
+    anti CRISPR GM babies
+    Cause: ignorance
+           miscommunication --> scientists partially responsible
+    Fix: ensure knowledge flows freely
+         discussion without dictation
+         open-access of papers
+         cross-disciplinary courses, research projects
+    Book take away: humans need to explore through open-ended research;
+      1. Flemming's Staphylococcus experiment --> penicillin
+      2. DNA cutting and copying enzyme from gut/heat-loving bacteria -->
+         recombinant DNA
+      3. Hot spring bacteria --> rapid DNA sequencing
+      4. How bacteria fights virus --> CRISPR
+    We must support new finding in all areas of science.
+    Unlock one secret of nature --> end of experiment --> beginning of many others.
+
+    Gone: evolution 's  exclusive prodding control of life.
+    New era: we will have primary control of life (life's genetic makeup)
+    Evolution:
+      Deaf dumb blind system --> conscious, intentional, human directed

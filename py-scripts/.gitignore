@@ -1,0 +1,17 @@
+**/tmp/**
+**/temp/**
+**/venv/**
+**/python-venv/**
+**/.pytest_cache/**
+**/priv_*/**
+**/.idea/**
+** - Copy
+**.pyc
+**.iml
+**.log
+**.bak
+**.tmp
+**.egg*
+**a.py*
+**temp.**
+**tmp.**

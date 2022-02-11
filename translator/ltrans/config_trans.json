@@ -1,0 +1,9 @@
+{
+"DICTIONARY_DIR": "./dictionaries",
+"LOG_DIR": "./logs",
+"LOG_LEVEL": "INFO",
+"LOG_LEVELS" : "CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET",
+"MAX_TRANSLATION_HISTORY_COUNT": "32",
+"SAVED_TRANSLATIONS_DIR": "./saved-translations",
+"TOP_OF_LIST_LANGUAGES": "Spanish,English,German,French,Italian,Greek"
+}

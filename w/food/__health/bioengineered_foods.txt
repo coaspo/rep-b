@@ -1,0 +1,64 @@
+Alfalfa,
+  Herbicide Tolerance,
+  USA, Canada
+
+Apple (Arctic TM; Golden delicious, granny smith, fuji),
+  non-browning,
+  USA, Canada
+
+Canola,
+  Herbicide Tolerance,
+  Pollination,
+  Reduced Phytate,
+    Phytate blocks the absorption of iron, zinc, calcium, and manganese.
+      Soaking, sprouting, and cooking reduces it
+    Phytate is antioxidant; protects against cancer.
+  Australia, Canada, United States
+
+Corn,
+  Herbicide Tolerance,
+  Insect Resistance,
+  Drought Tolerance
+  Brazil, Canada, United States,
+  Argentina, Colombia, Paraguay
+
+Cotton,ringspot virus
+  Herbicide Tolerance,
+  Insect Resistance,
+  Argentina, Australia, Brazil, Colombia,
+  Costa Rica, India, Mexico, Paraguay,
+  South Africa, Sudan,
+  United States,  New  Zealand
+
+Eggplant (Bt brinjal varieties)
+  insect resistance,
+  Bangladesh
+
+Papaya
+  ringspot virus-resistant,
+  China, USA, Canada
+
+Pineapple (pink flesh varieties),
+  Increased Levels of Carotenoids /
+  Inhibition of Flowering,
+  Costa Rica
+
+Potato
+  Reduced Black
+  Spot Bruising,
+  Reduced Levels of Free Asparagine Reducing Sugars,
+    Acrylamide is produced from free asparagine and
+    reducing sugars during high-temperature cooking
+      Acrylamide is Neurotoxin, adverse effects on male reproduction,
+        developmental toxicity and carcinogen".
+      In french fries and potato chips; crackers, bread, and cookies;
+      breakfast cereals; canned black olives; prune juice; and coffee.
+  Insect Resistance,
+  Virus Resistant,
+  USA, Canada
+
+Salmon (AquAdvantage®),
+  growth rate,
+  USA, Canada
+
+

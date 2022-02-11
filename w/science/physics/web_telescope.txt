@@ -1,0 +1,37 @@
+1. Near Infrared Camera (NIRCam)
+   0.6 - 5 μm (HgCdTe; 37K)
+   dichroic for 0.6-2.3 & 2.4-5
+   earliest stars and galaxies
+   young stars in the Milky
+   Kuiper Belt objects
+   coronagraphic imaging:
+      characterize exo-panets
+   10 HgCdTe arrays:
+     8 0.6 - 2.5
+     20.6 -5
+   widefield grism (grating-prism) spectroscopy
+   wavefront sensing for periodic alignment and phasing of the primary mirror
+   9.7 arcmin^2  (jupiter is 0.7 arc min, moon/sun 30 arcmin)
+
+2. Near InfraRed Spectrograph (NIRSpec)
+   0.6 - 5.3 μm
+
+   100 objects at 100 hour exposure
+   microshutter array for aperture control
+   2 HgCdTe detector arrays:
+     0.6 - 2.5 μm / 0.6 - 5 μm
+
+3. Mid-Infrared Instrument (MIRI)
+   5 - 28 μm (Si:As 7K)
+   redshift of  galaxies, new stars, comets, Kuiper Belt
+   imaging with 9 broad-band filters 5.6 μm - 25.5 μm
+   spectroscopy slitted/slitless
+   3 Si:As detector arrays
+   1 Lyot and 3 4-quadrant phase mask coronagraphs
+   Cryocooler:
+
+4. Fine Guidance Sensor /Near Infrared Imager and Slitless Spectrograph (FGS/NIRISS)
+   0.8 - 5 μm (HgCdTe; 37K)
+   3 detector arrays
+
+ref: https://jwst.nasa.gov/content/observatory/instruments/index.html

@@ -1,0 +1,34 @@
+Cerebras(American) and T.S.M.C. (Taiwan Semiconductor Manufacturing Company)
+ WSE-2
+   21x21 cm2
+   2.6 trillion (10*12) transistors
+   120 trillion parameter AI models
+     (1000 trillion synapses in human brain)
+     100x the current largest
+   40GB SRAM
+   20*10^12 Byte/sec memory bandwidth
+   850,000 processing units (7 nm “cores”)
+     GPUs have few thousand, CPUs less than 10
+   15kW;
+     Machine-learning software assigns tasks
+     to prevent cold spots,
+     to ensure the wafer doesn’t crack.
+   $2,000,000
+
+
+Workloads:
+ 1. 1980s, general-purpose chips; Intel
+ 2. 1990s, video games and C.G.I. --> G.P.U.s with parallel processing; Nvidia
+ 3. Internet and computer networking --> faster response times; Broadcom
+ 4. 2000s, mobile required power efficiency; Qualcomm and ARM.
+ 5. Deep learning; A.I. chips are now infrastructure.
+    AI in hearing aids, doorbell cameras, autonomous cars ....
+
+"Many kinds of nervous systems, natural and synthetic"
+
+Google trained an A.I. to floorplan a tensor-processing unit (TPU)
+
+Moore’s Second Law: costs of chip-fabrication plants, growing exponentially
+
+From:
+https://www.newyorker.com/tech/annals-of-technology/the-worlds-largest-computer-chip

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1 charset=utf-8">
+  <style>
+    .parent {
+      position: absolute;
+      top: 0px;
+      left: 295px;
+    }
+
+    .cntrl {
+      position: absolute;
+      top: 0px;
+      left: 10px;
+    }
+
+    .parent2 {
+      position: absolute;
+      top: 530px;
+      left: 5px;
+    }
+
+    .image1 {
+      position: relative;
+      top: 10px;
+      left: 10px;
+      border-radius: 50%;
+    }
+
+    button {
+      font-size: 18px;
+      width: 40px;
+      text-align: center;
+      margin: -5px;
+    }
+
+    .backCanvas {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    .backCanvas2 {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background-color: rgba(100, 0, 0, 0);
+    }
+
+    div {
+      display: inline;
+    }
+  </style>
+  <title>Night sky</title>
+</head>
+
+<body>
+  <div class="parent">
+    <img class="image1" src="./sky-stars.jpg" id="stars" onclick="nextHour(1);" alt="sky-stars.jpg" />
+    <canvas class="backCanvas" id="backgrd" width="525" height="525"></canvas>
+  </div>
+
+  <div class="cntrl">
+    <br>
+    <pre style="font-size: 18px;"> <span style="color:blue;  width: 1550px; font-size: 16px;" id="date"></span>
+
+  <span id="sunrisea"  style="font-size: 18px;">aaa</span>   <span id="sunseta"  style="font-size: 18px;">bbb</span>                                                            <div id="sunrise">1111111</div>
+
+
+  Month  <button onmousedown="startWorker('month',1);" onmouseup="stopWorker();">+</button>   <button onmousedown="startWorker('month',-1);" onmouseup="stopWorker();">-</button>                                                             <div id="sunset"></div>
+
+  Day    <button onmousedown="startWorker('day',1);" onmouseup="stopWorker();">+</button>   <button onmousedown="startWorker('day',-1);" onmouseup="stopWorker();">-</button>                                                             <div id="line4">4</div>
+
+  Hour   <button onmousedown="startWorker('hour',1);" onmouseup="stopWorker();">+</button>   <button onmousedown="startWorker('hour',-1);" onmouseup="stopWorker();">-</button>                                                             <div id="line5">5</div>
+
+  Minute <button onmousedown="startWorker('minute',1);" onmouseup="stopWorker();">+</button>   <button onmousedown="startWorker('minute',-1);" onmouseup="stopWorker();">-</button>                                                             <div id="line6">6</div>
+
+                                                                               <div id="line7">7</div> 
+  <a href="https://skyandtelescope.org/interactive-sky-chart/">sky and telescope</a>                                                            <div id="line8">8</div>
+  
+  <a href="https://www.darkskymap.com/">dark sky</a>
+  <a href="https://stellarium-web.org/">Star map</a>
+<span style="font-size: 128px">🚧</span>
+</pre>
+    <div class="parent2">
+      <img class="image2" src="./sky-stars-equator.jpg" id="stars2" alt="sky-stars-equator.jpg" />
+      <canvas class="backCanvas2" id="backgrd2" width="1104" height="375"></canvas>
+      <canvas id="starWindow" width="1104" height="375"></canvas>
+    </div>
+
+
+    <script src="../../js/sky.js"></script>
+    <script src="../../js/tides-moon.js"></script>
+    <script>
+
+      console.log(document.getElementById('sunrise').innerHTML + '------')
+      var buttonWorker
+
+      function startWorker(type, increment) {
+        if (type == 'month') {
+          f = nextMonth
+          timeout = 800
+        } else if (type == 'day') {
+          f = nextDay
+          timeout = 200
+        } else if (type == 'hour') {
+          f = nextHour
+          timeout = 500
+        } else if (type == 'minute') {
+          f = nextMinute
+          timeout = 500
+        }
+        if (typeof (Worker) !== "undefined") {
+          if (typeof (buttonWorker) == "undefined") {
+            buttonWorker = new Worker("../js/button-worker.js");
+          }
+          buttonWorker.onmessage = function (event) {
+            f(increment)
+          };
+          buttonWorker.postMessage({ 'timeout': timeout });
+        } else {
+          f(increment)
+          concole.log("Sorry, your browser does not support Web Workers...");
+        }
+      }
+
+      function stopWorker() {
+        buttonWorker.terminate();
+        buttonWorker = undefined;
+      }
+
+
+      // using sky.js
+      update_screen(new Date())
+
+      function nextMinute(increment) {
+        date = new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes() + increment, 0, 0)
+        update_screen(date)
+      }
+      function nextHour(increment) {
+        date = new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours() + increment, date.getMinutes(), 0, 0)
+        update_screen(date)
+      }
+      function nextDay(increment) {
+        date = new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours() + increment * 24, date.getMinutes(), 0, 0)
+        update_screen(date)
+      }
+      function nextMonth(increment) {
+        let year = date.getFullYear()
+        let month = date.getMonth()
+        month = month + increment
+        if (month > 11) {
+          year += 1
+          month = 0
+        } else if (month < 0) {
+          year -= 1
+          month = 11
+        }
+        date = new Date(year, month, date.getDate(), date.getHours(), 0, 0, 0)
+        update_screen(date)
+      }
+      update_screen(date) {
+        sun = new Sun(date)
+        NorthSky.update(date, sun)
+        SouthSky.update(date, sun)
+        document.getElementById('sunrise').innerHTML = '🌅 ' + sun.sunriseTime
+        console.log(document.getElementById('sunrise').innerHTML + '------')
+        document.getElementById('sunset').innerHTML = '🌇 ' + sun.sunsetTime
+      }
+
+      window.onload = function () {
+        const img = document.getElementById('stars2')
+        img.style.display = "none";
+        const c = document.getElementById("starWindow");
+        const ctx = c.getContext("2d");
+        ctx.drawImage(img, 250, 0, 1104, 375, 0, 0, 1104, 375);
+      }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+1. Artifical intelligence (AI)): mimic human intelligence;
+    anything from a thermostat to whatever hasn't been done yet
+     https://www.cleverbot.com/
+   Video game bot
+   Hydraulic conductivity - movement of water in plant, soli, ropcks...
+   Natual lnaguage processing: speech -> text -> process -> audio
+   Autonomous car
+   Medical diagnotics
+   Legal - discovery phase
+   Data mining/Machine Learing: subset of AI; learn and predict; algorithms that impove through experience;
+   less symbolic and more statistics
+   2018 AI apps: hello barbie, chef watson, watson beat, digital powerplant, mortage processing,
+     credit card fraud, deepmind, predit auto part failure, car design & sales, pesticides in farming,
+     create news stories, user prefernces, cortana, illegal fishing,
+     sustenability: data centers cooling, landfill waste, food waste, targeted advertiising
+
+2. Advanced semiconductors & computer hardware
+carbon nanotubes
+ hafnium diselenide and zirconium diselenide
+graphene, which includes boron and nitrogen
+gallium-nitride for electrical grid system, converting power for
+antimonides and bismuthides for infrared sensing
+3. Quantum computing
+4. Robotics
+5. Natural & anthropogenic disaster prevention
+6. Advanced communications
+7. Biotechnology, genomics
+   Synthetic biology
+8. Cybersecurity
+   Data storage/management
+9. Advanced energy
+10. Material science
+</html>

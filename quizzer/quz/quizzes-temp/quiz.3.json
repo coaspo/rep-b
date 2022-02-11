@@ -1,0 +1,20 @@
+{
+"current_question_index": 0,
+"num_of_questions": 1,
+"marked_user_input": "???quiz-333333333333333\n+++\n----\n/\n/\n/\n\n",
+"question1": "??the race",
+"question1_answers": {
+"answer1": {
+"answer": "++is on",
+"is_correct": true,
+"is_selected": false
+},
+"answer2": {
+"answer": "---",
+"is_correct": false,
+"is_selected": false
+},
+"comment": null,
+"num_of_answers": 2
+}
+}

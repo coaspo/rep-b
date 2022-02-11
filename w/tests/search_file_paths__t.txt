@@ -1,0 +1,11 @@
+tests/search-files/category/words.html
+tests/search-files/food/bread..txt
+tests/search-files/food/dessert;.txt
+tests/search-files/food/egg_.txt
+tests/search-files/food/eggs_.txt
+tests/search-files/food/theory,.txt
+tests/search-files/links-2.html
+tests/search-files/links.html
+tests/search-files/problems-examples.html
+tests/search-files/problems-solutions.html
+tests/search-files/recipe.html

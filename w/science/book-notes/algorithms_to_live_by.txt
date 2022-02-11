@@ -1,0 +1,222 @@
+
+Algorithms to live by - the computer science of human decisions 🗓 1916
+Brian Christian born NJ 1984; computer science, philosophy, and poetry
+Tom Griffiths Australian cognitive scientist; Princeton computer science/psychology
+
+INTRODUCTION
+  Optimal stopping problems: how to find best apartment, parking, mate,...
+    how to reduce the Scylla-and-Charybdis ("choose the lesser of two evils")
+      (six-headed sea monster and whirlpool in Messina strait)
+      finding best versus getting nothing
+      looking / leaping balance; balance is NOT defined
+    solution:
+      37%; 100 days available, look for 37 days, and commit on 1st like after
+      Suitor does need therapist but algorithm
+  Finite space & time --> problems:
+    what to do, leave undone, how much to embrace
+  How computer processor allocate attention? - be faster with minimum overhead
+
+  Muhammad Al-Khwarizmi: 780-850 AD math, astronomy, geography, quadratic equation solution
+    native of Khwarezm Persia current Turkmenistan
+    wrote: fī ḥisāb al-jabr waʾl-muqābala
+           'The Compendious Book on Calculation by Completion and Balancing'
+    algebra: al-jabr: "completion" --> algorithm
+  Oldest algorithm: 4K year Sumerian long division on clay
+  Common algorithms: bake bread, start fire,... technology
+
+  Human algorithm: solutions to everyday problems
+    1. 'optimal stopping' - look and leap
+    2. 'explore/exploit' - try new things/enjoy favorites
+    3. 'sorting theory' - how and whether to arrange offices
+    4. 'caching theory' - how to fill closets
+    5. 'scheduling theory' - how to fill time
+
+  Science: more on how to think than what to know
+  Computer science: 1. nature of human mind
+                    2. meaning of rationality
+                    3. how to live
+  Use chance, time/accuracy trade off, approximate
+  Behavioral economics: Humans are irrational & error prone because of buggy brain
+  Counter intuitive solutions:
+    do not consider all options
+    do go for outcome that seems best every time
+    make mess on occasion
+    travel light
+    let things wait
+    trust instinct and not think long
+    relax
+    toss coin
+    forgive do not forget
+    to thine own self be true
+  How to find spouse or sort socks
+  Manage time, space,attention, unknowns, information, future with grace/confidence
+    --> New vocabulary for the world.
+
+1. OPTIMAL STOPPING
+  Turkey drop: high school sweethearts break up after freshman year Thanksgiving
+  "Secretary problem" --> 37% (1/e) rule
+    How to hire secretary - 1960 puzzle - solved in 1950s by Merrill Flood
+    2 applicants 50% no matter what
+    3 applicants 33% if random; 123 132 213 231 312 321 (6) 1 is best
+      33% look --> look at one
+      213 231 312; 50% if after 1st
+      123 132; 33% of dismissing best;
+      321; 16% of never meeting best
+      n/stop/chance for best:  (stop: take best applicant after)
+        3  1 50%
+        4  1 46%
+        5  2 43%
+        10 3 40%
+        20 11 38%
+        100 37 37%
+      Date 1 girl per year, from 18 to 40
+      Look until 16 & leap after that - maybe be rejected....
+   Kepler widow at 40, courted 11 women, picked #5 & had 6 children
+   If rejected half the time,  look 61%, leap on remaining 39%
+   Look at at all go back to best - chances for best 61%
+   "Secretary with know percentile rank"; "no-information game" --> "full information"
+      Threshold rule - 58% of getting best
+      n to last / h percintile threshold of stop
+      2 /50 th
+      3 /69 th
+      4 /78th
+   "Selling house" - expect offer 400K - 500K
+     offer (waiting) cost/ acceptable offer
+     $1  $499,553
+     $2K $480K
+     $50K any offer
+     how people look for jobs; unemplyed workers/unfilled vacancies
+   "parking car": balance price, time walking, time searching, gas, passenger count
+     Price should be adjusted to have 85% occupancy.
+     90% --> 95% occupancy accomodates 5% more cars but doubles the search time
+     Infinite long road:
+       occupancy rate/wait this many spaces then take next free spot
+       0 0
+       50 1
+       75 3
+       80 4
+       85 5
+       99 69
+   "when to quit" - "the burglar problem"
+      for novice 50/50 caught/succed, stop after 1 (50/50)
+      for pro 10%/90%: stop after 9 (90/10)
+    for 50/50 winning chance - triple or nothing bet there is no optimum stopping
+      avoidnace is best
+    natural tendency to stop early - 31% instead of 37% for the secretary
+                                     4/5 of times leaped sooner (from experiments)
+       --> because time costs (of ones life)
+    "Optimal stopping problem": choosing time to take action - nature of time itself
+                                implicit premise of what is to be alive
+                                forces us to embrace high failure when acting optimally
+    When clock is ticking, cannot weigh all options, must decide when to stop.
+
+
+2. EXPLORE / EXPLOIT
+  Every day forced to decide: 1. try new things  2. stick with favorite
+    Life is balance of novelty/tradition; latest greatest/what we know and love
+
+  Explore/Exploit
+    --> gather/use information for good result
+      Family gathering, book reading, favorite music is exploitation
+      Music journalist: constantly listen to new music - martyr like so others can exploit.
+
+  Size the interval
+    "Multi-armed  bandit problem" (MAB) (one armed bandit =slot machine) - a room full
+      of slot machines with different odds.
+      Choosing restaurant or favorite movie is deciding which arm to pull in casino of life.
+      Most rational is not the best.
+      Decision is not isolated - depends on how long you are in casino.
+      Eat drink for tommorrow we may die.  --> inverse:
+        Learn new language, make small talk wiht stanger, life is long no one knows the all joys...
+      Intevals make stategy, boserve stategy to find interval:
+        Explore when you you will have time to resulting info, exploit when ready; interval is stategy.
+        Movie sequels: guaranteed fan base,cash cow, an exploit.
+          --> Film industry signals that is near end of itsinterval.
+              Profits have actually gone down; they play best slot machines before
+              casinos turn them out.
+      MAB algorithms for:
+       Ads,
+       price experiments,
+       crowdsourcing,
+       search
+
+  Win-stay
+   MAB solution: Win-stay, Lose Shift (Stay the winner)
+     Consider only two machines, keep playig one when winning,
+       use you loose shift to other machine.
+
+  Gittins Index
+    Particular gateway to universal
+    Gittins, professor of statistics, tried to optimize drug trials;
+      multiple options, different reward probabilities/costs.
+       COs: R&D new drugs/make current drugs more profitable
+       Drs: encourage experimental dugs/prescribe best drugs
+         Interval: not clear; idefinite future
+           present has higher priority, future is discounted
+      Problem: maximize payoff, no interval, for discounted future.
+        payoff decreases exponentially
+        Visiting for 10 days and choose restaurant --> use interval
+           staying indefinite --> no interval
+           If 1% chance of being hit by bus, tommorrow dinner is discunted 99%
+      Solution strategy: think each arm of multi-arm bandit seprately & use bribe
+        similar to Deal or no deal: open suitcases, or listenen to banker not to.
+        If offered a guaranttted rate, we can be content never to pull arm;
+          rate is Gittins index --> play arm with highest index
+          (git when the Gitting is good)
+        For next payoff = 90% of current,
+          machine with 1-1 win/loss, index =.6346   --> chose this over 6-9
+                       6-9                  .6300
+                       0-1                  .5001  Small explotation bonus
+                       0-0                  .7029  Unknown machine is better than
+                                                   is better than machine that pays 70% of time
+                                                   (the exploitation bonus)
+                                                   rookie worth more then veteran
+                      ♾️-♾️                 .5000  convergent value for all payofs
+        For next payoff = 99% of current,
+          machine with 1-1 win/loss, index =.7844
+                       6-9                  .6997
+                       0-1                  .7005  larger explotation bonus
+                       0-0                  .8699
+        The grass is always greener --> because unknown has chance to be better
+                                        even when expect to be no different
+          but it may not be worth it....
+
+  Regret & optimism
+    Gittins Index alternative: regret; things we failed to do;
+      "To try and fail is at least to learn, to fail to try is to suffer regret"
+      Bezos: decision to start amazon incredibly easy - regret minimization...
+        try internet which was going to be really big
+    Regret = payoff of a strategy - maximum payoff (using the best slot machine)
+      1. Total regret is always increasing
+      2. Increase is less if you pick best strategy
+         Rate of growth goes down as you learn about problem
+      3. Minimum possible regret increases logarithmically;
+         Make as many mistakes in 10 pulls as in 100 pulls
+         Logarithmic growths: literacy, fitness, weight loss, music skill
+    Upper Confidence Bound algorithm: choose for arm with highest possible value
+      no one that has performed the best;
+      A restaurant with one medium review has more potential than one with may.
+      --> Optimism in face of uncertainty
+      Meet people & try things assuming the best in absence to the contrary
+      Optimism prevents regret
+
+  Bandits Online
+    A/B testing: control/variation; slit testing; 2 or more web page versions
+      data optimized design
+    Obama donate button: Best performer: "Donate and get a gift"
+      "Please Donate" worked best for people that never donated
+      "Contribute" for previous donors
+      After election Optimizely was founded....
+      After 10 years not a secret weapon for business/politics
+    Amazon/Google A/B testing started on 2000 as part of explore/exploit (users)
+      Google tested 41 shades of blue in its toolbar
+    Data scientist: "Best minds are thinking how to make people click ads"
+      <--> Ginsberg Howl: "Best minds destroyed by madness"
+    Explore/exploit algorithm --> colors, buttons, text, images...
+       optimized for clicks --> user: not the gambler, but the jackpot.
+       --> economic & technological internet power
+       Statisticians, engineers , bloggers contest best algorithms.
+
+  Clinical Trials on Trial
+    1932-1972 Tuskegee Syphilis Study; Peter Buxtun filed complaint 1966, went public 1972
+

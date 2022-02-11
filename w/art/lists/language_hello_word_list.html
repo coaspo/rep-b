@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>hello, goodbye...</title>
+    <style>
+    tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    </style>
+  </head>
+   <body style="font-size:18px;">
+    <table id='table'>
+      <tr><td><b>Most common:</b></td><td></td><td></td><td></td></tr>
+      <tr><td>Mandarin 11.9%</td> <td>嘿!<br> Hēi!</td>    <td>你好<br> Nǐ hǎo</td>     <td>再见<br> zàijiàn</td></tr>
+      <tr><td>Spanish 6%</td>     <td>¡Oye!</td>           <td>hola</td>               <td>adiós</td></tr>
+      <tr style="font-weight: bold;">
+          <td>English 4.9%</td>   <td>hey!</td>            <td>hi/hello</td>           <td>good bye</td></tr>
+      <tr><td>Hindi 4.5%</td>     <td>अरे! <br>are!</td>    <td>नमस्ते<br> namaste</td>   <td>अलविदा <br>alavida</td></tr>
+      <tr><td>Bengali 3%</td>     <td>আরে! <br>are!</td>    <td>না <br>Nā</td>          <td>পানি<br> Pāni</td></tr>
+      <tr><td>Portuguese 2.9%</td><td>Ei!</td>             <td>Oi/Olá</td>             <td>Tchau</td></tr>
+      <tr><td>Russian 2%.</td>    <td>Привет <br>Privet</td>    <td>Привет/Здравствуйте <br>Privet/Zdravstvuyte</td>     <td>Прощай <br>Proshchay</td></tr>
+      <tr><td>Japanese 1.7%</td>  <td>ねえ <br>Nē</td> <td>こんにちは <br>Kon'nichiwa</td>   <td>さようなら <br>Sayōnara</td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td><br/><b>Others:</b></td><td></td><td></td><td></td></tr>
+      <tr><td>Turkish 1 %</td>    <td>Hey</td>             <td>Selam/Merhaba</td>           <td>Güle güle</td></tr>
+      <tr><td>Korean 1%</td>      <td>야 <br>ya</td>        <td>안녕/여보세요 <br>annyeong/yeoboseyo</td>     <td>안녕 <br>annyeong</td></tr>
+      <tr><td>French 1%</td>      <td>Hey</td>             <td>salut/Bonjour</td>           <td>Au revoir</td></tr>
+      <tr><td>German 1%</td>      <td>Hallöchen</td>       <td>Hallo</td>                   <td>Auf Wiedersehen</td></tr>
+      <tr><td>Vietnamese 1%..</td><td>Chào</td>            <td>Chào/xin chào</td>           <td>Tạm biệt</td></tr>
+      <tr><td>Italian 0.8% </td>  <td>Hey</td>             <td>Ciao</td>                    <td>addio</td></tr>
+      <tr><td>Persian 0.7%..</td> <td>آهای<br>ahai </td>   <td>سلام<br>salam</td>            <td>خداحافظ<br>khudahafaz</td></tr>
+      <tr><td>Greek 0.2%</td>     <td>γεια<br>gia (health)</td> <td>xαίρετε<br>herete(glad)</td> <td>αντιο σας<br>adio sas</td></tr>
+  <tr><td>Amharic (Ethiopia)</td> <td>ሄይ<br>hēyi</td>     <td>ሀሎ/ሃይ/<br>hayi/hālo</td>      <td>በህና ሁን<br>behina huni</td></tr>
+      <tr><td>Arabic </td>        <td>يا هذا<br>ya hudha</td> <td>مرحبا<br>marhabaan</td>        <td>وداعا<br>wadaeaan</td></tr>
+      <tr><td>Basque</td>         <td>aizu</td>              <td>kaixo</td>                      <td>agur</td></tr>
+      <tr><td>Hebrew</td>         <td>היי<br>hiya</td>      <td>היי/שלום<br>hiya/shlom(peace)</td> <td>שלום<br>shlom</td></tr>
+      <tr><td>Swahili</td>        <td>Hey</td>              <td>Hujambo</td>                       <td>Kwaheri</td></tr>
+    </table><br/>
+    % from: <a href="https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers">wikipedia</a>
+     <script>
+     "use strict"
+      var words =['hey','hi/hello','good bye']
+      var table = document.getElementById("table")
+      for (let i = 1; i < table.rows.length; i++) {
+         let row = table.rows[i]
+         if (row.cells[1].innerHTML != '') {
+           for (let j = 1; j < row.cells.length; j++) {
+               row.cells[j].setAttribute('title', words[j-1])
+           }
+         }
+      }
+     </script>
+</body>
+
+</html>

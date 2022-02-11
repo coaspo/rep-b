@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>test</title>
+  <style>
+    body {
+      font-size: 12px;
+    }
+
+    td {
+      vertical-align: top
+    }
+
+    p {
+      margin-left: 25px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <pre>
+<input type="text" id="inputText" style="width:200px;" placeholder='Enter text (manual test)'>      <a href='http://localhost:8080/w/index.html'>http://localhost:8080/w/index.html</a>
+  <button onclick="scanContents();"  style="width:200px; text-align: left;" >Contents   (manual test)</button>       <a href='http://localhost:8080/w/tests/test_search.html'>http://localhost:8080/w/tests/test_search.html</a>
+
+
+<button onclick="unitTestsMain();"  style="width:200px; text-align: left;" >All Unit Tests</button>         <a href='https://li.netlify.com/w'>https://li.netlify.com/w</a>
+<button onclick="testUnitTest();"  style="width:200px; text-align: left;" >A unit test</button>         <a href='https://li.netlify.com/w/tests/test_search.html'>https://li.netlify.com/w/tests/test_search.html</a>
+<button onclick="clearResults();"  style="width:200px; text-align: left;" >Clear</button>
+<pre id="search-results" style="background-color:#FFFFDD;"></pre>
+  </pre>
+  <script src="../js/util.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/search-labels.js"></script>
+  <script src="../js/search-page-source.js"></script>
+  <script src="../js/cook.js"></script>
+  <script src="../js/weather.js"></script>
+  <script src="./js/test_util.js"></script>
+
+  <script src="./js/test_search.js"></script>
+  <script src="./js/test_search-labels.js"></script>
+  <script src="./js/test_search-page-source.js"></script>
+  <script src="./js/test_cook.js"></script>
+  <script src="./js/test_weather.js"></script>
+  <script>
+    "use strict";
+    window.DEBUG = true
+
+    function scanContents() {
+      const baseUrl = getBaseUrl()
+      const filePathsFilePath = '/tests/search_file_paths__t.txt'
+      const labelsFilePath = '/tests/search_labels__t.txt'
+      const searchFileUrls = getFileUrls(baseUrl, filePathsFilePath)
+      const searchLabels = getSearchLabels(baseUrl, labelsFilePath)
+      if (window.DEBUG) console.log('*scanContents() baseUrl= ' + baseUrl +
+        '\n *scanContents() searchFileUrls= ' + searchFileUrls +
+        '\n *scanContents() searchLabels= ' + searchLabels);
+      searchContentsMain(baseUrl, filePathsFilePath, labelsFilePath, searchFileUrls, searchLabels);
+    }
+
+    function unitTestsMain() {
+      const baseUrl = getBaseUrl()
+      const filePathsFilePath = '/tests/search_file_paths__t.txt'
+      const labelsFilePath = '/tests/search_labels__t.txt'
+      const searchFileUrls = getFileUrls(baseUrl, filePathsFilePath)
+      const searchLabels = getSearchLabels(baseUrl, labelsFilePath)
+      if (window.DEBUG) console.log('*unitTestsMain() baseUrl= ' + baseUrl +
+        '\n *unitTestsMain() searchFileUrls= ' + searchFileUrls +
+        '\n *unitTestsMain() searchLabels= ' + searchLabels);
+      console.log('-- unitTestsMain() started');
+      const tStart = new Date().getTime();
+      try {
+        const baseUrl = getBaseUrl()
+        testUtilMain(baseUrl);
+        testSearchMain(baseUrl, searchFileUrls, searchLabels);
+        testSearchLabelsMain(baseUrl);
+        testSearchPageSourceMain(baseUrl);
+        const appSearchFileUrls = getFileUrls(baseUrl, '/search_file_paths.txt')
+        testFoodMain(baseUrl, searchFileUrls, appSearchFileUrls);
+        // testWeatherMain();
+        const tEnd = new Date().getTime();
+        const dt = tEnd - tStart;
+        document.getElementById("search-results").innerHTML += '\n  ' + dt + ' msec';
+        console.log('-- unitTestsMain() done');
+      } catch (err) {
+      window.testFailed=true
+        document.getElementById("search-results").innerHTML += '\n  ' + err
+        console.log('ERR unitTestsMain() ' + err)
+        console.log(err.stack)
+      }
+        if (window.testFailed) {
+          document.body.style.background = '#ff6666';
+        } else {
+          document.body.style.background = '#ccffcc';
+        }
+    }
+
+    function validate(testName, expected, actual) {
+      console.log('* testName=' + testName)
+      const isPass = expected == String(actual);
+      console.log('* validate() expected=' + expected + '|')
+      console.log('* validate() actual  =' + String(actual) + '|')
+      if (isPass) {
+        status = 'Pass: ' + testName;
+      } else {
+        window.testFailed = true;
+        status = '<id style=\'color:red\'>Failed; ' + testName + '</id>' +
+          '\n--expected: ' + expected +
+          '\n----actual: ' + actual;
+      }
+      console.log('* validate() status=' + status);
+      var displayMsgs = document.getElementById("search-results").innerHTML;
+      if (displayMsgs.length > 0) {
+        displayMsgs += '\n';
+      }
+      displayMsgs += status;
+      document.getElementById("search-results").innerHTML = displayMsgs
+    }
+    window.testFailed = false;
+    const tStart = new Date().getTime();
+    unitTestsMain();
+    //integrationTestsMain();
+    const tEnd = new Date().getTime();
+    const dt = tEnd - tStart;
+    document.getElementById("search-results").innerHTML += '\n' + dt + '  msec';
+    function clearResults() {
+      document.getElementById("search-results").innerHTML = '';
+      document.body.style.background = 'white';
+    }
+  </script>
+</body>
+
+</html>

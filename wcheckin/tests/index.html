@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="shortcut icon" href="#"> <!--prevents favicon.ico ERR-->
+  <title>home</title>
+   <style>
+    body {font-size:24px;}
+    td   {vertical-align:top; white-space: nowrap;}
+    p    {margin-left: 25px; margin-top: 5px; margin-bottom: 5px;}
+    a    {text-decoration: none; color: #0000EE;}
+    a:hover { text-decoration: underline;}
+    .button1 {border: none; background-color: white; cursor: pointer; width:auto;}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 0px;
+  transition: 0.3s;
+  font-size: 24px;
+  width:100px;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  text-align: center;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+button {
+  transition: 0.3s;
+  font-size: 24px;
+  width:155px;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+<div class="tab"> 
+  <button class="tablink"         onclick="opencontName(event, 'Main')" id="defaultOpen">Main</button>
+  <button class="tablink"         onclick="opencontName(event, 'Topic1')">Tech</button>
+  <button class="tablink"         onclick="opencontName(event, 'Topic2')">Recipes</button>
+</div>
+<!--=================================== Main tab =================================-->
+<div id="Main" class="tabcontent">
+  <a href="./contents.html">Contents</a>&nbsp;&nbsp;&nbsp;<br/><br/>
+</div>
+<!--================================== ..... 1 ==============================-->
+<div id="Topic1" class="tabcontent" style="display:none" >
+  <b>Reference/troubleshootitopic1ng:</b>
+  <table>
+<!--*/topic1-->
+<a href='./tests/w/topic1/links-2.html'>Links-2</a><br>
+<a href='./tests/w/topic1/links.html'>Links</a><br>
+<!--*/END-->
+</table>
+</div>
+<!--================================== ..... 1 ==============================-->
+<div id="Topic2" class="tabcontent" style="display:none; font-size:24px;" >
+<table>
+<!--*/topic2-->
+-Subtopic<br>&emsp;<a href='./tests/w/topic2/subtopic/word_list.html'>Word list</a><br>
+<a href='./tests/w/topic2/problems-examples.html'>Problems-examples</a><br>
+<a href='./tests/w/topic2/problems-solutions.html'>Problems-solutions</a><br>
+<a href='./tests/w/topic2/recipe.html'>Recipe</a><br>
+<!--*/END-->
+</table>
+</div>
+<script>
+function opencontName(evt, cityName) {
+  var tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (let i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (let i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click(); // open Main tab
+</script></body></html>

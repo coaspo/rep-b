@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+         code {color:blue; font-weight: 999; font-size:16px}
+         pre {font-family: Arial, Helvetica, sans-serif}
+         body {font-family: Arial, Helvetica, sans-serif}
+         id {color:green; font-family: "Courier New", Courier, monospace}
+
+    </style>
+    <meta charset="utf-8"/>
+    <title>Create & practice quizzes</title>
+</head>
+<body>
+<img src="GUI-screen-snapshot.gif">
+<h3>Quizzer user doc</h3>
+<pre>
+    Application can help you study by quickly creating 
+a quiz with fill-in and multiple choices questions.
+    For example, you select or type "python" in the "topic"
+combo box and in the left panel, type the marked text:
+    <code>
+    /this a one-question quiz  
+    ? Select correct statement(s)
+    +a, b = b, a
+    +[print(x) for x in a_list if x > 10]
+    -[if x > 10 print(x) for x in a_list]
+    =best features in python
+    </code>
+where the markers <code>/ ? + - = </code> indicate a
+<i>quiz-comment / question / answer / question-comment</i> line.
+respectively. With this input, application creates a one-question quiz
+with 2 correct answers, 1 incorrect answer, and a comment.
+
+	Application navigates through a saved set of quizzes and always starts
+with the last active quiz. It ignores spaces in fill-in answers.
+
+</pre>
+<p>Recommendations:</p>
+<ul>
+    <li>Make quiz file names more prescriptive by renaming<br>
+	    quiz files in <code>quz/quizzes</code>. The file name format is:<br>
+        <code>&lt;topic&gt;-&lt;description&gt;.&lt;id-number&gt;.json</code><br><br>
+        For example, rename <code>python-.4.json</code><br> to
+        "<code>python-classes and OOD quiz.4.json</code>"<br>  
+        The quiz topic <code>python</code> can also be changed.<br> 
+		(<code>4</code> is the file-id number)<br><br>
+    </li>
+    <li>Correct answers or add comments by editing the markup text, <br>
+	and clicking the circle-arrow button.</li>
+</ul>
+Technical info: <a href="../README.rst">README.rst</a>
+
+</body>
+</html>

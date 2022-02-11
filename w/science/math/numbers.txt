@@ -1,0 +1,37 @@
+#!/bin/bash
+Zero:         628 AD India
+Infinity:     India 400 BC / Aristotle
+              1D, 2D, area, everywhere, perpetually
+Prime:        Eratosthenes 240 BC
+Negatives:    100 BC China, 200 AD Greece
+              up to 1700 ignored as meaningless
+Rational:     hexadecimal fraction, Babylonias\n
+Irrational:   sqrt(2); Pythagoras
+Transadental: e/π 1844 AD (not root of finite polynomial)
+Complex:      Heron 50 AD, Descartes --> sqrt(-1) = i (immaginary)
+              cos(θ) + i sin(θ) = e ^(iθ)
+
+1. Natural:  0,1,2,3
+2. Integer:  ...-2,-2,0,1,2...
+      even/odd/prime
+        primes - integers >1 = product of primes
+      perfect: 6 28  496  8,128  33,550,336  8,589,869,056 137,438,691,328
+        num = sum of positive divisors (6=1+2+3)
+      fibonacci: 0 1 1 2 3 5 8 13 21 34 55 89 144; fn
+        f0 = 0, f1 = 1; fn = fn-1 + fn-2 ≈ 1.6118 * fn-1  (1.6.. golden ratio)
+3. Rational: a/b;  a,b integres, b!=0
+4. Real: covergenat sequence of rationals
+     points on the number line
+     almost all reals are irrational; e/π/sqrt(2)...
+     algebraically not closed
+5. Complex:  a+bi;  a,b real, i=sqrt(-1)
+     algebraically closed; every polynomila has root
+     not ordered; cannot compare 1 & i
+     constructible: constucted with ruler & compass
+     computable: algorith exists to compute them (Turing machine)
+6. Hyper complex:
+     coefficients (a0,a1,.. an) for basis {1,i1,.. in}; ik in {-1,0,1}
+     Quaternion a + bi + cj + dk;  i^2 = j^2 = k^2 = ijk = -1
+       4D real number associative normed division algebra
+       Real/complex/quaternions: 1/2/4 dimensions
+ref: https://en.wikipedia.org/wiki/Number

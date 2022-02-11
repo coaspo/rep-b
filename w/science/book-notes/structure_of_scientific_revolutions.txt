@@ -1,0 +1,307 @@
+Thomas S. Khun  Berkeley, MIT physicist/science philosopher 🗓 1962
+
+Science: Knowledge from study of structure/behaviour of the physical world, by
+         watching, measuring, and experimenting, and developing theories.
+         Facts, theories, and methods in textbooks.
+
+Paradigms that defined research problems and methods:
+    1. Aristotle's Physica (~350 BC): (nature) cause/chance, motion, void, time
+    2. Ptolemy's Almagest (~150): (al magisti; the greatest, arabic/greek)
+                            astronomy, geography, mathematics
+    3. Newton's Principia (1687): Motion of bodies, system of the world
+                Optiks (1704): geometrical. white = sum of colors
+    4. Franklin's Experiments and Observations on Electricity (no theories)
+    5. Lavoisier's Chemistry (1789): combustion, oxygen, sulphur, nitric acid
+    6. Lyell's Geology (1830): Mount Etna study; studied by Darwin
+    7. Darwin's Origin of Species (1859)
+  Successful because:
+  (1) attracted people from alternates, (2) open-ended to have unsolved problems
+  For example study and extension of Polemic astronomy, Newtonian optics,...
+  Shared paradigms:  committed to same rules and standards.
+
+Paradigm transformationS:
+  Light: particle(Newton) to wave(Young/Fresnel) to particle (Plank/Einstein)
+  Before 1700, no transformations only competing paradigms; books directed to
+  other schools not to nature - similar to art schools...
+
+Initially has as may electricity paradigms as electrician experimenters.
+Fact gathering facilitated with technology (crafts) was random.
+
+Only statics, dynamics, and geometrical optics had first paradigms WO theory.
+
+Paradigm based research is highly directed; for example electricity being fluid;
+but articles were directed to other electricians not to the educated public.
+
+Factual scientific investigations:
+  1. Validate via improved accuracy or special equipment
+  2. Compare facts with predictions
+  3. articulate and resolve ambiguities; find gravitational constant
+Since Galileo laws guessed via paradigm before experiments could prove them.
+
+Using theories for useful predictions is hack work for engineers/technicians.
+
+Euler Lagrange Laplace Gauss improved match of Newtons theory and observations.
+New paradigm triggered important theoretical work.
+
+Paradigm articulation problems solved theoretically and experimentally.
+
+Normal science: work under paradigm via: 1. determine significant fact
+                2. match fact with theory 3. articulate theory
+
+Scientist is a puzzle solver; normal science is puzzle solving; metaphor source:
+    commitment to: concepts, theories, instruments, methods
+
+Pre-paradigm: deep debates about methods, problems... to define schools not to
+              reach agreement.  (Before Newton)
+
+Paradigm can function without agreement on rationalization;
+quantum mechanics may be a different paradigm for different groups;
+He is molecule/atom to chemist/physicist; (kinetic theory / molecular spectra).
+
+Discovery starts by find anomaly (paradigm violation) - typically not one act.
+Lavoisier: oxygen is atomic principle of acidity and is formed when it unites
+           with caloric (matter of heat).
+Cannot say exactly who/when discovered oxygen - discoveries take time.
+
+Discovery thru accident: x-rays;  Rontgen and Lavoisier noticed an anomaly and
+continued investigation.  Others only noticed.
+
+X-ray discovery was a shock, Leyden jar expected given electric fluid paradigm.
+
+Card identify experiment mixed anomalous cards black hearts, red spades. With
+increase exposure 90% identified them, 10% never did and were frustrated.
+Similar with scientists...
+
+Simultaneous discoveries illustrate traditions and how they prepare for change.
+
+Right before Copernicus, astronomers knew the failures of Ptolemaic theory.
+Similar with Lovoisier, phlogiston theory was in trouble.
+
+Leibniz criticized Newton's absolute space, this forgotten until Einstein.
+Wave theory of light (1915) forced the dragged ether hypothesis.
+
+Novel theory emerges at a response to crisis; Aristarchus heliocentric
+suggestion not in a crisis - it could not have been taken seriously;
+Copernicus proposal was not simpler or more accurate.
+Retooling (new theories) are reserved only for crisis.
+
+A theory is declared invalid only if there is a substitute
+Crisis loosens the rules of puzzle solving and new paradigm emerges.
+
+Copernicus saw counterinstances where Ptolemics saw puzzles.
+Failure to find solution discredits scientist not the theory; "it is a poor
+carpenter who blames his tools"
+
+Science students accept theories because of teachers and text - not because
+of evidence - theoretical applications are for learning only.
+
+No one questioned Newton's theory because of Mercury orbit anomalies.
+The long time spent to solve Ptolemaic anomalies created the crisis.
+Crisis/frustration; Pauli: "physics is confused... I rather be a comedian..."
+
+Crisis resolutions: 1. find solution  2. put aside  3. fight for a new paradigm
+
+Paradigm shift is not like visual gestalt (not even particle/wave?)
+During crisis, do random experiments or philosophical analysis; examine paradigm
+rules and assumptions via thought experiments; Newtonian, quantum, relativistic.
+
+Most paradigm shifts involved young men - freer of rules of current paradigm.
+
+Scientific revolution: paradigm replacement; malfunction to crisis to revolution.
+
+Political revolution: old/new institutions polarization; political recourse
+failure; recourse to mass persuasion and force.
+
+Each party use only their paradigm to argue; paradigm choice not only by logic
+and experiment.
+
+Phenomena: 1. already explained; new paradigm not accepted  2. articulate with
+old paradigm (most research) 3. cannot use current paradigm -> new paradigm
+
+New theory has to have predictions different than old one.
+
+New theory destroys old one. Energy conservation destroyed the caloric theory.
+
+Similar to Copernicus/Ptolemy, Einstein theory accepted only if Newton was wrong.
+Today this is not the majority view because:
+  1. Newtonian still used by engineers and physicists
+  2. Newtonian is approximation of relativity for speeds less than c
+
+Newtonian is scientific theory supported by evidence, but its high velocities
+claims were never parts of science and they were debunked by relativity.
+
+If theory binds only to existing applications there can be no anomalies, crisis
+... hallmarks of extraordinary science.
+
+Relativity for c<<c is not Newtonian; different concepts of mass, time...
+
+Newtonian theory, approximation of relativity, has utility but no science.
+
+New paradigms redefine science
+noncompatitable and incommensurable with the old.
+
+"Stone fell because its nature drove to center of universe" recognized as
+tautology and rejected right before Newton. Appearances dependent on size,
+motion or corpuscular base matter became common.
+Corpuscular paradigm bread new problems and their solutions -> Newton's laws.
+
+Gravity, as innate attraction, was an occult quality - it hindered science.
+"innate quality" different form of "tendency to fall".  Search for
+mechanical explanation of gravity was hottest problem for Newton.
+"Innate attraction" slowly accepted as irreducible property of matter.
+No substantive difference between paradigms;
+Forces being innate helped with electric and chemical affinity theories.
+
+Maxwell's light theory gave no account of medium and was rejected.
+His insistence of ether looked electric like lip service but was not.  Eventually
+became OK to speak of displacement without saying what was displaced.
+Problem of ether gave rise to relativity.
+
+Space according quantum mechanics is not empty is more like ether.
+Paradigm provides map and map-making for exploration.
+
+Paradigm changes are (how to look at) world changes.  Unlike visual gestalt
+perspective changes are permanent.
+What one sees depends on what he has learned to see; without any training
+one sees "a blomin'buzzing'confusion".
+
+Hipparchus saw Uranus, but Herschel first saw it (1801) as a disc/planet.
+Within 1850 20 asteroids were discovered.
+
+Pendulum via Aristotle/Oresme was:  higher to lower position nature /impetus
+theory; internal power implanted by projector.
+Swinging stone was constrained fall/pendulum to Aristotle/Galileo.
+Pendulum is not falling stone and oxygen not dephlogisticated air.
+
+Aristotle saw stone impelled by its nature to fall and distance from an
+instant to the end point, instead from initial to current point. Galiao saw stone
+with impetus gained from starting point.  State versus process.
+
+Via paradigms of race/culture/profession, have planets, pendulums, condensers...
+Paradigms determine experience.
+
+Affinity theory: 1. mixing producing heat, light... is chemical reaction
+                 2. mixing producing particles is a physical mixture.
+Solutions that did not separate (for example air) were compounds.
+Dalton's (1803) law of multiple proportions (CO and CO2) was used in recipes
+but solutions remained compounds.
+
+Debate on whether chemical reactions are from fixed ratios was inconclusive.
+Dalton was meteorologist and used different paradigm than chemists.
+
+Dalton's was not just a law but new way of doing chemistry - Dalton said:
+"new system of chemical philosophy".
+Paradigm violation: copper oxides with 1:1.47 ratio instead of 1:2
+(unlike CO, have 5 types; CU2O CuO CuO2..); accept theory and solve anomalies...
+
+Revolutions are invisible.
+Above examples seen as additions to science not as revolutions, because people
+take images from textbooks that disguise their existence and importance.
+
+1.Textbook / 2.popularization: technical details / everyday language descriptions
+3.Philosophy of science: analysis of logical structure.
+All 3 report the outcome, not the "how".
+
+Textbook have short a history to show tradition which never existed.
+History is rewritten constantly and becomes important only during a crisis.
+
+Scientists deprecate history (making it linear) but highly value facts(!).
+They remember science heroes but forget or revise their work.
+Newton lied that Galileo found that gravity creates motion with time squared.
+
+Textbooks imply scientists added a fact, theory... to the current knowledge.
+But most additions are result new problems after revolutions.
+
+Textbooks have Boyle's definition of element but he used it to argue againt the
+theory of elements!  Element like time, energy, force... was never invented
+or discovered.  Boyle and Lavoisier changed its meaning but did not invent the
+notion or verbal definition.
+
+Pedagogical science determines our (fictitious) image of the nature of science.
+
+Theory verification: 1. probabalisicaly, but lack of neutral language/concepts
+                        this disguise verification
+                     2. falsification; but this may be only an anomaly; then
+                        all theories would be rejected.
+
+Proponents of different theories talk thru each other; their definitions and
+list of problems are different.  Newton's dynamics first rejected; no
+explaination of attractive force - this was forgetten until relativity.
+
+Relativity redefined space, time,,, Copernicus redefined earth motion...
+
+Competing pardigm are incommensurable.  Opposing scientists go thru paradigm
+shift to be able to communicate.  Transition is not logic or one step at a time.
+It''s all or nothing.  Few converts to Copernicus iwithin 100 years. Newton's
+theory not accepted for 50 years.  Kelvin never accepted electromagnetic theory.
+Plank: "new theory triumphs after its oppents die"
+
+Paradign conversion is experience conversion; not proof based; not forcible.
+
+Nost effective persuasion of paradigm is the problem solved. Copenicus calendar,
+Newto celestial/terrestial motions, Lavosier gas-identity & weigtht relations,
+Einstein ecectromagnics and motion.  Plank's radiation and Bohr's atom adopted
+- had more problems than solved.
+Asthetics play a role; general relativity.
+
+Unlike engineer, doctor, theologian, scientist does not consider urgency, always
+regard tools used to solve probelms, and address only their peers.
+Thus science advances at a faster rate.
+
+In music, literature, history, social science on always has competing and
+incommensurable soultions.  Textbooks are secondary role.
+
+Science: textbooks and latest published articles - no need to read Newton.
+Rigid, higly effective, but unresponsive to crisis.  Young or outsiders respond.
+
+Solving problems (progress), defined by paradigm, is faster than in other fields.
+
+All civilizations have art, tchnology, religion...  only helenistic descendants
+had rudimentary science.  Most science is European and in last 400 years.
+
+Rule of science: 1. Prohibit appeals to politicians or masses.
+                 2. Appleas only to competent group
+
+Revolutions increase specialization and reduce communication.
+Probems solved and accurary always increases.
+
+Problem of Darwinism was not "man descendent from apes" - it was abolishing
+the teleologiocal (purposal) evolution.
+Pre-Darwin, God's creation and rule of evolution fopr continued improvement.
+Origin of Species had no goals of God or nature.
+Only environment and organisms were responsible for change.
+Competion for survival producing man was most disturbing.
+
+Analogy of evolution of oranisms and science:  selection by conflict guided
+science revolutions, there was no goal or seeking of ultimate truth.
+
+1. What is about man/nature that makes science possible? (old and unsolved)
+2. Why does science reach firm concesus but other fields do not?
+3. Why should paradign change produce a more perfect instrument?
+
+Proof-type conceptions that explain sciencific growth are evolutionary-like.
+
+Paradigm: 1. shared beliefs, values, techniques (socialogical)
+          2. examplary rule to solve puzzles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

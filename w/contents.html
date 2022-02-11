@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <title>website help</title>
+   <style>
+      body {
+         position: absolute;
+      }
+
+      a {
+         text-decoration: none;
+         color: #0000EE;
+      }
+
+      a:hover {
+         text-decoration: underline;
+      }
+
+      dialog {
+         width: 800px;
+         height: 400px;
+         position: absolute;
+         display: block;
+         overflow: auto;
+      }
+   </style>
+</head>
+
+<body>
+   <script src="./js/link-preview.js"></script>
+   <script>
+      var sort_down = true
+
+      function sortTable(i_col) {
+         var table, rows, sorted, i, x, y, sortFlag;
+         table = document.getElementById("table");
+         sorted = true;
+         while (sorted) {
+            sorted = false;
+            rows = table.rows;
+            for (i = 1; i < rows.length - 1; i++) {
+               sortFlag = false;
+               //console.log(rows[i].getElementsByTagName("TD"))
+               x = rows[i].getElementsByTagName("TD")[i_col].innerHTML;
+               y = rows[i + 1].getElementsByTagName("TD")[i_col].innerHTML;
+               if (i_col == 4) {
+                  x = parseFloat(x);
+                  y = parseFloat(y);
+               } else if (i_col == 2) {
+                  // <a href="....">sample</a>
+                  ii = x.indexOf(">") + 1;
+                  jj = x.indexOf("</");
+                  x = x.substring(ii, jj)
+                  ii = y.indexOf(">") + 1;
+                  jj = y.indexOf("</");
+                  y = y.substring(ii, jj)
+               }
+               //console.log(i_col +'==' + x+ '=='+y)
+               if (sort_down && x > y) {
+                  sortFlag = true;
+               }
+               if (!sort_down && x < y) {
+                  sortFlag = true;
+                  break;
+               }
+            }
+            if (sortFlag) {
+               rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+               sorted = true;
+            }
+         }
+         sort_down = !sort_down
+      }
+   </script>
+   This provides easy access to convenient/educational/entertaining information.<br>
+   <br>
+   It contains links/content to:<br>
+   <br>
+   &emsp; Weather/traffic<br>
+   &emsp; Google/duck-duck <b>.org</b> search;<br>
+   &emsp; &emsp; &emsp; change <b>.org</b> to <b>.edu</b>, <b>.gov</b> ...<br>
+   &emsp; Concise/abbreviated recipes<br>
+   &emsp; Science/health article summaries, videos..<br>
+   &emsp; Problems / solutions / how to's<br>
+   &emsp; Music and video links<br>
+   &emsp; Ideas and book reviews<br>
+   &emsp; Software tool links<br>
+   &emsp; Spanish/Greek translations<br>
+   &emsp; "Contents" search to find problems, recipes...<br>
+   <br>
+   For example, search 'pizza' and click Contents button;<br>
+   &emsp;  'dream' --&gt; 'California Dreaming' link,<br>
+   &emsp;  'spoof' --&gt; how to spoof MAC address.<br>
+   <!--c-marker:--><br><br>
+<pre>Version: 22-02-06/092419; ui
+
+<b>APPS</b>
+  Almanac <a href='./../w/apps/almanac/sky-stars-equator.jpg' onmouseenter="enterLink(event)" >Sky-stars-equator.jpg</a>..............................................................    <u title="60 lines/page">PGS</u>
+          <a href='./../w/apps/almanac/sky-stars.jpg' onmouseenter="enterLink(event)" >Sky-stars.jpg</a>                                                                         
+          <a href='./../w/apps/almanac/sky_🌌.html' onmouseenter="enterLink(event)" >Sky 🌌</a>..............................................................................  2.1
+  Browser_Extensions <a href='./../w/apps/browser_extensions/button.css' onmouseenter="enterLink(event)" >Button.css</a>                                                                     
+                     <a href='./../w/apps/browser_extensions/images/get_started128.png' onmouseenter="enterLink(event)" >Get started128.png</a>..........................................................   
+                     <a href='./../w/apps/browser_extensions/images/get_started16.png' onmouseenter="enterLink(event)" >Get started16.png</a>                                                              
+                     <a href='./../w/apps/browser_extensions/images/get_started32.png' onmouseenter="enterLink(event)" >Get started32.png</a>...........................................................   
+                     <a href='./../w/apps/browser_extensions/images/get_started48.png' onmouseenter="enterLink(event)" >Get started48.png</a>                                                              
+                     <a href='./../w/apps/browser_extensions/manifest.json' onmouseenter="enterLink(event)" >Manifest.json</a>................................................................   
+                     <a href='./../w/apps/browser_extensions/popup.html' onmouseenter="enterLink(event)" >Popup</a>                                                                      .1
+  Gps <a href='./../w/apps/gps/position_🧭.html' onmouseenter="enterLink(event)" >Position 🧭</a>.............................................................................   .8
+      <a href='./../w/apps/gps/position_🧭_test.html' class="test" style="font-size:0px;" onmouseenter="enterLink(event)" >Position 🧭 test</a>                                                                           .0
+      <a href='./../w/apps/gps/test/graph-test.html' class="test" style="font-size:0px;" onmouseenter="enterLink(event)" >Graph-test</a>.............................................................................   .6
+  Webscrape <a href='./../w/apps/webscrape/__pycache__/hacker_news_sort.cpython-38.pyc' onmouseenter="enterLink(event)" >Hacker news sort.cpython-38.pyc</a>                                                         
+            <a href='./../w/apps/webscrape/__pycache__/highest_points_hacker_news.cpython-38.pyc' onmouseenter="enterLink(event)" >Highest points hacker news.cpython-38.pyc</a>............................................   
+            <a href='./../w/apps/webscrape/__pycache__/twiv_picks.cpython-38.pyc' onmouseenter="enterLink(event)" >Twiv picks.cpython-38.pyc</a>                                                               
+            <a href='./../w/apps/webscrape/cli.py' onmouseenter="enterLink(event)" >Cli.py</a>..............................................................................   
+            <a href='./../w/apps/webscrape/hacker_news_HIGH_SCORES_10-days.html' onmouseenter="enterLink(event)" >Hacker news HIGH SCORES 10-days</a>                                                    1.7
+            <a href='./../w/apps/webscrape/hacker_news_HIGH_SCORES_3-days.html' onmouseenter="enterLink(event)" >Hacker news HIGH SCORES 3-days</a>...................................................   .8
+            <a href='./../w/apps/webscrape/hacker_news_HIGH_SCORES_last_3-days.html' onmouseenter="enterLink(event)" >Hacker news HIGH SCORES last 3-days</a>                                                1.2
+            <a href='./../w/apps/webscrape/hacker_news_sort.py' onmouseenter="enterLink(event)" >Hacker news sort.py</a>.................................................................   
+            <a href='./../w/apps/webscrape/twiv_picks.py' onmouseenter="enterLink(event)" >Twiv picks.py</a>                                                                          
+            <a href='./../w/apps/webscrape/twiv_picks_BOOK.html' onmouseenter="enterLink(event)" >Twiv picks BOOK</a>..................................................................  4.0
+            <a href='./../w/apps/webscrape/twiv_picks_COM.html' onmouseenter="enterLink(event)" >Twiv picks COM</a>                                                                     22.2
+            <a href='./../w/apps/webscrape/twiv_picks_EDU.html' onmouseenter="enterLink(event)" >Twiv picks EDU</a>...................................................................  1.5
+            <a href='./../w/apps/webscrape/twiv_picks_GOV.html' onmouseenter="enterLink(event)" >Twiv picks GOV</a>                                                                     1.9
+            <a href='./../w/apps/webscrape/twiv_picks_MISC.html' onmouseenter="enterLink(event)" >Twiv picks MISC</a>..................................................................  1.9
+            <a href='./../w/apps/webscrape/twiv_picks_VIDEO.html' onmouseenter="enterLink(event)" >Twiv picks VIDEO</a>                                                                   1.3
+
+<b>ART</b>
+  Book-Notes <a href='./../w/art/book-notes/bury_my_heart_at_wounded_knee.txt' onmouseenter="enterLink(event)" >Bury my heart at wounded knee</a>.........................................1970......   .8 <u title="60 lines/page">PGS</u>
+             <a href='./../w/art/book-notes/tyranny_of_merit_what_has_become_of_the_common_good.txt' onmouseenter="enterLink(event)" >Tyranny of merit what has become of the common good</a>                   2020..2020  30.4
+  Links <a href='./../w/art/links/articles_and_websites.html' onmouseenter="enterLink(event)" >Articles and websites</a>................................................................   .4
+        <a href='./../w/art/links/books.html' onmouseenter="enterLink(event)" >Books</a>                                                                                   .1
+        <a href='./../w/art/links/funny_stuff.html' onmouseenter="enterLink(event)" >Funny stuff</a>..........................................................................   .3
+        <a href='./../w/art/links/music_-_a_genre_mix.html' onmouseenter="enterLink(event)" >Music - a genre mix</a>                                                                    1.1
+        <a href='./../w/art/links/music_-_tree-story_playlist.html' onmouseenter="enterLink(event)" >Music - tree-story playlist</a>..........................................................   .2
+        <a href='./../w/art/links/photography.html' onmouseenter="enterLink(event)" >Photography</a>                                                                             .3
+        <a href='./../w/art/links/videos.html' onmouseenter="enterLink(event)" >Videos</a>...............................................................................   .1
+        <a href='./../w/art/links/visual_art.html' onmouseenter="enterLink(event)" >Visual art</a>                                                                              .1
+  Lists <a href='./../w/art/lists/etymology_sample.html' onmouseenter="enterLink(event)" >Etymology sample</a>.....................................................................   .2
+        <a href='./../w/art/lists/expressions.html' onmouseenter="enterLink(event)" >Expressions</a>                                                                             .1
+        <a href='./../w/art/lists/language_basic_words_list.html' onmouseenter="enterLink(event)" >Language basic words list</a>............................................................   .4
+        <a href='./../w/art/lists/language_food_word_list.html' onmouseenter="enterLink(event)" >Language food word list</a>                                                                 .4
+        <a href='./../w/art/lists/language_hello_word_list.html' onmouseenter="enterLink(event)" >Language hello word list</a>.............................................................   .4
+        <a href='./../w/art/lists/movies.html' onmouseenter="enterLink(event)" >Movies</a>                                                                                 1.3
+        <a href='./../w/art/lists/notable_quotes.html' onmouseenter="enterLink(event)" >Notable quotes</a>.......................................................................   .3
+        <a href='./../w/art/lists/spanish-idioms.html' onmouseenter="enterLink(event)" >Spanish-idioms</a>                                                                          .7
+        <a href='./../w/art/lists/words;_good,_bad,_ugly.txt' onmouseenter="enterLink(event)" >Words; good, bad, ugly</a>...............................................................  1.1
+        <a href='./../w/art/lists/words_internet.html' onmouseenter="enterLink(event)" >Words internet</a>                                                                          .8
+
+<b>FOOD</b>
+  __Book-Notes <a href='./../w/food/__book-notes/fast_food_nation_the_dark_side_of_american_meal.txt' onmouseenter="enterLink(event)" >Fast food nation the dark side of american meal</a>.....................2001......  26.6 <u title="60 lines/page">PGS</u>
+               <a href='./../w/food/__book-notes/secret_life_of_groceries;_dark_miracle_of_american_supermarket .txt' onmouseenter="enterLink(event)" >Secret life of groceries; dark miracle of american supermarket </a>     2020        11.3
+  __Health <a href='./../w/food/__health/belly_fat.txt' onmouseenter="enterLink(event)" >Belly fat</a>.........................................................................   .5
+           <a href='./../w/food/__health/bioengineered_foods.txt' onmouseenter="enterLink(event)" >Bioengineered foods</a>                                                                 1.1
+           <a href='./../w/food/__health/brain_foods.txt' onmouseenter="enterLink(event)" >Brain foods</a>.......................................................................   .8
+           <a href='./../w/food/__health/food_microbiology_notes.txt' onmouseenter="enterLink(event)" >Food microbiology notes</a>                                                             5.4
+           <a href='./../w/food/__health/ingredients.html' onmouseenter="enterLink(event)" >Ingredients</a>.......................................................................  1.3
+           <a href='./../w/food/__health/oxidative_stress.txt' onmouseenter="enterLink(event)" >Oxidative stress</a>                                                                    1.0
+           <a href='./../w/food/__health/some_natural_blood_components.txt' onmouseenter="enterLink(event)" >Some natural blood components</a>.....................................................   .8
+           <a href='./../w/food/__health/sugar_list.html' onmouseenter="enterLink(event)" >Sugar list</a>                                                                           .7
+           <a href='./../w/food/__health/tmp.html' class="test" style="font-size:0px;" onmouseenter="enterLink(event)" >Tmp</a>...............................................................................   .7
+  __Theory <a href='./../w/food/__theory/1_salt,.txt' onmouseenter="enterLink(event)" >1 salt,</a>                                                                              .4
+           <a href='./../w/food/__theory/2_fat,.txt' onmouseenter="enterLink(event)" >2 fat,</a>............................................................................   .2
+           <a href='./../w/food/__theory/3_acid,.txt' onmouseenter="enterLink(event)" >3 acid,</a>                                                                              .1
+           <a href='./../w/food/__theory/4_heat,.txt' onmouseenter="enterLink(event)" >4 heat,</a>...........................................................................   .1
+           <a href='./../w/food/__theory/chef_tips_hacks.txt' onmouseenter="enterLink(event)" >Chef tips hacks</a>                                                                      .3
+  Beans <a href='./../w/food/beans/beans_.txt' onmouseenter="enterLink(event)" >Beans </a>...............................................................................   .6
+        <a href='./../w/food/beans/lentils_.txt' onmouseenter="enterLink(event)" >Lentils </a>                                                                   2020-03-01   .6
+  Dairy <a href='./../w/food/dairy/cottage_cheese_🧀..txt' onmouseenter="enterLink(event)" >Cottage cheese 🧀.</a>..........................................................2020-03-01   .3
+        <a href='./../w/food/dairy/yogurt..txt' onmouseenter="enterLink(event)" >Yogurt.</a>                                                                    2020-03-01   .2
+  Grains <a href='./../w/food/grains/bread_🍞..txt' onmouseenter="enterLink(event)" >Bread 🍞.</a>..................................................................2020-03-01  1.3
+         <a href='./../w/food/grains/granola_bars..txt' onmouseenter="enterLink(event)" >Granola bars.</a>                                                             2020-03-01   .4
+         <a href='./../w/food/grains/mac-n-cheese_.txt' onmouseenter="enterLink(event)" >Mac-n-cheese </a>.............................................................2020-03-01   .2
+         <a href='./../w/food/grains/pizza_🍕..txt' onmouseenter="enterLink(event)" >Pizza 🍕.</a>                                                                  2020-03-01   .6
+         <a href='./../w/food/grains/rice_.txt' onmouseenter="enterLink(event)" >Rice </a>.....................................................................2020-03-01   .8
+  Meat <a href='./../w/food/meat/eggs_🥚.txt' onmouseenter="enterLink(event)" >Eggs 🥚</a>                                                                      2021-03-21   .2
+       <a href='./../w/food/meat/meatballs_🍔.txt' onmouseenter="enterLink(event)" >Meatballs 🍔</a>.................................................................2020-03-01  1.4
+  Soups <a href='./../w/food/soups/chicken_soup_.txt' onmouseenter="enterLink(event)" >Chicken soup </a>                                                                           .1
+  Sweets <a href='./../w/food/sweets/candy_erythritol_🍭.txt' onmouseenter="enterLink(event)" >Candy erythritol 🍭</a>..................................................................   .2
+         <a href='./../w/food/sweets/caramel_popcorn_🍿..txt' onmouseenter="enterLink(event)" >Caramel popcorn 🍿.</a>                                                        2020-03-01   .2
+         <a href='./../w/food/sweets/rice_pudding..txt' onmouseenter="enterLink(event)" >Rice pudding.</a>.............................................................2020-03-01   .4
+         <a href='./../w/food/sweets/sweet_bread_🍞..txt' onmouseenter="enterLink(event)" >Sweet bread 🍞.</a>                                                            2020-03-01  1.1
+  Vegetables_🥦 <a href='./../w/food/vegetables_🥦/garlic_🧄.txt' onmouseenter="enterLink(event)" >Garlic 🧄</a>............................................................2021-02-28   .5
+               <a href='./../w/food/vegetables_🥦/potatoes_🥔.txt' onmouseenter="enterLink(event)" >Potatoes 🥔</a>                                                          2020-03-01   .6
+               <a href='./../w/food/vegetables_🥦/pumkin_fritters_.txt' onmouseenter="enterLink(event)" >Pumkin fritters </a>....................................................2020-03-01   .2
+               <a href='./../w/food/vegetables_🥦/sauerkraut..txt' onmouseenter="enterLink(event)" >Sauerkraut.</a>                                                         2021-03-08   .3
+               <a href='./../w/food/vegetables_🥦/spanakopita_🥬.txt' onmouseenter="enterLink(event)" >Spanakopita 🥬</a>.................................................................   .3
+               <a href='./../w/food/vegetables_🥦/stuffed_vegetables_.txt' onmouseenter="enterLink(event)" >Stuffed vegetables </a>                                                 2020-03-01   .3
+               <a href='./../w/food/vegetables_🥦/vegetable_mix_🍆🍅🫑_.txt' onmouseenter="enterLink(event)" >Vegetable mix 🍆🍅🫑 </a>..................................................2020-03-01  1.0
+               <a href='./../w/food/vegetables_🥦/wild_plants_🥬.txt' onmouseenter="enterLink(event)" >Wild plants 🥬</a>                                                                    .4
+               <a href='./../w/food/vegetables_🥦/yucca_plaintains.txt' onmouseenter="enterLink(event)" >Yucca plaintains</a>....................................................2021-03-08   .3
+
+<b>PROJECTS</b>
+  <a href='./../w/projects/landscaping.txt' onmouseenter="enterLink(event)" >Landscaping</a> ...............................................................................   .6 <u title="60 lines/page">PGS</u>
+  <a href='./../w/projects/linux phone.html' onmouseenter="enterLink(event)" >Linux phone</a>                                                                                   .0
+  <a href='./../w/projects/web.html' onmouseenter="enterLink(event)" >Web</a> .......................................................................................   .3
+
+<b>SCIENCE</b>
+  <a href='./../w/science/20_big_popular_questions_in_science.txt' onmouseenter="enterLink(event)" >20 big popular questions in science</a> .......................................................  1.6 <u title="60 lines/page">PGS</u>
+  <a href='./../w/science/7_problems_with_science.txt' onmouseenter="enterLink(event)" >7 problems with science</a>                                                                       .9
+  Biology <a href='./../w/science/biology/immunology_virus_and_vaccines.txt' onmouseenter="enterLink(event)" >Immunology virus and vaccines</a>......................................................  1.4
+          <a href='./../w/science/biology/microbes.txt' onmouseenter="enterLink(event)" >Microbes</a>                                                                 2020-03-01   .9
+  Book-Notes <a href='./../w/science/book-notes/algorithms_to_live_by.txt' onmouseenter="enterLink(event)" >Algorithms to live by</a>.................................................1916......  3.7
+             <a href='./../w/science/book-notes/being_mortal.txt' onmouseenter="enterLink(event)" >Being mortal</a>                                                          2014        5.9
+             <a href='./../w/science/book-notes/crack_in_creation;_gene_editing.txt' onmouseenter="enterLink(event)" >Crack in creation; gene editing</a>.......................................2017......  11.7
+             <a href='./../w/science/book-notes/entangled_life,_how_fungi_make_our_world...txt' onmouseenter="enterLink(event)" >Entangled life, how fungi make our world..</a>                            2020         .5
+             <a href='./../w/science/book-notes/fever_the_hunt_for_new_killer_virus.txt' onmouseenter="enterLink(event)" >Fever the hunt for new killer virus</a>.............................................  1.2
+             <a href='./../w/science/book-notes/quantum_computing_from_the_ground_up.txt' onmouseenter="enterLink(event)" >Quantum computing from the ground up</a>                                               .1
+             <a href='./../w/science/book-notes/silent_spring.txt' onmouseenter="enterLink(event)" >Silent spring</a>.........................................................1962......  4.9
+             <a href='./../w/science/book-notes/spillover_animal-infections_and_the_next_human_pandemic.txt' onmouseenter="enterLink(event)" >Spillover animal-infections and the next human pandemic</a>               2012        6.7
+             <a href='./../w/science/book-notes/structure_of_scientific_revolutions.txt' onmouseenter="enterLink(event)" >Structure of scientific revolutions</a>...................................1962......  5.1
+             <a href='./../w/science/book-notes/tree_story-world_history_in_rings.txt' onmouseenter="enterLink(event)" >Tree story-world history in rings</a>                                     2020        8.6
+             <a href='./../w/science/book-notes/usetttled_what_climate_science_tells_us.txt' onmouseenter="enterLink(event)" >Usetttled what climate science tells us</a>.........................................  1.6
+  <a href='./../w/science/covid_-_philosophy,_politics,_psychology,_science.html' onmouseenter="enterLink(event)" >Covid - philosophy, politics, psychology, science</a>                                2019        7.6
+  <a href='./../w/science/flight-network.jpg' onmouseenter="enterLink(event)" >Flight-network.jpg</a> ........................................................................   
+  Health <a href='./../w/science/health/brain_exercise.html' onmouseenter="enterLink(event)" >Brain exercise</a>                                                            2015-12-04   .5
+         <a href='./../w/science/health/coursera-parenting.txt' onmouseenter="enterLink(event)" >Coursera-parenting</a>........................................................2018-07-18   .5
+         <a href='./../w/science/health/deficits.txt' onmouseenter="enterLink(event)" >Deficits</a>                                                                              1.6
+         <a href='./../w/science/health/exercise.html' onmouseenter="enterLink(event)" >Exercise</a>..................................................................2011-04-01   .6
+         <a href='./../w/science/health/most_common_drugs.txt' onmouseenter="enterLink(event)" >Most common drugs</a>                                                                     1.6
+         <a href='./../w/science/health/socila_anxiety.txt' onmouseenter="enterLink(event)" >Socila anxiety</a>......................................................................   .9
+         <a href='./../w/science/health/teens.txt' onmouseenter="enterLink(event)" >Teens</a>                                                                     2020-01-12  3.2
+         <a href='./../w/science/health/youtube_video_notes.html' onmouseenter="enterLink(event)" >Youtube video notes</a>.......................................................2009..2018   .6
+  Links <a href='./../w/science/links/books.html' onmouseenter="enterLink(event)" >Books</a>                                                                      1973..2020   .4
+        <a href='./../w/science/links/internet_resources.html' onmouseenter="enterLink(event)" >Internet resources</a>...................................................................   .5
+        <a href='./../w/science/links/twiv_picks.html' onmouseenter="enterLink(event)" >Twiv picks</a>                                                                              .0
+  Math <a href='./../w/science/math/numbers.txt' onmouseenter="enterLink(event)" >Numbers</a>...............................................................................   .6
+       <a href='./../w/science/math/sensitivity_specificity_predictive_value.txt' onmouseenter="enterLink(event)" >Sensitivity specificity predictive value</a>                                                 .9
+  Physics <a href='./../w/science/physics/web_telescope.txt' onmouseenter="enterLink(event)" >Web telescope</a>......................................................................   .6
+  Psychology <a href='./../w/science/psychology/emotional-intelligence.html' onmouseenter="enterLink(event)" >Emotional-intelligence</a>                                                2009..2021   .2
+             <a href='./../w/science/psychology/how_to_cope_with_information_overload.html' onmouseenter="enterLink(event)" >How to cope with information overload</a>.................................2014......   .5
+             <a href='./../w/science/psychology/hyper-sanity_-_different_way_of_looking_at_the_world.html' onmouseenter="enterLink(event)" >Hyper-sanity - different way of looking at the world</a>                  2019         .6
+             <a href='./../w/science/psychology/parenting.html' onmouseenter="enterLink(event)" >Parenting</a>.......................................................................   .6
+             <a href='./../w/science/psychology/psychological_tests.html' onmouseenter="enterLink(event)" >Psychological tests</a>                                                                .7
+
+<b>TECH</b>
+  <a href='./../w/tech/cmds;_git.txt' onmouseenter="enterLink(event)" >Cmds; git</a> .................................................................................  1.2 <u title="60 lines/page">PGS</u>
+  <a href='./../w/tech/cmds;_ide.txt' onmouseenter="enterLink(event)" >Cmds; ide</a>                                                                                     .1
+  <a href='./../w/tech/future_technologies.txt' onmouseenter="enterLink(event)" >Future technologies</a> .......................................................................   .6
+  <a href='./../w/tech/largest_computer_chip.txt' onmouseenter="enterLink(event)" >Largest computer chip</a>                                                                         .6
+  <a href='./../w/tech/problems;_other.txt' onmouseenter="enterLink(event)" >Problems; other</a> ...........................................................................   .0
+  <a href='./../w/tech/problems_solutions;_linux.txt' onmouseenter="enterLink(event)" >Problems solutions; linux</a>                                                                    1.2
+  <a href='./../w/tech/problems_solutions;_python.txt' onmouseenter="enterLink(event)" >Problems solutions; python</a> ................................................................   .6
+  <a href='./../w/tech/problems_solutions;_security.txt' onmouseenter="enterLink(event)" >Problems solutions; security</a>                                                                 1.0
+  <a href='./../w/tech/python_features.txt' onmouseenter="enterLink(event)" >Python features</a> ...........................................................................   .4
+  <a href='./../w/tech/tmp.python_built-in_functions.html' class="test" style="font-size:0px;" onmouseenter="enterLink(event)" >Tmp.python built-in functions</a>                                                                 .3
+  <a href='./../w/tech/tmp.python_data_structures.html' class="test" style="font-size:0px;" onmouseenter="enterLink(event)" >Tmp.python data structures</a> ................................................................   .5
+  <a href='./../w/tech/tmp.python_keywords.html' class="test" style="font-size:0px;" onmouseenter="enterLink(event)" >Tmp.python keywords</a>                                                                           .1
+  <a href='./../w/tech/tool_links.html' onmouseenter="enterLink(event)" >Tool links</a> ................................................................................   .4
+  <a href='./../w/tech/windows_and_browser_key_shortcuts.txt' onmouseenter="enterLink(event)" >Windows and browser key shortcuts</a>                                                             .7
+
+ all of above files: 229.5 PGS;  229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229229 lines;  1,131.3 kB
+</body></html>

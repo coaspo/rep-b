@@ -1,0 +1,25 @@
+{
+"current_question_index": 0,
+"num_of_questions": 1,
+"marked_user_input": "/quiz one\n?What is 1+1\n+2\n-1\n--2\n\n",
+"question1": "What is 1+1",
+"question1_answers": {
+"answer1": {
+"answer": "2",
+"is_correct": true,
+"is_selected": false
+},
+"answer2": {
+"answer": "1",
+"is_correct": false,
+"is_selected": false
+},
+"answer3": {
+"answer": "-2",
+"is_correct": false,
+"is_selected": false
+},
+"comment": null,
+"num_of_answers": 3
+}
+}

@@ -1,0 +1,8 @@
+Intelli-J
+    Ctl-Sft-T  find class
+            O  organize import
+            R find reousrce
+            G find attr/method
+            J add javadoc
+    Crl-j run jumit
+    Ctl-Sft-j  debug

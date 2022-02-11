@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <style>
+    .div {
+      display: inline
+    }
+
+    canvas {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  Geolocation:<br>
+  <b>Lat, Lng: </b><span id="lat,lng"></span><br>
+  <b>Altitude: </b><span id="alti"></span><br>
+  <b>Speed</b>: <span id="speed"></span><br>
+  <b>Heading: </b><span id="head"></span><br>
+  <b>Accuracy; position, altitude: </b><span id="accu"></span><br>
+  <br>
+  Derived:<br>
+  <b>x: </b><span id="x"></span><br>
+  <b>y: </b><span id="y"></span><br>
+  <b>Heading: </b><span id="head-dx/dy"></span><br>
+  <b>Speed : </b><span id="speed-ds/dt"></span><br>
+  <b>Travel distance: </b><span id="sum(ds)"></span><br>
+  <b>Straight distance: </b><span id="R"></span><br>
+  <br>
+  &#8198; <button onclick="save()">Create file</button> &#8198; <button onclick="reset()">Reset</button> &#8198;
+  <button onclick="getAddress()">Get Address</button> &#8198;
+  <br><span style="font-size: 128px">🚧</span>
+  <pre><span id="info"></span></pre>
+
+  <script src="position.js"></script>
+  <script>
+    function resize() {
+      var c = document.getElementById("canvas");
+      c.height = Number(window.innerHeight);
+      c.width = window.innerWidth
+      var ctx = c.getContext("2d");
+      var grd = ctx.createLinearGradient(0, 0, 600, 600);
+      grd.addColorStop(0, "#FFcccc");
+      grd.addColorStop(1, "#ccFFcc");
+      ctx.fillStyle = grd;
+      ctx.fillRect(0, 0, c.width, c.height);
+      return [c.width, c.height]
+    }pt
+
+    window.addEventListener('resize', function () {
+      resize();
+    }, true);
+
+    resize()
+    document.getElementById("iarGradient(0, 0, 600, 600);
+      grd.addColorStop(0, "#FFcccc");
+      grd.addColorStop(1, "#ccFFcc");
+      ctx.fillStyle = grd;
+</html>

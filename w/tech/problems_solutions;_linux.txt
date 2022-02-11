@@ -1,0 +1,74 @@
+On firefox search in new tab, get msg: Gah. Your tab just crashed?!!
+FIX: type addr.: about:config
+     browser.tabs.remote.autostart = false
+
+Diable password request from sleep
+FIX: gsettings set org.gnome.desktop.screensaver
+     ubuntu-lock-on-suspend false
+
+Add git branch on the Bash command prompt
+FIX: google.... get change ~/.bashrc
+     change
+        if [ "$color_prompt" = yes ]; then
+         PS1=...
+     to:
+        parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+    }
+    if [ "$color_prompt" = yes ]; then
+     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
+    else
+     PS1='${debian_chroot:+($debian_chroot)}\w$(parse_git_branch)\$ '
+    fi
+    may need to remove \u@\h in file to eliminate user/host from prompt;
+
+
+Use snipping tool
+Answer: Shift-PrtScn
+
+Record screen actions
+Answer: Ctl-Alt-Shift-r  repeat to stop
+
+Use greek fonts
+Answer: >Setting >Region-language install Greek
+
+Use Greek font
+Answer: >Super >Space   repeat to use English
+
+Accent Greek letter
+Answer: ;a to create ὰ
+
+Show date & seconds in desktop
+FIX: gsettings set org.gnome.desktop.interface
+    clock-show-date true
+    Same with  clock-show-seconds
+
+Mirror & Control Your Android Phone
+Answer: In desktop: sudo snap install scrcpy
+                    sudo apt-get install adb
+        In phone: >Settings >About-phone >Software-info
+            tap seven times on build# to switch to developer mode
+                  >Settings >About-phone >Status
+      Copy WIFI IP addr/sbin/ifconfig -aess - for example 10.0.0.149
+        Connect desktop and phone with USB cable
+        In desktop: adb tcpip 5555
+                    adb connect 10.0.0.149:5555
+        Disconnect USB cable, in desfile:///home/th/d/rep/w/tech/linux_problems_solutions.htmlktop enter: scrcpy
+  Telephone screen should be displayed in desktop.
+
+Run python script with a double click
+Answer: Hit Alt+F2, type dc/sbin/ifconfig -aonf-editor and hit ``Enter.
+    In dconfg-editor goto: org ➤ gnome ➤ nautilus ➤ preferences
+    select/highlight "executable-text-activation",  right click on 'display' and select 'ask'
+    To debug, open the terminal, >preferences >Unnamed >Command-tab, When commands exits 'Hold terminal open'
+    Common fix: sudo apt-get install python3-tk
+    clean up: sudo apt /sbin/ifconfig -aautoremove
+
+Access Android files
+Answer: Install KDEConnect in Android and PC
+        Restart both
+        In phone, >Setting, search USB >USB Preferences
+                select PTP (picture transfer protocol)
+        Should see
+
+

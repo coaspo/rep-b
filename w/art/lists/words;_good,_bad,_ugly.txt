@@ -1,0 +1,68 @@
+GOOD
+  apropos        fitting; at the right time; to the purpose; opportune
+  august         respected and dignified (to increase)
+  edify          to instruct/benefit morally or spiritually (build house)
+  epiphany       manifestation of divine or truth
+  intrepid       invulnerable to fear or intimidation
+  inviolable     never broken, infringed, or dishonored
+  politic        shrewd or prudent; tactful; diplomatic
+  sentinel       one employed to watch for anticipated event
+  staid          characterized by dignity and propriety
+
+BAD
+  beguile        influence by slyness
+  caprice        sudden desire
+  deign          do something be below one's dignity
+  diffidence     lack of self-assurance
+  ennui          listlessness dissatisfaction from lack of work/excitement
+  fatuous        devoid of intelligence
+  flimflam       skillfully manipulate/swindle
+  humblebrag     be modest/self-critical to draw attention to something great
+  iconoclast     attacks cherished ideas or institutions
+  infomania      news/info compulsiveness/overload
+  moral hazard   lack of incentive to avoid risk - insurance, bank bailout
+  ostentatious   showing off money, power, or wealth
+  rout           overwhelming defeat
+  superannuate   retire (someone) on a pension because of age or infirmity
+  thrall         being under the control of another person
+  truther        doubter of general fact; conspiracy theorist
+
+UGLY
+  bluster        act in an arrogant, overly self-assured, or conceited manner
+  condescend     feel superior; be patronizing
+  cynical        distrusting or disparaging the motives of others
+  deprave        corrupt morally
+  double bind    situation  of two irreconcilable demands or undesirable choices
+  enervate       weaken mentally or morally
+  gaslight       Cause (a person) to doubt his or her sanity
+  idiocracy      society governed/populated by idiots
+  odium          disgrace from hateful behavior
+  perfidy        promise to act in good faith with intention of breaking promise
+  schadenfreude  Harm joy - pleasure felt at someone else's misfortune.
+  sycophant      tries to please someone to gain an advantage
+
+PRECISE
+  assiduous      marked by care and persistent effort
+  construe       assign a meaning to
+  deduce         reason from the general to the particular
+  induce         1. move by persuasion or influence / 2. infer from particulars
+  ineffable      not describable in words
+  syllogism      reasoning in which a conclusion is derived from two premises
+  veracious      precisely accurate
+
+IMPRECISE
+  apostate       not faithful to religion or party or cause
+  assay          examine or analyze (drug potency)
+  haggle         wrangle price or agreement
+  ostensible     appearing as such but not necessarily so
+  recondite      difficult to understand
+  scofflaw       fails to comply with a difficult law
+  serendipitous  unexpected good fortune
+  shibboleth     word used by party, sect, and regarded by others as empty
+
+OTHER
+  accede         yield to another wish or opinion
+  aphorism       terse saying embodying a general truth
+  atavism        reappearance of an earlier characteristic
+  hubris/nemesis pride/retribution
+

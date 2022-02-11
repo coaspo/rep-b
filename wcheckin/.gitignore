@@ -1,0 +1,14 @@
+tmp/**
+__pycache__/**
+.idea/**
+tmp*
+
+.idea
+.geany
+
+**.log
+**.bak
+**.tmp
+a.py
+a.html
+

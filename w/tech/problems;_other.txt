@@ -1,0 +1,2 @@
+Javascript ReferenceError: f is not defined
+FIX: add "use strict" to each js file,  look for accidentally pasted text

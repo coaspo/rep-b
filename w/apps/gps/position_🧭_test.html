@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <style>
+    .div {
+      display: inline
+    }
+
+    canvas {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <td>
+      Lat, Lng: <span id="lat,lng"></span><br>
+      Altitude: <span id="alti"></span><br>
+      Speed: <span id="speed"></span><br>
+      Heading: <span id="head"></span><br>
+      Acc.; pos., alt.: <span id="accu"></span><br>
+    </td>
+    <td>
+      x: <span id="x"></span><br>
+      y: <span id="y"></span><br>
+      Heading: <span id="head-dx/dy"></span><br>
+      Speed : <span id="speed-ds/dt"></span><br>
+      Travel dist: <span id="sum(ds)"></span><br>
+      Straight dist.: <span id="R"></span><br>
+    </td>
+  </table>
+  <button onclick="unitTestsMain();" style="width:130px; text-align: left;">All Unit Tests</button>
+  <button onclick="unitTest();" style="width:100px; text-align: left;">Unit test</button>
+  <button onclick="clearResults();" style="width:70px; text-align: left;">Clear</button> &emsp;
+  <a href='../../tests/test_search.html'>test_search.html</a>
+  <pre><span id="info"></span></pre>
+  <pre id="results" style="background-color:#FFFFDD;"></pre>
+  <script src="position.js"></script>
+  <script src="../util/test-util.js"></script>
+  <script src="test/position-test.js"></script>
+</body>
+</html>

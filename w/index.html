@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="#">
+    <!--prevents favicon.ico ERR-->
+    <title>home</title>
+    <style>
+    body {
+      font-size: 24px;
+    }
+
+    td {
+      vertical-align: top;
+      white-space: nowrap;
+    }
+
+    p {
+      margin-left: 25px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0000EE;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      width:100%;
+      top: 0;
+      position: fixed;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      margin: 0px;
+      padding: 14px 0px;
+      transition: 0.3s;
+      font-size: 24px;
+      width: 80px;
+      font-weight: bold;
+      border-bottom-style: #fff;
+      border-radius: 0px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+      text-align: center;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      border: 1px solid #ccc;
+      border-top: none;
+
+      background-color: #ffffff;
+      padding: 65px 8px;
+    }
+
+    button {
+      transition: 0.3s;
+      font-size: 24px;
+      background-color: #b1ffa3;
+      font-weight:bold;
+      width: 162px;
+      text-align: center;
+      margin: 5px;
+      padding: 0px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    button:hover {
+      background: #dddddd;
+    }
+
+    .tiptext {
+      color: #069;
+      cursor: pointer;
+    }
+
+    .description {
+      display: background-color: #f1f1f1;none;
+      position: absolute;
+      border: 1px solid #000;
+      width: 400px;
+      height: 400px;
+    }
+
+    .buttonlink {
+      font: initial;
+      font-size: 24px;
+      border: none;
+      width: auto;
+      color: #0000EE;
+      background-color: Transparent;
+    }￼
+    .buttonlink:hover {
+      background-color: inherit;
+      text-decoration: underline;
+    }
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     background-color: #f1f1f1;
+     border-top-style: #ccc;
+     width: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+
+
+
+    </style>
+    <script src="js/util.js"></script>
+    <script src="js/link-preview.js"></script>
+    <script src="js/search.js"></script>
+    <!-- ..has: searchContentsMain(baseUrlhttps://www.lowes.com/search?searchTerm=aa, filePathsFilePath, labelsFilePath., searchFileUrls, searchLabels) -->
+    <script src="js/search-labels.js"></script>
+    <script src="js/search-page-source.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/cook.js"></script>
+</head>
+
+<body onkeydown="showTestLinks(event)" onbeforeunload="return saveScrollPosition('index')",  onload="return restoreScrollPosition('index')">
+<div class="tab">
+    <button class="tablink" onclick="opencontName(event, 'Main')" id="tMain">Main</button>
+    <button class="tablink" onclick="opencontName(event, 'Projects')" id="tProjects">Proj</button>
+    <button class="tablink" onclick="opencontName(event, 'Tech')" id="tTech">Tek</button>
+    <button class="tablink" onclick="opencontName(event, 'Food')" id="tFood">Food</button>
+    <button class="tablink" onclick="opencontName(event, 'Arts')" id="tArts">Art</button>
+    <button class="tablink" onclick="opencontName(event, 'Science')" id="tScience">Scie</button>
+    <button class="tablink" onclick="opencontName(event, 'Apps')" id="tApps">App</button>
+</div>
+
+<!--=================================== Main tab =================================-->
+<div id="Main" class="tabcontent">
+    <table>
+        <tr>
+            <td><br>
+                <!--traffic--><a
+                        href="https://www.google.com/maps/@42.4765179,-71.1097046,12z/data=!5m1!1e1?hl=en">Traffic</a>
+                <br><br>
+                <!--voice--><a href="https://voicetotext.org/speech-to-text">voice ➔ text</a><br><br>
+                <!--duolingo--><a href="https://www.duolingo.com/?isLoggingIn=true">duolingo</a><br><br>
+                <!--popular--><a
+                        href="./science/covid_-_philosophy,_politics,_psychology,_science.html">COVID</a>&nbsp;&nbsp;&nbsp;<br><br>
+                <!--popular--><a href="https://www.theatlantic.com/most-popular/">The Atlantic</a><br><br>
+                <!--virology--><a href="https://www.microbe.tv/twiv/archive/">Virology</a><br><br>
+                <!--humor--><a href="https://xkcd.com">Humor</a><br><br>
+                <!--news--><a href="https://news.ycombinator.com">News</a><br><br>
+                <!--contents--><a href="./contents.html">Contents</a>&nbsp;&nbsp;&nbsp;<br><br>
+            </td>
+            <td><br>
+                <input type="text" id="inputText"
+                       style="width:355px; font-size:24px; font-size:24px; border-radius: 0px;"
+                       placeholder='Enter text, 🦆🦆 default'>
+                <br><br>&emsp;<button onclick="browse('https://www.google.com/search?q=zzzz  site:.org');">
+                    10<sup>100</sup></button>
+                <button onclick="browse('https://duckduckgo.com/?q=zzzz  site:org');"> 🦆 🦆</button>
+
+                <br><br>&emsp;<button onclick="browse('https://en.wikipedia.org/wiki/zzzz');">
+                    Wikipedia
+                </button>
+                <button
+                        onclick="browse('https://melrose.noblenet.org/eg/opac/results?query=zzzz&qtype=keyword&fi%3Asearch_format=&locg=1');"
+                >Library
+                </button>
+                <br>&emsp;<button onclick="browse('https://www.mayoclinic.org/search/search-results?q=zzzz');"> ⚕️ Mayo
+                    C
+                </button>
+                <button
+                        onclick="browse('https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=zzzz')">
+                    ⚕️
+                    💊 NIH
+                </button>
+                <br>&emsp;<button onclick="browse('https://www.thefreedictionary.com/zzzz?s=t');"
+                >Dictionary
+                </button>
+                <button onclick="browse('https://www.acronymfinder.com/zzzz.html');">Acronym
+                </button>
+                <br>&emsp;<button onclick="browse('https://www.truepeoplesearch.com/resultphone?phoneno=zzzz');"
+                                  title='truepeoplesearch.com'>Telephone️
+                </button>
+                <button onclick="browse('https://www.truepeoplesearch.com/results?name=zzzz');"
+                        title='truepeoplesearch.com'>People
+                </button>
+                <br>&emsp;<button onclick="browse('https://www.urlvoid.com/scan/zzzz/');"
+                                  title="urlvoid.com; enter base URL">Site
+                    reput.
+                </button>
+                <button onclick="browse('https://www.google.com/maps/search/zzzz/');"> 🗺️ Map</button>
+                <br>&emsp;<button
+                        onclick="browse('https://translate.google.com/#view=home&op=translate&sl=es&tl=en&text=zzzz');">
+                    🇪🇸 ➜
+                    🇺🇲️
+                </button>
+                <button onclick="browse('https://translate.google.com/#view=home&op=translate&sl=en&tl=el&text=zzzz');">
+                    🇺🇲️
+                    ➜
+                    🇬🇷
+                </button>
+
+                <br><br>&emsp;<button onclick="scanContents();">Contents
+                </button>
+            </td>
+        </tr>
+    </table>
+    <pre id="search-results" style="background-color:#FFFFDD; fo🗺️nt-size:16px;"></pre>
+</div>
+
+<!--=================================== proj tab =================================-->
+<div id="Projects" class="tabcontent" style="display:none;">
+    <br><input type="text" id="inputText2" style="width:355px; font-size:24px; font-size:24px; border-radius: 0px;"
+               placeholder='Enter text'>
+    <br><br>&emsp;
+    <button onclick="browse2('https://www.homedepot.com/s/zzzz', '_blank');">Depo️ 🔨</button>
+    <button onclick="browse2('https://www.lowes.com/search?searchTerm=zzzz', '_blank');">Loews 🔨</button>
+    <br><br>&emsp;
+    <button onclick="browse2('https://www.amazon.com/s?k=zzzz', '_blank');">Amazon️ 📒</button>
+    <button onclick="browse2('https://www.walmart.com/search/?query=zzzz', '_blank');">Walmart 🛒️</button>
+    <br><br>&emsp;
+    <button onclick="browse2('https://www.target.com/s?searchTerm=zzzz', '_blank');">Target 🛒️</button>
+    <button onclick="browse2('https://www.costco.com/CatalogSearch?dept=All&keyword=zzzz', '_blank');">Cosco
+        🛒️
+    </button>
+    <br><br>&emsp;
+    <button
+            onclick="browse2('https://www.yellowpages.com/search?search_terms=zzzz&geo_location_terms=Boston%2C+MA', '_blank');">
+        Yellow
+        📒
+    </button>
+    <br><br>
+    <!--*/projects-->
+<a href='./../w/projects/landscaping.txt'>Landscaping</a><br>
+<a href='./../w/projects/linux phone.html'>Linux phone</a><br>
+<a href='./../w/projects/web.html'>Web</a><br>
+<!--*/END-->
+
+</div>
+<!--=================================== tech tab =================================-->
+<div id="Tech" class="tabcontent" style="display:none; font-size:24px;"><br>
+    <!--*/tech-->
+<a href='./../w/tech/cmds;_git.txt'>Cmds; git</a><br>
+<a href='./../w/tech/cmds;_ide.txt'>Cmds; ide</a><br>
+<a href='./../w/tech/future_technologies.txt'>Future technologies</a><br>
+<a href='./../w/tech/largest_computer_chip.txt'>Largest computer chip</a><br>
+<a href='./../w/tech/problems;_other.txt'>Problems; other</a><br>
+<a href='./../w/tech/problems_solutions;_linux.txt'>Problems solutions; linux</a><br>
+<a href='./../w/tech/problems_solutions;_python.txt'>Problems solutions; python</a><br>
+<a href='./../w/tech/problems_solutions;_security.txt'>Problems solutions; security</a><br>
+<a href='./../w/tech/python_features.txt'>Python features</a><br>
+<a href='./../w/tech/tmp.python_built-in_functions.html' class="test" style="font-size:0px;">Tmp.python built-in functions</a><br>
+<a href='./../w/tech/tmp.python_data_structures.html' class="test" style="font-size:0px;">Tmp.python data structures</a><br>
+<a href='./../w/tech/tmp.python_keywords.html' class="test" style="font-size:0px;">Tmp.python keywords</a><br>
+<a href='./../w/tech/tool_links.html'>Tool links</a><br>
+<a href='./../w/tech/windows_and_browser_key_shortcuts.txt'>Windows and browser key shortcuts</a><br>
+<!--*/END-->
+    <br>
+    <a href="chrome://net-internals">chrome://net-internals</a><br> <br>
+</div>
+<!--================================ food dir tab =============================-->
+<div id="Food" class="tabcontent" style="display:none; font-size:24px;"><br>
+A selection: <span id="recipes"></span><br>
+    <!--*/food-->
+-Book notes<br>&emsp;<a href='./../w/food/__book-notes/fast_food_nation_the_dark_side_of_american_meal.txt'>Fast food nation the dark side of american meal</a><br>
+&emsp;<a href='./../w/food/__book-notes/secret_life_of_groceries;_dark_miracle_of_american_supermarket .txt'>Secret life of groceries; dark miracle of american supermarket </a><br>
+-Health<br>&emsp;<a href='./../w/food/__health/belly_fat.txt'>Belly fat</a><br>
+&emsp;<a href='./../w/food/__health/bioengineered_foods.txt'>Bioengineered foods</a><br>
+&emsp;<a href='./../w/food/__health/brain_foods.txt'>Brain foods</a><br>
+&emsp;<a href='./../w/food/__health/food_microbiology_notes.txt'>Food microbiology notes</a><br>
+&emsp;<a href='./../w/food/__health/ingredients.html'>Ingredients</a><br>
+&emsp;<a href='./../w/food/__health/oxidative_stress.txt'>Oxidative stress</a><br>
+&emsp;<a href='./../w/food/__health/some_natural_blood_components.txt'>Some natural blood components</a><br>
+&emsp;<a href='./../w/food/__health/sugar_list.html'>Sugar list</a><br>
+&emsp;<a href='./../w/food/__health/tmp.html' class="test" style="font-size:0px;">Tmp</a><br>
+-Theory<br>&emsp;<a href='./../w/food/__theory/1_salt,.txt'>1 salt,</a><br>
+&emsp;<a href='./../w/food/__theory/2_fat,.txt'>2 fat,</a><br>
+&emsp;<a href='./../w/food/__theory/3_acid,.txt'>3 acid,</a><br>
+&emsp;<a href='./../w/food/__theory/4_heat,.txt'>4 heat,</a><br>
+&emsp;<a href='./../w/food/__theory/chef_tips_hacks.txt'>Chef tips hacks</a><br>
+-Beans<br>&emsp;<a href='./../w/food/beans/beans_.txt'>Beans </a><br>
+&emsp;<a href='./../w/food/beans/lentils_.txt'>Lentils </a><br>
+-Dairy<br>&emsp;<a href='./../w/food/dairy/cottage_cheese_🧀..txt'>Cottage cheese 🧀.</a><br>
+&emsp;<a href='./../w/food/dairy/yogurt..txt'>Yogurt.</a><br>
+-Grains<br>&emsp;<a href='./../w/food/grains/bread_🍞..txt'>Bread 🍞.</a><br>
+&emsp;<a href='./../w/food/grains/granola_bars..txt'>Granola bars.</a><br>
+&emsp;<a href='./../w/food/grains/mac-n-cheese_.txt'>Mac-n-cheese </a><br>
+&emsp;<a href='./../w/food/grains/pizza_🍕..txt'>Pizza 🍕.</a><br>
+&emsp;<a href='./../w/food/grains/rice_.txt'>Rice </a><br>
+-Meat<br>&emsp;<a href='./../w/food/meat/eggs_🥚.txt'>Eggs 🥚</a><br>
+&emsp;<a href='./../w/food/meat/meatballs_🍔.txt'>Meatballs 🍔</a><br>
+-Soups<br>&emsp;<a href='./../w/food/soups/chicken_soup_.txt'>Chicken soup </a><br>
+-Sweets<br>&emsp;<a href='./../w/food/sweets/candy_erythritol_🍭.txt'>Candy erythritol 🍭</a><br>
+&emsp;<a href='./../w/food/sweets/caramel_popcorn_🍿..txt'>Caramel popcorn 🍿.</a><br>
+&emsp;<a href='./../w/food/sweets/rice_pudding..txt'>Rice pudding.</a><br>
+&emsp;<a href='./../w/food/sweets/sweet_bread_🍞..txt'>Sweet bread 🍞.</a><br>
+-Vegetables🥦<br>&emsp;<a href='./../w/food/vegetables_🥦/garlic_🧄.txt'>Garlic 🧄</a><br>
+&emsp;<a href='./../w/food/vegetables_🥦/potatoes_🥔.txt'>Potatoes 🥔</a><br>
+&emsp;<a href='./../w/food/vegetables_🥦/pumkin_fritters_.txt'>Pumkin fritters </a><br>
+&emsp;<a href='./../w/food/vegetables_🥦/sauerkraut..txt'>Sauerkraut.</a><br>
+&emsp;<a href='./../w/food/vegetables_🥦/spanakopita_🥬.txt'>Spanakopita 🥬</a><br>
+&emsp;<a href='./../w/food/vegetables_🥦/stuffed_vegetables_.txt'>Stuffed vegetables </a><br>
+&emsp;<a href='./../w/food/vegetables_🥦/vegetable_mix_🍆🍅🫑_.txt'>Vegetable mix 🍆🍅🫑 </a><br>
+&emsp;<a href='./../w/food/vegetables_🥦/wild_plants_🥬.txt'>Wild plants 🥬</a><br>
+&emsp;<a href='./../w/food/vegetables_🥦/yucca_plaintains.txt'>Yucca plaintains</a><br>
+<!--*/END-->
+</div>
+
+<!--================================ art dir tab ================================-->
+<div id="Arts" class="tabcontent" style="display:none;"><br>
+    <!--*/art-->
+-Book notes<br>&emsp;<a href='./../w/art/book-notes/bury_my_heart_at_wounded_knee.txt'>Bury my heart at wounded knee</a><br>
+&emsp;<a href='./../w/art/book-notes/tyranny_of_merit_what_has_become_of_the_common_good.txt'>Tyranny of merit what has become of the common good</a><br>
+-Links<br>&emsp;<a href='./../w/art/links/articles_and_websites.html'>Articles and websites</a><br>
+&emsp;<a href='./../w/art/links/books.html'>Books</a><br>
+&emsp;<a href='./../w/art/links/funny_stuff.html'>Funny stuff</a><br>
+&emsp;<a href='./../w/art/links/music_-_a_genre_mix.html'>Music - a genre mix</a><br>
+&emsp;<a href='./../w/art/links/music_-_tree-story_playlist.html'>Music - tree-story playlist</a><br>
+&emsp;<a href='./../w/art/links/photography.html'>Photography</a><br>
+&emsp;<a href='./../w/art/links/videos.html'>Videos</a><br>
+&emsp;<a href='./../w/art/links/visual_art.html'>Visual art</a><br>
+-Lists<br>&emsp;<a href='./../w/art/lists/etymology_sample.html'>Etymology sample</a><br>
+&emsp;<a href='./../w/art/lists/expressions.html'>Expressions</a><br>
+&emsp;<a href='./../w/art/lists/language_basic_words_list.html'>Language basic words list</a><br>
+&emsp;<a href='./../w/art/lists/language_food_word_list.html'>Language food word list</a><br>
+&emsp;<a href='./../w/art/lists/language_hello_word_list.html'>Language hello word list</a><br>
+&emsp;<a href='./../w/art/lists/movies.html'>Movies</a><br>
+&emsp;<a href='./../w/art/lists/notable_quotes.html'>Notable quotes</a><br>
+&emsp;<a href='./../w/art/lists/spanish-idioms.html'>Spanish-idioms</a><br>
+&emsp;<a href='./../w/art/lists/words;_good,_bad,_ugly.txt'>Words; good, bad, ugly</a><br>
+&emsp;<a href='./../w/art/lists/words_internet.html'>Words internet</a><br>
+<!--*/END-->
+</div>
+<!--================================ science dir tab =============================-->
+<div id="Science" class="tabcontent" style="display:none;"><br>
+    <!--*/science-->
+<a href='./../w/science/20_big_popular_questions_in_science.txt'>20 big popular questions in science</a><br>
+<a href='./../w/science/7_problems_with_science.txt'>7 problems with science</a><br>
+<a href='./../w/science/covid_-_philosophy,_politics,_psychology,_science.html'>Covid - philosophy, politics, psychology, science</a><br>
+-Biology<br>&emsp;<a href='./../w/science/biology/immunology_virus_and_vaccines.txt'>Immunology virus and vaccines</a><br>
+&emsp;<a href='./../w/science/biology/microbes.txt'>Microbes</a><br>
+-Book notes<br>&emsp;<a href='./../w/science/book-notes/algorithms_to_live_by.txt'>Algorithms to live by</a><br>
+&emsp;<a href='./../w/science/book-notes/being_mortal.txt'>Being mortal</a><br>
+&emsp;<a href='./../w/science/book-notes/crack_in_creation;_gene_editing.txt'>Crack in creation; gene editing</a><br>
+&emsp;<a href='./../w/science/book-notes/entangled_life,_how_fungi_make_our_world...txt'>Entangled life, how fungi make our world..</a><br>
+&emsp;<a href='./../w/science/book-notes/fever_the_hunt_for_new_killer_virus.txt'>Fever the hunt for new killer virus</a><br>
+&emsp;<a href='./../w/science/book-notes/quantum_computing_from_the_ground_up.txt'>Quantum computing from the ground up</a><br>
+&emsp;<a href='./../w/science/book-notes/silent_spring.txt'>Silent spring</a><br>
+&emsp;<a href='./../w/science/book-notes/spillover_animal-infections_and_the_next_human_pandemic.txt'>Spillover animal-infections and the next human pandemic</a><br>
+&emsp;<a href='./../w/science/book-notes/structure_of_scientific_revolutions.txt'>Structure of scientific revolutions</a><br>
+&emsp;<a href='./../w/science/book-notes/tree_story-world_history_in_rings.txt'>Tree story-world history in rings</a><br>
+&emsp;<a href='./../w/science/book-notes/usetttled_what_climate_science_tells_us.txt'>Usetttled what climate science tells us</a><br>
+-Health<br>&emsp;<a href='./../w/science/health/brain_exercise.html'>Brain exercise</a><br>
+&emsp;<a href='./../w/science/health/coursera-parenting.txt'>Coursera-parenting</a><br>
+&emsp;<a href='./../w/science/health/deficits.txt'>Deficits</a><br>
+&emsp;<a href='./../w/science/health/exercise.html'>Exercise</a><br>
+&emsp;<a href='./../w/science/health/most_common_drugs.txt'>Most common drugs</a><br>
+&emsp;<a href='./../w/science/health/socila_anxiety.txt'>Socila anxiety</a><br>
+&emsp;<a href='./../w/science/health/teens.txt'>Teens</a><br>
+&emsp;<a href='./../w/science/health/youtube_video_notes.html'>Youtube video notes</a><br>
+-Links<br>&emsp;<a href='./../w/science/links/books.html'>Books</a><br>
+&emsp;<a href='./../w/science/links/internet_resources.html'>Internet resources</a><br>
+&emsp;<a href='./../w/science/links/twiv_picks.html'>Twiv picks</a><br>
+-Math<br>&emsp;<a href='./../w/science/math/numbers.txt'>Numbers</a><br>
+&emsp;<a href='./../w/science/math/sensitivity_specificity_predictive_value.txt'>Sensitivity specificity predictive value</a><br>
+-Physics<br>&emsp;<a href='./../w/science/physics/web_telescope.txt'>Web telescope</a><br>
+-Psychology<br>&emsp;<a href='./../w/science/psychology/emotional-intelligence.html'>Emotional-intelligence</a><br>
+&emsp;<a href='./../w/science/psychology/how_to_cope_with_information_overload.html'>How to cope with information overload</a><br>
+&emsp;<a href='./../w/science/psychology/hyper-sanity_-_different_way_of_looking_at_the_world.html'>Hyper-sanity - different way of looking at the world</a><br>
+&emsp;<a href='./../w/science/psychology/parenting.html'>Parenting</a><br>
+&emsp;<a href='./../w/science/psychology/psychological_tests.html'>Psychological tests</a><br>
+<!--*/END-->
+</div>
+<!--================================ apps tab =============================-->
+<div id="Apps" class="tabcontent" style="display:none;"><br>
+    <!--*/apps-->
+-Almanac<br>&emsp;<a href='./../w/apps/almanac/sky_🌌.html'>Sky 🌌</a><br>
+-Browserextensions<br>&emsp;<a href='./../w/apps/browser_extensions/button.css'>Button.css</a><br>
+&emsp;<a href='./../w/apps/browser_extensions/images/get_started128.png'>Get started128.png</a><br>
+&emsp;<a href='./../w/apps/browser_extensions/images/get_started16.png'>Get started16.png</a><br>
+&emsp;<a href='./../w/apps/browser_extensions/images/get_started32.png'>Get started32.png</a><br>
+&emsp;<a href='./../w/apps/browser_extensions/images/get_started48.png'>Get started48.png</a><br>
+&emsp;<a href='./../w/apps/browser_extensions/manifest.json'>Manifest.json</a><br>
+&emsp;<a href='./../w/apps/browser_extensions/popup.html'>Popup</a><br>
+-Gps<br>&emsp;<a href='./../w/apps/gps/position_🧭.html'>Position 🧭</a><br>
+&emsp;<a href='./../w/apps/gps/position_🧭_test.html' class="test" style="font-size:0px;">Position 🧭 test</a><br>
+&emsp;<a href='./../w/apps/gps/test/graph-test.html' class="test" style="font-size:0px;">Graph-test</a><br>
+-Webscrape<br>&emsp;<a href='./../w/apps/webscrape/__pycache__/hacker_news_sort.cpython-38.pyc'>Hacker news sort.cpython-38.pyc</a><br>
+&emsp;<a href='./../w/apps/webscrape/__pycache__/highest_points_hacker_news.cpython-38.pyc'>Highest points hacker news.cpython-38.pyc</a><br>
+&emsp;<a href='./../w/apps/webscrape/__pycache__/twiv_picks.cpython-38.pyc'>Twiv picks.cpython-38.pyc</a><br>
+&emsp;<a href='./../w/apps/webscrape/cli.py'>Cli.py</a><br>
+&emsp;<a href='./../w/apps/webscrape/hacker_news_HIGH_SCORES_10-days.html'>Hacker news HIGH SCORES 10-days</a><br>
+&emsp;<a href='./../w/apps/webscrape/hacker_news_HIGH_SCORES_3-days.html'>Hacker news HIGH SCORES 3-days</a><br>
+&emsp;<a href='./../w/apps/webscrape/hacker_news_HIGH_SCORES_last_3-days.html'>Hacker news HIGH SCORES last 3-days</a><br>
+&emsp;<a href='./../w/apps/webscrape/hacker_news_sort.py'>Hacker news sort.py</a><br>
+&emsp;<a href='./../w/apps/webscrape/twiv_picks.py'>Twiv picks.py</a><br>
+&emsp;<a href='./../w/apps/webscrape/twiv_picks_BOOK.html'>Twiv picks BOOK</a><br>
+&emsp;<a href='./../w/apps/webscrape/twiv_picks_COM.html'>Twiv picks COM</a><br>
+&emsp;<a href='./../w/apps/webscrape/twiv_picks_EDU.html'>Twiv picks EDU</a><br>
+&emsp;<a href='./../w/apps/webscrape/twiv_picks_GOV.html'>Twiv picks GOV</a><br>
+&emsp;<a href='./../w/apps/webscrape/twiv_picks_MISC.html'>Twiv picks MISC</a><br>
+&emsp;<a href='./../w/apps/webscrape/twiv_picks_VIDEO.html'>Twiv picks VIDEO</a><br>
+<!--*/END-->
+</div>
+
+<!--======================== weather & content search ============================-->
+<div class="footer"> &nbsp;
+    <button class="buttonlink" onclick="browse('https://www.google.com/maps/@zzzz');" title="map location"> 📍</button>
+    &nbsp; &nbsp;&nbsp;
+    <button class="buttonlink"
+            onclick="browse('https://forecast.weather.gov/MapClick.php?zzzz&unit=0&lg=english&FcstType=graphical');"
+            title="graphical weather"> 📈
+    </button> &nbsp; &nbsp;&nbsp;
+    <a href="https://radar.weather.gov" title="precipitation radar"> 📡 </a> &nbsp;&nbsp;&nbsp;
+    <span id="weather"></span>
+<script src="js/index.js"></script>
+<script>
+   // Initial screen
+  let tabName = sessionStorage.getItem("tabName_index");
+  if (tabName === null) {
+    document.getElementById("tMain").click();
+    sessionStorage.setItem("tabName_index", "tMain");
+  }
+</script>
+</body>
+
+</html>

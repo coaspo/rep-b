@@ -1,0 +1,94 @@
+Top 50; million prescriptions;
+Lisinopril    105 High Blood Pressure (HBP) / ACE inhibitor
+                  stop production of angiotensin II which  narrows blood vessels
+Atorvastatin  105 high LDL cholesterol; HMG CoA reductase inhibitor (lipitor)
+                  slow cholesterol production
+Levothyroxine  79 hypothyroidism; hormone which  thyroid produces
+                  made from pig thyroid glands
+Metformin      72 type-2 diabetes; reduces sugar relased by liver
+                  refined herbal medicine from the flower of French lilac
+Amlodipine     68 HBP, coronary disease; calcium channel blocker
+                  relaxes blood vessels
+Metoprolol     59 HBP, beta blocker
+                  change how heart responds to nerve impulses - slows heart
+Omeprazole     57 gastroesophageal reflex,Proton Pump Inhibitor
+                  binds to and stops acid-producing pumps in the stomach
+                  pump exports hydrogen ions in 1:1 exchange for potassium ions
+Simvastatin    57 reduce risk of heart attack/stroke
+                  works like Atorvastatin, microbial/fermentation
+Losartan       52 HBP
+                  works like Lisinopril
+Albuterol      50 asthma,Chronic obstructive pulmonary disease (COPD)
+                  bronchodilator - relaxes muscles around the airways
+Gabapentin     46 epilepsy seizures;  mild tranquilizer, producies a euphoric high
+                  alters brain electrical activity/neurotransmitters
+Hydrochlorothiazide        42 HBP/edema; diuretic
+                              makes kidneys to remove water and salt
+Adetaminophen/Hydrocodone  40 pain, narcotic
+Sertaline      38 depression, obsessive-compulsive disorder (OCD), PTSD
+Fluricason     32 allergic rhinitis
+Montelukast    32 asthma
+Furosemide     31 edema
+Amoxixillin    28 infections
+Pantoprazole   27 gastroesophageal reflex
+Escitalopam    26 depression/anxiety
+Alprazolan     25 panic/anxiety
+Predisone      25 low corticosteroid; asthma, arthritis
+Buprpion       25 depression
+Pravastin      25 reduce heart attack/stroke
+Acetaminophen  24 pain, fever, high blood pressure
+Citalopram     24 depression
+Amphetamine    24 ADHD, high blood pressure
+Ibuprofen      24 pain, selling, stiffness
+Carvedilol     23 heart failure, HBP
+Trazodone      22 depression
+Fluoxetine     22 depression, OCD, eating disorders, panic, HBP
+Tramadol       21 moderate/severe pain
+Insulin Glargine 21 type 1 diabetes, produced by E-coli
+Clonazepam     21 seizures, panic attack, HBP
+Tamsulosin     20 enlarged prostate
+Atenolol       20 beta blocker for HBP
+Potassim       20 deficiency supplement
+Meloxicam      20 pain, rheumatoid arthritis (autoimmune)
+Rosuvastatin   20 heart attack, stoke; deduce LD cholesterol & triglycerides
+Clopidogrel    19 heart attack, stoke
+Propranolol    18 HBP, irregular heart, kidney, heart muscle
+Asririn        17 arthritis, fever, heart attack
+Cyclobenzaprin 17 muscle pain
+Hydrochlorothiazide/Lisinopril  17 HBP, ACE inhibitor
+Glipizide      17 type 2 diabetes
+Duloxetine     16 depression, anxiety, nerve damage, chronic pain
+Methylphenidate 16 ADHD
+Ranitidine     16 ulcers, gastroesophageal reflex
+Venlafaxine    16 depression, anxiety
+Zolpiden       16 insomnia
+
+(13/12/8 prescriptions for heart/depression/pain)
+
+Causes of death:
+1  Heart        660,000
+2  Cancer       600,000
+                      lung/bronchus  132,000
+                      colon/rectum    53,000
+                      pancreas        48,000
+                      breast          44,000
+                      other          330,000
+3  accidents    173,000
+                      poisoning       65,000
+                      fall            39,000
+                      cars            38,000
+                      other           31,000
+4  Chronic lung 156,000
+5  Stroke       150,000
+6  Alzheimer's  121,000
+7  diabetes      88,000
+8  nephritis     51,000
+9  flu/pneumonia 50,000
+10 suicide       47,000
+11 liver         44,000
+12 septicemia    38,000
+13 hypertension  36,00o
+14 Parkinson     35,000
+15 pneumonitis   19,000
+    (allergy)
+   other        584,000   flu 12,00-52,000/yr (2010-2020)

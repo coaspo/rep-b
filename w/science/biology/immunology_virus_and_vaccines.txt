@@ -1,0 +1,84 @@
+IMMUNOLOGY______________________________________________________________________
+    antigen   causes production of antibodies; binds to antibody or T-cell or B-cell
+              chemical, bacteria, virus, pollen, food, tumor, normal protein (autoimmune disease)
+    adjuvant  person/thing that helps;
+              radiation, or substance to improve treatment
+              added to immunogen to get more immune response
+    immunogen substance that generates immune response
+              specific antigen; small molecule antigens are not immunogens
+    T-cell    lymphocyte (white blood cell), created in bone & Thymus gland,
+              person has a billion different T-cells,
+              attacks infected cells
+    B-cell    lymphocyte (discovered in Bursa of Fabricius organ in birds)
+              person has 10 billion different B-cells,
+              clean up after T-cells and for the antigen creates antibodies,
+              attacks antigen before cell infection
+    antibody  or immunoglobulin; tags antigen or infected cell, or eliminates antigen,
+    globulin  protein soluble only in mild salt solution,
+              all blood proteins, except albumin, are globulins,
+    allergy   hypersensitivity to an antigen,
+              B-cells produce too much IgE antibodies
+
+    Favorites cell types (from the Atlantic)
+      Innate immune
+        1. neutrophils - selfless; first to fight and die
+        2. macrophages - adorable - eat and belch microbes alone
+        3. dendritic   - like macrophages but talk and hang out together;
+                        winner of best immune cell contest
+      Adaptive immune
+        1. B-cells - hide in tissues, too good at their job, compete among themselves
+                     selfish;self-involved snobs
+        2. T-cells - thyme(T); cytotoxic T cells, intriguing without romance
+                     create antibodies (soldiers that stick to virus)
+        2. Helpers - Help B cells
+                     benign Jekyll (vs T-cell Hyde)
+
+
+VIRUS___________________________________________________________________________
+    Ideal virus: 1. replication gene
+                 2. virulence - deal with host defense
+                 3. structure gene - capsid/envelope/spike
+
+    SARS-CoV-2: 30,000 nucleotides, 30 genes (1,000 nucl./gene; 1 protein/gene)
+
+    Variants: mutations may effect:
+       virus transmission
+       virus virulence
+       immune escape - structure gene changes and antibodies do not work,
+                       not easy; requires a lot of mutations
+
+    Critical Community Size (CSS): max size of host population without a repeating
+             endemic; or measles 500K; transmission efficiency, lifelong immunity...
+             not applicable to zoonotic virus
+
+VACCINES________________________________________________________________________
+    1. Inactivated virus, use chemical to disable RNA
+       For flu, polio, rabies
+
+    2. Live attenuated; disable the virulence gene
+      grow repeatedly in chicken embryos - virus looses
+      virulence because it does not deal with immune system
+      Now use genetic engineering to disable virulence genes
+      For measles, smallpox, chickenpox, rotavirus, yellowfever
+
+    3. Subunit, recombinant, polysaccharide, and conjugate
+       piece of virus
+       For shingles, whooping cough, HPV (human papillomavirus)
+
+    4. Viral vector - 1. deactivated virulence gene
+      2. with genetic engineering splice/add the structure protein
+      of the virus that we want to immunize against
+      most viral vectors most do not replicate
+      For ebola, covid,flu, adenovirus (commonn cold)
+
+    5. Toxoid (for bacteria)
+       Protect against toxin not the bacteria
+       For tetanus, diphtheria
+
+    6. mRNA (or DNA) - only the structure gene in a lipid nano particle
+       For covid
+
+    All make protein for the immunogen - an antigen capable of inducing an
+    immune response.  Immune system makes antibodies to attach/block the spike.
+    T-cells are also involved.
+

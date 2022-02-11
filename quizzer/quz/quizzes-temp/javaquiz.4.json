@@ -1,0 +1,21 @@
+{
+"current_question_index": 0,
+"num_of_questions": 1,
+"quiz_topic": "javaquiz",
+"marked_user_input": "??java quiz TWO\n++\n--\n",
+"question1": "?java what",
+"question1_answers": {
+"answer1": {
+"answer": "+jjjj zzz",
+"is_correct": true,
+"is_selected": false
+},
+"answer2": {
+"answer": "-",
+"is_correct": false,
+"is_selected": false
+},
+"comment": null,
+"num_of_answers": 2
+}
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         code {color:blue; font-weight: 999; font-size:16px}
+    </style>
+    <title>Word translator</title>
+</head>
+<body>
+<img src="GUI-screen-snapshot.gif">
+<h3>Application translates one word at a time.<br>
+    One can infer and save a more accurate translation.</h3>
+<p>Recommendations:</p>
+<ul>
+    <li>Change languages that are listed first at the combobox,<br>
+        by editing <code>ltrans/config_trans.json</code></li>
+    <li>Adjust word translations by editing files in <code>ltrans/dictionaries</code></li>
+    <li>For a few languages such as Russian and Greek,<br>
+        select <code>Transliteration</code> checkbox <br>
+        to get a rough pronunciation of source or destination words.<br>
+        Transliteration converts non-latin characters to latin characters.</li>
+    <li>Adjust translations and add comments before clicking <code>Save</code></li>
+    <li>Correct saved translations/comments and click <code>Update</code></li>
+    <li>Rename and number saved translations in <code>ltrans/saved-translations</code>.<br>
+        Because files are sorted, you may include a number prefix.</li>
+    <li>Prevent accidental deletes - make files in <code>ltrans/saved-translations</code> <b>Read-Only</b></li>
+</ul>
+Technical info: <a href="../README.rst">README.rst</a>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="shortcut icon" href="#"> <!--prevents favicon.ico ERR-->
+  <title>home</title>
+   <style>
+    body {font-size:24px;}
+    td   {vertical-align:top; white-space: nowrap;}
+    p    {margin-left: 25px; margin-top: 5px; margin-bottom: 5px;}
+    a    {text-decoration: none; color: #0000EE;}
+    a:hover { text-decoration: underline;}
+    .button1 {border: none; background-color: white; cursor: pointer; width:auto;}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 0px;
+  transition: 0.3s;
+  font-size: 24px;
+  width:100px;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  text-align: center;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+button {
+  transition: 0.3s;
+  font-size: 24px;
+  width:155px;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+<div class="tab"> 
+  <button class="tablink"         onclick="opencontName(event, 'Topic1')">Tech</button>
+  <button class="tablink"         onclick="opencontName(event, 'Topic2')">Recipes</button>
+</div>
+<!--=================================== Main tab =================================-->
+<div id="Main" class="tabcontent" >
+  <table>
+    <!-- class="w3-table"-->
+    <tr>
+      <td>
+	<!--contents--><a href="./contents.html">Contents</a>&nbsp;&nbsp;&nbsp;<br/><br/>
+	      </td>
+     </tr>
+  </table>
+<div id="Topic1" class="tabcontent" style="display:none" >
+<!--================================== ..... 1 ==============================-->
+  <b>Reference/troubleshooting:</b>
+  <table>
+    <!-- class="w3-table"-->
+    <tr>
+      <td  class="w3-pale-yellow" >
+<!--*/topic1-->
+	<a href="./tech/git_(version_control)_commands.html">git (version control) commands</a> <br/>
+	<a href="./tech/ide_(interactive_development_environment)_commands.html">ide (interactive development environment) commands</a> <br/>
+	<a href="./tech/linux_problems_solutions.html">linux problems solutions</a> <br/>
+	<a href="./tech/python_cool_features.html">python cool features</a> <br/>
+	<a href="./tech/python_problems_solutions.html">python problems solutions</a> <br/>
+	<a href="./tech/secutiry_problems_solutions.html">secutiry problems solutions</a> <br/>
+	<a href="./tech/windows_and_browser_key_shortcuts.html">windows and browser key shortcuts</a> <br/>
+<!--topic1 END-->
+ </pre>     </td>
+    </tr>
+  </table>
+   </tr>
+  </table>
+</div>
+<div id="Topic2" class="tabcontent" style="display:none; font-size:24px;" >
+<!--================================ ..... 2 =============================-->
+<table><tr class="w3-pale-yellow" >
+<td><!--*/topic2-->
+  <pre><b>Misc</b>
+  <a href="./recipes/beans,_lima_beans.html">beans, lima beans</a>
+  <a href="./recipes/italian,_german,_sweedish,_..._meatballs-hamburgers.html">italian, german, sweedish, ... meatballs-hamburgers</a>
+  <a href="./recipes/mac-n-cheese.html">mac-n-cheese</a>
+  <a href="./recipes/potatoes_-_spanish_omelet,_scalloped.html">potatoes - spanish omelet, scalloped</a>
+  <a href="./recipes/rice_-_prasorizo,_fried,_rizogalo,_spanish.html">rice - prasorizo, fried, rizogalo, spanish</a>
+  <a href="./recipes/vegetables_-_ratatouille,_ciambotta,_tourlou,_pisto.html">vegetables - ratatouille, ciambotta, tourlou, pisto</a>
+<!--topic2 END-->
+</pre></td>
+</tr>
+</table>
+</div>
+<script>
+function opencontName(evt, cityName) {
+  var tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (let i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (let i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script></body></html>

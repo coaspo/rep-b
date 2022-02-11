@@ -1,0 +1,62 @@
+Enable SSH with git
+  Create public/private keys:
+    ssh-keygen -t rsa -b 4096 -C "abc@gmail.com"
+  Do not enter file, hit enter.
+  In ubuntu file manager select preference >"show hidden files"
+    add public key to github; copy from:
+      ~/id_rsa.pub=
+    to:
+      https://github.com/coaspo/rep
+                                   >user >settings >SSH-and-GPG-keys
+
+Blacklist time-wasting websites;
+  for example example news.google.com
+    1. Windows edit:
+         C:\Windows\System32\drivers\etc\hosts
+       add:
+         127.0.0.1 news.google.com
+
+    2. Linux  edit:
+         sudo gedit /etc/hosts
+       add line:
+         127.0.0.1 news.google.com
+       then restart
+
+Spoof MAC address
+  1. Linux: Install (select yes):
+      sudo apt-get install macchanger
+    Find interface:
+      ip addr
+    (should see for example: 2: enp2s0)
+    Change MAC after resume from sleep:
+      make file writable:
+        sudo chmod o+w /lib/systemd/system-sleep/hdparm
+      add command:
+        sudo macchanger -r enp2s0
+      Verify with same command, should see similar to:
+        Current MAC:   06:b7:49:3d:f2:81 (unknown)
+        Permanent MAC: XX:XX:XX:XX:XX:XX (unknown)
+        New MAC:       7e:20:b7:08:76:7d (unknown)
+  2. Windows : run:
+      devmgmt.msc
+    Select: >Network adapters
+            >Realtek PCIe GBE Family Controller
+            >Rt-click >Properties
+            >Network Address
+    For value add:
+      AABBCCDDEEFF
+    Verify change; run:
+      ipconfig /all
+    should have:
+      Ethernet adapter Ethernet:
+      Physical Address. . . . : AA-BB-CC-DD-EE-FF
+
+Block adult websites
+  Connect to router; for example, for comcast browse:
+    http:/10.0.0.1
+  for userId/password use admin/password
+  In Parental-control, Manage-sites add for example:
+    https://www.bad.com
+  But there are too many web sites to add!
+  Alternative, change DNS server, see:
+    https://www.opendns.com

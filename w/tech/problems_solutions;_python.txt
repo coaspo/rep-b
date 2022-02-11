@@ -1,0 +1,37 @@
+how to install jupyter
+Answer: sudo apt install python3-pip    pip3 install notebook   sudo snap install jupyter  
+
+cannot create jupyter file: Permission denied: .ipynb_checkpoints
+FIX: sudo chown -R th: ~/.local/share/jupyter     sudo chown -R th: ~/.ipynb_checkpoints/   sudo chmod -R 777 .local
+
+how to change jupyter notebook dir
+Answer: jupyter notebook --notebook-dir=/home/th/d/rep/scraper/jupyter-notebooks
+
+how to run python script from nautilus (linux file explorer)
+Answer: crate: ~/.local/share/nautilus/scripts/run-python
+        with contents: python3 $1
+        make file executable, right-click on python file, >Scripts >run-python
+
+how to run python script by bouble-clicking
+Answer: to to top of the script file add:
+          #!/usr/bin/env python3
+          import tkinter as tk  # this is an example (input does not work)
+          root = tk.Tk()
+          root.withdraw()
+          name = tk.simpledialog.askstring(title="Test",prompt="Name?:")
+        install pkinter:
+          sudo apt-get install python3.6-tk
+        >Alt F2  type: dconf-editor
+        >org >gnome >nautilus >preferences >executable-text-activation
+        from drop dowmn select "launch"
+
+how to run flask in ubuntu
+Answer: pip install Flask
+        export FLASK_APP=a   # where 'a' is for a.py  which has the server code
+        flask run
+        browse: http://127.0.0.1:5000/
+
+On running 'flask run' get: 'OSError: [Errno 98] Address already in use'
+FIX: fuser -k 5000/tcp
+        
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <style>
+    .div {
+      display: inline
+    }
+
+    canvas {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <pre><span id="info"></span></pre>
+
+  <script src="graph.js"></script>
+  <script>
+    function resize() {
+      var c = document.getElementById("canvas");
+      c.height = Number(window.innerHeight);
+      c.width = window.innerWidth
+      var ctx = c.getContext("2d");
+      var grd = ctx.createLinearGradient(0, 0, 600, 600);
+      grd.addColorStop(0, "#FFcccc");
+      grd.addColorStop(1, "#ccFFcc");
+      ctx.fillStyle = grd;
+      ctx.fillRect(0, 0, c.width, c.height);
+      return [c.width, c.height]
+    }
+    resize()
+    log(window.innerHeight)
+    log(window.innerWidth)
+    log('111')
+    function log(msg) {
+      msg = msg + '\n' + document.getElementById("info").innerHTML
+      document.getElementById("info").innerHTML = msg
+    }
+
+    window.addEventListener('resize', function () {
+      log('addEventListener - resize');
+      resize();
+    }, true);
+  </script>
+</body>
+
+</html>

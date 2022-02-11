@@ -1,0 +1,45 @@
+{
+"current_question_num": 2,
+"num_of_questions": 2,
+"marked_user_input": "/quiz two\n\n?What is 10*10\n+10\n+100\n--100\n\n?What is (10+10)*1000\n+10\n+0\n+20000\n\n",
+"question1": "What is 10*10",
+"question1_answers": {
+"answer1": {
+"answer": "10",
+"is_correct": true,
+"is_selected": false
+},
+"answer2": {
+"answer": "100",
+"is_correct": true,
+"is_selected": false
+},
+"answer3": {
+"answer": "-100",
+"is_correct": false,
+"is_selected": false
+},
+"comment": null,
+"num_of_answers": 3
+},
+"question2": "What is (10+10)*1000",
+"question2_answers": {
+"answer1": {
+"answer": "10",
+"is_correct": true,
+"is_selected": false
+},
+"answer2": {
+"answer": "0",
+"is_correct": true,
+"is_selected": false
+},
+"answer3": {
+"answer": "20000",
+"is_correct": true,
+"is_selected": false
+},
+"comment": null,
+"num_of_answers": 3
+}
+}

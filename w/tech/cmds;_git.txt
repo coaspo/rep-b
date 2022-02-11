@@ -1,0 +1,70 @@
+ **** DELETE - do not try to fix clone !!! ****
+1. CREATE & test REPO:
+   a. setup:
+        git config --global user.email "coaspo@gmail.com"
+        git config --global user.name "coaspo"
+      # create dir R, open a command window in it;
+        git init .
+      # open R/.git/config and change
+        url = https://github.com/gitUserId/R  to:
+        url = ssh://git@github.com/gitUserId/R.git
+    b. create directories/files, & checkin changes
+        git add *
+        git commit -m "first commit"
+        git push origin master
+    c. apply & checkin tag
+        git tag --force 21-8-22 HEAD
+        git push --tags --force
+    d. create & checkout branch br1
+        git checkout -b br1
+       # make changes and apply new tag 21-9-1
+    e. switch to tagged nodes:
+        git checkout 21-8-22
+        git checkout 21-9-1
+
+2. CLONE REMOTE
+       git clone https://github.com/xxx/rep
+       git pull origin {branch}
+           xxx is user name, rep is repo name
+1. check in (typical use):
+       git add *
+       git commit -m "message.."
+       git push origin {branch}
+2. merge:
+       git checkout master
+       git merge {branch}
+       git push origin master
+       branch -d  {ranch}  # delete branch
+3. squash:
+       git checkout master
+       git merge {branch}
+       git reset origin/master
+       git add . --all
+       git push
+4. update local:
+       git fetch origin {branch}
+       git pull
+
+Misc:
+       git status
+       git config -l
+       git log
+       git checkout -- {filename}
+       git reset --hard
+       git clean -fdx
+
+       git branch -a   # list all branches
+       git branch -d  {ranch}  # delete branch
+       git checkout -b {new-branch}  # create and checkout branch
+       git merge {branch}
+
+
+       git remote -v   # list repos; : https://github.com/xxx/rep
+       git remote add origin  https://github.com/xxx/rep
+       git pull origin {branch}
+       git push https://github.com/xxx/rep {branch}
+
+       find . type f -name "*.txt" -exec grep -i} 'ERR' {} \;
+       git stash save "comments"
+       git stash list
+       git stash show

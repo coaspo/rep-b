@@ -1,0 +1,326 @@
+
+Bacteria
+  spherical, straight rods, and spiral rods
+  doubling may occur as frequently as every 15 minutes,
+  1 to 1 billion in 5 hours
+  Most sporulating aerobic bacteria are Genus Bacillus,
+  Most anerobic are Genus Clostridium.
+  do not like low pH, moisture, or temperature and high salt/sugar
+
+Yeasts and Molds
+  reproduce most often by budding
+
+  Molds as found on bread, fruit, damp paper,
+  millions of microscopic cells joined together to form chains
+  chains usually have numerous branches, called hyphae
+  conditions too adverse for bacteria or yeasts
+  reproduce by spores; frequently as green or black masses on the protruding hyphae
+  grow on most foods, on equipment, and building surfaces where there are small a
+  mounts of nutrient and moisture.
+  Since bacteria grow faster, they greatly outnumber yeasts and molds in most foods.
+  do not mind low pH, moisture, or temperature and high salt or sugar unfavorable
+  problem in dry foods, salted fish, bread, pickles, fruits, jams, jellies
+
+Virus
+  parasitic
+  infect one species, or related species
+  zoonotis, can infect human beings
+    (bacterium, virus, parasite or prion) that has jumped from an animal
+  Food importance:
+    bacteriophage of lactic or other fermentative bacteria.
+      production of cheese, buttermilk, sauerkraut, pickles, wine, beer
+    cannot multiply in foods
+    infectious for long time; after  drying, freezing, and pasteurization
+
+Temperature
+  Molds: 14°F+
+  Psychrophies grow only at refrigeration temperatures.
+  Psychrotrophs (41F to 90F), faster than mesophiles,
+                spoilage & interfere with mesophiles)
+                grow in refrigerator, best at room temperature below 90F
+  Mesophiles (most food borne disease 40F to 140F)
+              grow best at or near human body temperature,
+              grow well at room temperature.
+  Thermophiles grow only as hot as the human hand can endure,
+               not at all at or below body temperature.
+
+  41°F to 32°F doubles shelf life
+  41°F to 135°F bacteria grow fastest
+
+  Pasteurization, (yeasts, molds, and bacteria),  140°F/161°F for 30 min./16 sec.
+  Canned foods 240°F to 250°F for 1 hour or more.
+  Microbiologists sterilize at 250°F (121C) for 15 or 20 min.
+  Contaminants in dry foods hard to kill with heat;
+    wet/dry egg albumen at 140°F (60C) for 3.5 min/several days
+  At 120°C, survive spores ~ 100,000*exp(t[min]/3); half-life = 3*ln(1/2) = 2.1 min
+  Freezing: kills Clostridium perfringens, but not its spores, other bacteria survive.
+
+Water Activity
+   (aw)  availability of water to microorganisms
+   Pure water has an aw of 1.00, equilibrium relative humidity (ERH) of 100%
+   ounce of rocks to a quart of water: ERH will fall to about 98 % and the aw to 0.98
+
+  Minimum water activity (aw) limits
+    Salmonella              0.945
+    Clostridium botulinum   0.95
+    Clostridium perfringens 0.93
+    Staphylococcus aureus   0.86, 0.93 for toxin production
+    Vibrio parahaemolyticus 0.94
+
+  Some molds can grow very slow in foods with aw 0.62 – 0.65
+  Fully dried foods, such as crackers or sugar aw=0.10
+     microbiologically stable
+  Stability dried fruits, jams depends (aw 0.75 – 0.90) depends on low aw,
+    low pH, pasteurization, chemical additives, and impervious packaging.
+
+pH
+  concentration of the hydrogen ion; 1 and 10−14 gram-equivalents per liter
+  pH 5 there are 10 times as many H + as at pH 6
+  Most bacteria grow best at about pH 7 and grow poorly or not at all below pH 4.
+  Yeasts and molds, therefore, predominate in low pH foods
+  lactic acid bacteria are exceptions
+
+  Mean pH
+  2.3 Lemon juice (2.3), Cranberry sauce (2.3)
+  3.0 Rhubarb (3.1) Applesauce (3.4), Cherries, RSP (3.4), Berries (3.0 – 3.9),
+      Sauerkraut (3.5)Peaches (3.7), Orange juice (3.7), Apricots (3.8)
+  4.0 Cabbage, red (4.2), Pears (4.2) Tomatoes (4.3) 4.6 Ravioli (4.6)
+      Pimientos (4.7)
+  5.0 Spaghetti in tomato sauce (4.9) Figs (5.0) Onions (5.2) Carrots (5.2)
+      Green Beans (5.3), Beans with pork (5.3) Asparagus (5.5), Potatoes (5.5)
+  6.0 Lima beans (5.9), Tuna (5.9), Tamales (5.9) Codfish (6.0), Sardines (6.0)
+      Beef (6.0) Pork (6.1), Evaporated milk (6.1) Frankfurters (6.2) C
+      chicken (6.2) Corn (6.3) Salmon (6.4)
+  7.0 Crab meat (6.8), Milk (6.8) Ripe olives (6.9) Hominy (7.0)
+
+  The minimal growth pH:
+    Salmonella                 4.0
+    Clostridium botulinum A/B  4.8  E  5.0
+    Clostridium perfringens    5.0
+    Vibrio parahaemolyticus    4.8
+    Bacillus cereus            4.9
+
+Oxygen
+  aerobes use oxygen; on food surfaces,
+  anaerobes do not;  beneath the surface of foods, NOT EVIDENT
+  microaerophilic with/without
+    Salmonella                 aerobic
+                               to facultatively anaerobic,
+                               gram-negative bacillus intestinal tract of in ruminants
+    Clostridium botulinum A/B  anaerobic
+                               Spores in soil, aquatic sediments,
+                               the intestinal tract of birds, animals and fish,
+                               intestines of humans,
+                               and agricultural products - honey and vegetables
+                               intestines of humans
+    Clostridium perfringens    anaerobic
+                               types A-F
+                               Soil, water, air, feces of healthy and infected individuals,
+                               dust, vegetation, gastrointestinal tract of humans and animals
+                               dehydrated and processed foods
+    Vibrio parahaemolyticus    aerobic
+                               facultative anaerobic
+                               no spores, bivalve shellfish, coastal waters mostly in summer
+    Bacillus cereus            aerobic
+                               facultative anaerobic
+                               decaying organics, fresh and marine waters,
+                               vegetables
+
+Indicator bacteria
+  to estimate fecal contamination of water.
+  --> bacteria or filth; spoilage or low quality; or insanitary preparation.
+  coliform bacteria (e. coli...)are non-spore forming rods in warm blooded animal feces
+    (100 billion/gram)
+    in raw meats, milk, and eggs; naturally in soil, water, and plants
+    not fetal, indicate health risk
+    metabolize lactose, produce acid and gas
+    Escherichia coli most common: salt/fresh water limits: 600/500 per 100 ml
+
+Food-borne infections:
+  Top 5:
+    1. Norovirus (Norwalk Ohio virus)
+      Reservoirs: contaminated water: leafy greens, fruits, shellfish, handled food
+      highly contagious; tiny vomit/feces particles, surfaces, sharing food
+      in Boston infected person continued working --> 141 person sickened
+      vomit, diarrhea, stomach 1/2 to 2 days after ingestion
+      protected a few months after exposure
+      no concern in food industry
+      Japanese wanted Norwalkvirus name because Noro is a last name
+
+    2. Salmonella (genus) (Salmon, veterinary pathologist):
+      Salmonella enterocolitis (intestine colon) - most food poisoning
+        Reservoir: domestic/wild animals & humans
+      Salmonella Typhi (ethereal cloud causing madness)- causes typhoid fever
+        Reservoir: only humans
+        chlorinate water has reduced it in US
+        plague of Athens during Peloponnesian war
+      (nontyphoidal more common)
+      Feces contamination - mostly raw meat/seafood, in fruits
+      Millions bacteria must be ingested to become ill;
+        elders/infant with few bacteria
+      symptoms 6 hours to 6 days
+      gram-negative (lipid cell wall - harder to treat);
+         ciprofloxacin or deftriaxone IV treatment
+      Cannot be eradicated from feed factories
+      2nd worldwide to cause gastroenteritis
+
+    3. Clostridium perfringens (spindle through-burst)
+      Reservoirs: Soil, water, air, dust, vegetation, human/animal intestines
+      Heat-resistant and cold-tolerant
+      gram-negative - amoxicillin
+      Grows best in cooked meat, poultry, gravies in 40°F–140°F
+      Bacteria form spores and releases toxins in intestines
+
+    4. Campylobacter jejuni;   (campylos (curved) and baktron (rod))
+      Reservoirs: wild and domestic animals, mostly found in milk
+      catch it from raw/under-cooked poultry; causes  campylobacteriosis
+      1st worldwide to cause gastroenteritis (stomach/intestine; vommit, diarrea)
+      gram-negative - Azithromycin
+      dies rapidly in ambient temperature/atmosphere, and grows poorly in food.
+
+    5. Staphylococcus aureus (Grapes-berry golden) / "staph":
+      On skin, mucous membranes, in pimples/boils of humans and animals
+      Food poisoning strains generally come from humans
+        MRSA (Methicillin-Resistant Staphylococcus aureus) - no risk getting from food
+          eradicated with whole body wash and nasal ointment
+      Heat destroys it, but not its toxin
+      100,000/gram when bacteria allowed to grow in food
+      Food free from staph is difficult or impossible
+        1. reduce exposure of cooked foods - use gloves or clean hands
+        2. eliminate raw materials with high bacteria counts
+        3. process to destroy bacteria
+        4. eliminate raw --> cooked food contamination
+        5. keep food less than 2-4 hours between 40°F and 140°F
+      In fermented foods, cheese or sausages, to inhibit toxin formation:
+        low pH, high levels of lactic bacteria, salt, and nitrite
+      gram-positive, no spores; penicillin, methicillin
+
+  Not as many but lead to hospitalization:
+    6. Clostridium botulinum  (spindle sausage [poison])
+      reservoirs: soil, aquatic sediments, intestines of birds, animals and fish,
+        agricultural products - honey and vegetables
+      Botulism caused by anaerobic grown neurotoxin
+        babies cannot eat honey (all )
+      Toxins inactivated after boiling for 10 min.
+      Concern in low acid foods pH>4.6
+      Canned meats have salt & nitrite
+      gram-positive, heat resistant spores; penicillin G or metronidazole
+
+    7.Listeria (Lister Joseph, British surgeon)
+      Reservoirs: originally in cattle or sheep, now in refrigerated, ready-to-eat foods
+      Invades macrophages leads to septicimia, 30% mortality for very young.
+      survived pH 5 in cottage cheese and Cheddar
+      Doubles in  1.5 days at 39.2°F, 175°F inactivates it
+      gram-positive; ampicillin
+
+    8. Escherichia coli: (Theodor Escherich paediatrician, Large intestine)
+      few in human feces are pathogenic; 6% food handlers have pathogenic
+      gram-negative;  asciprofloxacin, Azithromycin
+
+    9. Vibrio parahaemolyticus (Vibrate against blood disintegration)
+      Reservoirs:  brackish saltwater in US & Canada; shell fish (oysters)
+      similar to Vibrio cholerae that causes cholera
+      anaerobic in meat or poultry dishes, stews, or gravies kept warm
+      Sporulation in human intestines, causes cell dissolve and release toxins.
+      gram-negative; cephalosporin, tetracycline
+
+
+  Others
+   10. Bacillus cereus (stick wax/torch)
+      Reservoirs: soil, decaying organic matter, fresh/marine waters, vegetables, stools
+      in feces, soils, dust, water, marine sediments, raw foods
+      in most raw foods ;  rice, potatoes, peas, beans and spices
+      aerobic grows well in cooked foods held warm - meats, poultry, sauces, puddings, soups, rice, potatoes, and vegetables
+      adults with mild symptoms, but small children may become seriously ill
+      spores are extremely heat resistant
+      keep ready-to-eat moist foods below 40°F or above 140°F.
+
+    11. Yersinia enterocolitica (Yesin entomologist, intestine)
+      Reservoirs: wild and domestic animals
+      causes gastroenteritis
+      Like Listeria, grows in refrigerator, sensitive to  122°F
+
+    12. Taxoplasma gondii (arc/bow-shape gundi[African rat])
+      Intracellular parasitic protozoan
+      Not concern to food industry; rare in beef/chicken
+        common in pigs/sheet/goats
+      Host/reservoirs: wild/domesticated cats (parasite can sexually reproduce)
+        Most infected cats shed oocysts once in their lifetimes
+      Makes rodents easier cat prey
+      Causes taxoplasmosis in HIV or weak immunity people
+      30-50%people are exposed, most are asymptomatic
+      "Crazy cat-lady syndrome" myth
+      linked to Parkinson's, Alzheimer's, traffic accidents
+      climate change - spread to Canada
+      After Salmonella, causes most deaths.
+
+  Gram-negative bacteria have outer membrane; harder for antibiotics to work.
+
+Mycotoxins
+  100,000 turkeys died after eating moldy peanut meal
+  Ergot, typically in cereal grains, in bread it forms hallucinogenic drugs
+    black wheat grains
+    contains ergotamine, makes: lysergic acid and then LSD
+    Russians died during World War II from eating moldy grains.
+    Japanese died from eating moldy rice
+    Aflatoxins at very low levels can produce liver cancer
+      (from Aspergillus flavus [holy water sprinkler, yellow] fungus
+       optimum temp. 98F, temp. range 54-118 F)
+      FDA limit 0.5/20/100 ppb limit in milk/food/feed
+      may be produced without visible mold growth
+      in damaged corn, figs, grain sorghum, cottonseed, peanuts, and tree nuts.
+      Use high intensity ultraviolet  to detect it in corn
+      no antidote, lethal via liver damage
+        cooking destroys 50%, pressure cooking 70%
+    produced in grains, dry beans and fruits, spices, nuts, and cured meats.
+    Demeter and Persephone Eleusinian Mysteries cult:
+       drink barley drink, Kykeon, for great revelations.
+    Eliminate conditions that permit mold;
+      Insect and bird damaged corn kernels are very susceptible
+      Control storage and initial drying
+
+Spoilage prevention
+  Use bacteria, yeasts, or molds that are not hazardous to health.
+  Chill to slow spoilage;
+  Freeze, dry, can, and pickle to stops it
+
+  Refrigerated Foods
+    33°F is optimum, but around 45°F most common
+    Psychrotrophs: Yersinia enterocolitica, Listeria monocytogenes, C. botulinum, some E. coli and Aeromonas hydrophilia.
+    Above 41°F: Vibrio parahemolyticus; Bacillus cereus; Staphylococcus aureus, some Salmonella.
+    Temperature abuse during food storage and distribution.
+    Treatments:  heat, acidification, preservatives, reduced water activity
+       Modified atmosphere enhances product quality not safety
+    Example of multiple barrier principle: pasteurized cheese:
+      reduced water activity (added salt and phosphates)
+      mild heat to eliminate/inhibit non-spore/spore forming pathogens.
+      keep good seams on cans
+
+  Canned Goods
+    Reduce the spore level in the food
+    cool heat processed containers quickly
+
+  Dry Foods
+    heat, dry, or add sugar/salt
+    molds have lowest water tolerance
+
+  Fermented and Pickled Foods
+    Stable because of organic acids from lactic bacteria
+    Fermentation stops if:
+      bacteriophage attack starter culture
+      inadequate temperature  or fermentable carbohydrate
+    Prevent fermentation spoilage:
+      1. keep starter in pure culture (one yeast) to eliminate bacteriophage
+      2. Add fermentable carbohydrate or organic acid
+      3. Salt to inhibit bad bacteria and help salt-tolerant lactics
+      4. Use lactics favored temperature
+    Prevent spoilage of fermented or picked food:
+      1. add benzoates, sorbates, or propionates
+      2. pasteurize
+      3. store pickles with brine to inhibit molds & yeast
+
+
+Ref:
+  https://aggie-horticulture.tamu.edu/food-technology/food-processing-entrepreneurs/microbiology-of-food/
+  https://www.madaboutscience.com.au/shop/science-extra/post/grow-bacteria-on-homemade-agar-plates
+

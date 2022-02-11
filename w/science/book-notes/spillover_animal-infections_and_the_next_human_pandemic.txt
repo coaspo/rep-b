@@ -1,0 +1,399 @@
+David Quammen , English major/writer    🗓 2012
+
+
+THIRTEEN GORILLAS --------------------------------------------------------------
+--------------------------------------------------------------------------------
+zoonosis: animal infection (bacterium, virus, fungi, protist, parasite or prion) transmissible to humans
+cause: 1. food/water, 2. farming/livestock 3. wild animals 4. insects 5.pets  6. exhibition
+              7. hunting 8. deforestation 9.climate change 10 .secondary transmission
+Darwin: man connected with other animals in origin,descent, sickness and health.
+anthroponosis: spillover from humans to non-humans; via gorilla tourism
+
+zoonosis (60% of human infections): ebola, bubonic plague, flu, monkey pox, bovine tuberculosis,
+  Marburg virus, rabies, hantavirus pulmonary syndrome, anthrax, Lassa virus, Rift Valley fever,
+  scrub typhus, Bolivian hemorrhagic feve
+  r, Kyasanur forest disease, Nipah encephalitis,
+  ocular larva migrants, toxocariasis, AIDS, Hendra, Machupo, Hantaan, Junin, Borna,
+  Simian foamy virus, Lyme, West Nile fever
+  70+/30 from wildlife/domestic animals
+
+NOT zoonosis: Smallpox (variola virus), poliomyelitis, Streptococcus pyogenes, cholera, measles
+
+Meningitis: brain/spinal cord membrane inflammation
+Encephalitis: brain inflammation
+
+Seroprevalence: population percent that tests positive for a specific disease
+47% of bats had Hendravirus antibodies (Australia) , horse (non-native) highly susceptible.
+
+Foot and mouth disease - high economic cost; low lethality, high morbidity (highly courageous)
+via feces, milk, and aerosol. Pigs are amplifiers - spew 30x virus as cows.
+
+Spillover cause:  Human 1.ecological pressure and disruptions 2. technology/behavior
+
+Re-emergence of TB - via infectious AIDS patients.
+Emergent disease: incidence rate increases after pathogen gets into a new host
+Spillover: pathogen crosses form one host species to another
+           (economic; event in one country effects the economy of another)
+
+Anthropologist: we swapped ancient painfully acquired cultural knowledge with
+                that dependence on disease scientists.
+
+Ebola hype; nothing like the Crimean–Congo hemorrhagic fever
+
+EVERYTHING COMES FROM SOMEWHERE ------------------------------------------------
+--------------------------------------------------------------------------------
+Measles virus is related to nipah and hendra viruses, hence has been zoonotic.
+Measles in London had 18 month cycle; mass-action principle:
+susceptible (newborns) times infectious;  rate of the chemical reaction is proportional
+to the product of the activities or concentrations of the reactants
+
+Malaria - 4 protists; Plasmodium falciparum is the worst; 36 day cycle:
+   1. sporozoite asexual enters human from mosquito bite and goes to liver
+   2. merozoite asexual emerges from liver and reproduces in red blood cells
+   3. trophozoite feeds and grows inside blood cells
+   4. schizont fattens and bursts releasing merozoite wand creates fever
+   5. gametocyte sexual enter blood stream and picked up by mosquito
+   6. ookinete fertilized lodges in mosquitoes gut, ripens into a bag or sporozietes
+      which bursts and go to mosquitoes salivary glands.
+
+p. falciparumis from a African gorilla zoonosis (genetic analysis) kills 500K/year
+p. malariae if not treated can stay in blood liver for decades
+ACGT Adenine, Cytosine,Guanine, Thymine
+
+SIR model (Susceptible/Infected/Recovered) 1926; flu has no R (no immunity)
+  dR/dt=γI
+  dS/dt=-βIS/N
+  dI/dt=βIS/N-γI; dI/dt+dR/dt+dS/dt=0 ; S+I+R=N (population)
+SIRD model; D for deceased
+
+Epidemic starts when density, infectivity, and death are right
+Small changes in infectivity produce epidemics
+Epidemic ends when susceptible density is too low
+
+Drought increased malaria - stagnant instead of flowing water
+19050's WHO program to eradicate malaria with DDT & medicine
+turned science in a failed spray-gun war; underestimated missing one infected person
+Basic reproductive rate 10 lowest
+540 highest; a person is infectious for 80 days, with 10 bites/day
+
+p. vivax zoonosis from Asian macaque
+used to treat neurosyphilis (sensitive to temperature)
+malaria therapy saved tens of thousands of syphilis patients.
+Treatment with p. knowlesi until 1945 - stopped after it became too virulent
+1965 & 1990 macaque zoonosis of p. knowlesi in Malaysia
+Human expansion is forcing p. knowlesi change hosts from macaque to humans
+Chance, evolution, ecology determine epidemics
+
+DINNER AT THE RAT FARM ---------------------------------------------------------
+--------------------------------------------------------------------------------
+2002 man gets SARS China keeps secret documents
+2003 SARS Hong Kong to Toronto, to 70 Chinese hospitals
+Seafood merchant 1st super-spreader (poison king)
+Doctor gets SAR from him and become a super spreader in Hong Kong.
+Doctors/nurses in Singapore wore no masks for treating the atypical pneumonia/
+people fined $300 for spitting; 200 infected, 33 died.
+
+1997 Honk Kong bird H5N1 flu 18 infected 6 died 1.5 million chickens destroyed
+New virus; cannot use PCR; no response in cells of HeLa, dog kidney, rat tumor,
+lung of aborted fetus; succeeded with rhesus kidney cells.
+Named it SARS-CoV not Guangzhou because of tourism.
+Chinese discovered it first but were overridden that it was chlamydia.
+
+Reservoir civet cat (mongoose like), In Guangdong Era of wild flavor (yewei)
+Wild animal market: "microbial swap-meet" - every specie in land/air/water.
+yewei is good luck ostentatious, gaining face.. in brothels, tiger penis
+2,000 wild restaurants in Guangdong. In ten years wild animal sales increased
+Snake possibly farmed, endangered turtles, civet farms, bred wild animals are tame
+
+Total 8,000 infected ~800 died.  Chinese said civet cats not reservoir,
+but after resurfacing in 2004, killed 1,000 civets
+But horseshoe bats had antibodies, civets did not, they just amplified.
+Eating bats? "people in china will anything that flies except a plane"
+Era of Wild Flavor driven underground; people sill believe eating wild is healthy.
+Symptoms appear before person becomes infectious; flu it is reversed
+
+THE DEER THE PARROT AND THE KID NEXT DOOR --------------------------------------
+--------------------------------------------------------------------------------
+Parrot fever (psittacosis) 1880, similar to Lyme, Chlamydia psittaci zoonotic
+From Argentina, to Australian parakeets - birds shed bacteria when stressed.
+In Australia it was not reported.
+Q fever (1930)caused by Coxiella burnetii; infects cats, dogs, sheep , cows, bandicoots
+Q (Query) cause unknown, military stockpile until 1970
+1 bacteria needed to infect 50% (ID50), like virus it intracellular hides from immune
+system, large and small (airborne, highly durable) form.
+Can live in salt water for 6 months; everywhere except in New Zealand.
+
+2007 very dry April in Netherlands spread Q fever from a goat reservoir;
+1984 after a swine flue, pigs replaced with goats.  epidemic lasted to 2009
+12/3,500 died/infected, orphan lamb adopted for psychotherapy infecting 28 people.
+Hay was added on top of old hay urine, manure for months.
+50,000 goats killed
+
+Parasite: internal predator. Transmission solved via massive replication, airborne
+dispersal, environmentally resistant life-stages, behavioral influence on host,
+using amplifier hosts, insect/spider vectors. Susceptible host density helps...
+
+Lyme disease got political; "chronic Lyme is an illusion" advisory resulted
+to antitrust investigation. reported in 1909; in Europe and Asia
+"black-legged tick" was mistakenly split into new species: "deer tick";
+reducing deer did not effect Lyme disease, tick has more than 100 hosts:
+robins cows, squirrels, dogs, skinks, skunks...
+Tick cycle is 2 years, early on questing is close to ground - shrews provide 30% of meals.
+Ticks are born clean; 90% infected by white foot mice, shrews and chipmunks - forget deer!
+mice and shrews are poor groomers.  Acorn crops more important than lawns...
+Humans and deer are dead-end hosts.  1996, 2002 peaks were acorn bounties.
+One mouse pair creates 50 to 790 mice.
+
+Lyme protection thru diversity; owls, foxes,... to control mice
+Small woodland in cities not diverse,less safe; white footed mice are more common.
+"all life is connected" is vague - how is the important part.
+Borrelia burgdorferri resists antibiotic by becoming a round body;
+unlike Coxiella burnettii (Q fever) not airborne.
+
+GOING VIRAL---------------------------------------------------------------------
+--------------------------------------------------------------------------------
+1890 tobacco virus not filterable, efficacy not effected by diluting it;
+1898 foot-and-mouth virus virus; 1901 yellow fever virus, kill mosquitoes in Cuba
+15 to 300 nm, 2K to 1.2M nucleotides (3B for mouse) 3nuc./amino acid, 250 amino acid/protein
+"bad news wrapped in a protein"
+DNA polymerase repairs DNA - mutations are low.  RNA most bad viruses wo repairing
+mutations 1,000 higher; rate is capped because they can be lethal to virus.
+Virus reservoir has no symptoms; ecological equilibrium.
+
+herpes B virus; (B initial of person died) minor to macaques by 70% lethal to humans
+Researches died while working on polio and HIV - latest on in 1997
+Herpes B, Ebola, Marbug, Crimean-Congo are BSL4.
+
+Simian foamy virus (SFV) foam like cell fusing - no disease but used as marker for the big one.
+Human foamy virus (HFV) "a retro virus in search of disease".
+AIDS 30 million deaths, if airborne most people would have been dead, airborne rabies...
+Polio, an enterovirus, follows a mouth fecal route.
+
+Transmission: 1. vertical (mother to child), oral-fecal, blood-borne, sexual, saliva
+Virulence: complicated, host.pathogen evolution.
+Pathogenicity: capacity to cause disease, latent infection is ideal parasitism.
+
+1859 wild rabbits freed in Australia, 1950 600 million.  Poxivirus (via myxoma) killed 99.6%
+within 2 weeks.  After 10 years rabbits rebounded; evolution lowered virulence;
+evolution improved mutual tolerance to 90%, ofaverage “spreadability”  3 strains one became dominant in 1980.
+
+
+Pathogen rule #1: not "do not kill your host", but "do not burn bridges before you cross them".
+Viruses evolve as if they are alive
+May/Anderson improve the SIR model made N variable;
+R0 = βN/(α + b + γ)    - this is not correct (unit analysis)
+  R0 average “spreadability”; number infections from one infected person
+  1.(β) transmission rate,
+  2.(γ) recovery rate - infected recover and become susceptible,
+  3.(α) virulence; host mortality rate
+  4.(b) uninfected mortality rate
+  5.(Ν) host population
+no one has been vaccinated / has had the disease before
+no way to control the spread
+From the rabbit myxoma,  host-parasite balance does not mean small harm to host.
+
+RNA virus: most common/evolvable/emerging pathogen, every living cell may support at least one.
+DNA viruses too stable; Varicella zoster (chicken pox), hides and comes back as shinges
+they use DNA polymarase for replication;
+Small RNA genome -> high mutations, high mutations -> small genome (bad replication); Eigens paradox.
+RNAs have no long-term security but able to adapt or jump species(zoonosis).
+
+CELESTIAL HOSTS ---------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Viruses jump from safe hosts or sometimes where gotten stuck
+rodents -> hantaviruses, lassa
+squirrels -> monkey pox
+macaques -> Herpes B
+birds to chickens/pigs -> flu
+sheep/goats(?) -> measles
+chimpanzees -> HIV-1
+bats(pigs/horses...amplifiers) -> Hendra, Marburg, SARS-CoV, rabies, Duvenhage,
+         Kyasanur Forrest, Ebola(?), Melaka, Australian bat lyssavarius, Nipah
+Nipah confused with Japanese encephalitis (similar to dengue): one mile pig barking cough;
+easy on pigs; human encephalitis; positive to Hendra antibodies but different.
+Pig farmers fled, Nipah was a ghost town.  Pig herds rampaging in villages, army,
+police, vet in PPE shooting pigs 1.1 million pigs;  6 soldiers infected.
+End of epidemic, 283 infections 109 deaths (40%).  If it was not lethal to humans
+it would not have bee
+n noticed - there are unknown zoonosis!
+"How may other Nipahs are going to Bethlehem to be born?"
+Nipah found on water apples eaten by bats and in bat urine.
+
+Nipah in Bangladesh 70% fatal - victims climbed trees, drank raw date-palm sap.
+Unlike Malaysia, person-person spread.  2 liter of sap /tree sold for $0.24.
+Sapper: "I get God's grace by birds chance to drink sap" and customer gets Nipah.
+Moore opportunities for a new host -> more chance of adapting to new immune system.
+It is random - not emotive; the revenge of the forest.....
+Ecology (human/animal contact) & evolution (no purpose; just results)
+
+If one does not know about bats, he writes a review article.
+25% of mammal species are bats.
+Social bats; a million per colony; meet criteria of critical size; meas;es circulate in 500K or more.
+20-25 lifespan helps R0 ∝(infection/contact)·(contact/time)·(time/infection)
+In Uganda infected miners and tourists helped identify bats as reservoir of Marbug virus.
+
+Metapopulation: population of populations;
+  set of local populations connected by migrating individuals.
+  Large population of single species is most stable when divided into sub-populations
+
+If virus goes through an isolated population (<500K for measles) may become extinct.
+Virus avoids this if it infects one isolated population at a time.
+Greater population isolation, more time for the virus to return,
+more time for susceptibles to be born, and the larger the outbreak.
+Australian bats have become more isolated, hence virus is more abundant.
+
+Avian flu H5N1; haemagglutinin (H) and the neuraminidase (N) spikes;
+H hooks to receptors of victim cells, N removes receptors of infected cells to all spread.
+17 types of H, 9 types of N.
+H1N1 1918 (2%), H2N2 1957(0.6%), H3N2 1968 (0.2%); H1N1/H3N2 seasonal flu.
+H5N1 60% lethal and poorly transmissible.
+Reported regularly in Cambodia, China, Egypt, Indonesia, Thailand, Vietnam.
+H5N1 can become a big and fast killer - WHO tries to ensure that H5N1 does not infect chickens.
+
+Nipah had person to person transmission in 2004; 36/27 infections/deaths.
+Why obsess about zoonoses, plenty of cholera...,: AIDS.
+
+THE CHIMP AND THE RIVER --------------------------------------------------------
+--------------------------------------------------------------------------------
+Aids infections with fungal pneumonia and oral candidiasis - Candida in babies & diabetics
+Low T-cell count, and Kaposi's sarcoma (human Herpesvirus 8).
+First known case 1977 doctor in Zaire.
+
+8 groups of HIV-2: A-H, A/B prevalent, 4 of HIV-1  -> 12 spillovers
+HIV trend - not a fluke.
+Retrovirus converts its RNA into DNA and infects the nucleus; virus replicates
+when the host cell replicate - causes cancer.
+First know human retrovirus: T-cell leukemia (HTLV).
+Discovery squabble: money, ego, national pride, Nobel prize, test patent lawsuit
+
+Work in cancer causing viruses -> simian immunodeficienty virus (SIV) in sick macaques
+African green monkeys was the reservoir, Found virus close to SIV (NOT HIV) in a prostitute.
+HIV-2 symptoms similar to HIV-1; less transmissible and virulent.
+
+SIV reservoir African sooty mangabey (sm), captivity infected Asian macaques (am)
+Three SIV variants: 1. (sm), 2. (am) 3. African green monkeys (afg)
+(sm) and (am) close to HIV-2 hence (sm) infected humans
+SIV zoonosis from mangabey to humans and evolved as HIV-2.
+
+HIV-1 in 1959 & 1960 tissue, suspect early as 1908.
+
+1. Cut-hunter hypothesis: butcher monkey contacted a wound; blood-blood contact.
+2. Contaminated oral polio vaccine (OPV) tested in Africans - bacterial/bacterial has happened;
+1861 smallpox vaccine in Italy from sores resulted to syphilis.
+1900+ 9 children died from smallpox vaccine that had tetanus.
+Diphtheria antitoxin (from horses)with tetanus killed 17 children.
+Vaccine were filtered for bacteria, but Polio vaccine (10 to 30%) contaminated
+with SV40 (simian vacuolating virus); SV40 causing cancer is false.
+Formaldehyde used to kill viruses in vaccines.
+
+Koprowski polio vaccine (1958) grown virus in chimpanzee kidney cells instead of monkey kidney cells.
+HIV-1 is iatrogeric (generated by medical treatment). Some chimps had SIV.
+Molecular clock analysis put common ancestor of DRC60 and ZR59 at 1908 zoonosis of HIV-1.
+
+2002 SIVcpz found in 1 out of 58 central chimps urine in Gombe national park; chimps used to humans;
+Goodall study. Urine collection outside park would not work.
+Chemical RNAlater preserved RNA and antibodies in un-refrigerated feces.
+From feces found SIVcpz very close HIV-1 in southeastern Cameroon.
+
+Brazzaville, Congo in 1914 had hundreds of servant/prostitutes (low risk HIV)
+Leopoldville (Kinshasa) across the river had more; 1940 to 1960 grew 10x.
+Ebola and HIV-1 in the same location.
+
+Ape parts are consumed as part of a local 13 year old boy beka ceremony.
+Use gorilla arms when chimps not available.
+Spillover could be from the ritual of hunger.
+
+Automatic weapons from wars reduced chimp populations after 2002.
+AIDS education is safe sex, in Africa it is "do not eat apes"
+1st HIV-1 infection: SIV virus latched to the CD4 receptors of T-cells
+converted its RNA too DNA, infected the nucleus - T-cell divides new virions created
+
+Legal smoked monkey in Central Republic of Africa $6,  chimps illegal; secret arangement
+Wild critter sink: Quesso in 1990's 12,600 pounds of mammal wild meat per week.
+
+Chimp got AIDS 10 years after being infected with HIV-1.
+Cut-hunter -> cut-chimp hypothesis Chimp could have gotten SIV from eating a monkey.
+SIV from which HIV-a came is lethal to monkeys.
+
+Treatment for trypanosomiasis (sleeping sickness; tsetse fly) in Cameroon -
+36 injections for 3 years; malaria leprosy...  being jabbed in style
+lot of patients few syringes... 3.9M injections most intravenous
+Syringe spread of HIV-a highly likely but not provable.
+Syphilis treated with arsenic/bismuth injections.
+
+1960 Congo becomes independent Belgians leave, Haitian teachers doctors (French speaking)
+help Congo and get HIV-1. Plasma trade in Haiti increased spread; plasmapheresis machine
+can infect donor.  This also happened in Mexico and China.
+American company paid $3/liter, exporting 6K liter/month to US in 1972.
+
+20 year-old sample from 1980 of a Haitian had HIV-1 group M sub-type B - spread to
+US, Europe Japan, Australia... One person or infected bottle brought to US in 1969
+1981 was first patient with pneumonia and oral fungus.
+
+IT DEPENDS --------------------------------------------------------
+--------------------------------------------------------------------------------
+Population outbreak: sudden increase of single species; lemmings, only some kind
+of mouse and starfish,tent caterpillars, gypsy moths...
+Most serious outbreak is homo sapiens; 1960 3 billion, then 1 billion/13 years
+On 6 billion we exceeded by 100 times the biomass of any large wild animal that
+has ever existed. 1.3 billion cows are more massive then us...
+
+Caterpillar outbreaks  5 to 11 year cycle; one cause is infectious disease.
+Nuclear polyhedrosis virus (NPV) melts gypsy moth caterpillars -epizootic (animal
+epidemic), Could humans have a caterpillar-like cycle?
+
+Typical flu 3M infections/year, 250K deaths/year. 4 types; species/genus:
+  A: aquatic birds reservoir; most severe to young/old, occasional pandemic
+  B: primarily in humans; seals, horses, pigs, dogs; effects children
+  C: similar to B; asymptomatic; pigs, dogs, camels, cattle
+  D: cattle reservoir; humans, horses, camels, goat, sheep; no human disease
+2020 flu vaccine:
+  A/Hawaii/70/2019 (H1N1)pdm09-like virus (updated)
+  A/Hong Kong/45/2019 (H3N2)-like virus (updated)
+  B/Washington/02/2019 (B/Victoria lineage)-like virus (updated)
+  B/Phuket(Thailand)/3073/2013-like (Yamagata lineage) virus.
+2019how doe=h flu vaccine:
+  A/Brisbane/02/2018 (H1N1)pdm09-like virus;
+  A/Kansas/14/2017 (H3N2)-like virus;
+  B/Colorado/06/2017-like virus (B/Victoria lineage).
+  B/Phuket/3073/2013-like virus (B/Yamagata lineage)
+
+Flu; 3 RNA viruses; 8 segments,  templates for 11 proteins, 2 of which are spike:
+hemagglutinin(H) & neuraminidase(N1) ;flu H5N1.. 5,1 are sub-types;
+16/9 H/N types detected in nature
+
+1918 flu killed 50M, ~600K in US; identified in 2005 to be H1N1. Reservoir are aquatic birds.
+1961 H5N3 flu kills terns in South Africa and wedge tailed shearwaters.
+Most bird infections are gastrointestinal - fecal-oral spreading.
+H7N7 infects horses, Pigs get human and avian flu, most flu comes from domestic animals.
+
+1997 18 H5N1 (avian) Honk Kong cases with 33% deaths; source was live chicken market.
+1.5M chickens culled.  Ducks is the Trojan horse; some species infected without symptoms.
+2003 H5N1 in South Korea, Vietnam,Japan, Indonesia, China.
+2005 6K wild goose, shelducks, cormorants, gull, died from H5N1 in Quinhai lake in China
+2006 H5N1 got to Egyptian poultry via ducks; 151 infections 52 deaths
+
+Highest H5N1 cases: 1.Egypt 2.Indonesia 3.Vietnam 4.China/Cambodia
+H5N1 is epizootic (an epidemic in non-humans) and panzootic (effect different animals)
+If H5N1 ever gets person-person transmission...
+
+Preparations:
+  1. Detect spillover in remote places before they become outbreaks
+  2. Organizational capacity to control outbreaks
+  3. Tools to quickly detect and characterize new viruses
+  4. Ability to quickly create a vaccine
+
+Germ disease & evolution theories was a neat and sterile historical coincidence.
+Neat for providing insight, and sterile because we did not connect them.
+1894 bubonic plague in Honk Kong traced to rats, via rat fleas.
+Pasteur created rabies vaccine in 1885; from spinal cord of rabbit died of rabies
+
+Malaria and yellow eradication failed, smallpox succeeded.
+Small pox was simple - no reservoir host and no vector.
+Polio eradication started in 1988, for malaria in 2007 by Bill Gates (!)
+
+Zoonotic diseases tell us that we are part of nature.
+
+Transmission depends on variable (heterogeneity) animal or human behavior.
+A caterpillar may inherit behavior to avoid virus smear, human not to eat chimps,
+wear mask,...

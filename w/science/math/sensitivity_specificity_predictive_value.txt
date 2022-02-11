@@ -1,0 +1,56 @@
+#!/bin/bash
+'Sensitivity' = TP / TP + FN 96%
+'Specificity' = TN / TN + FP 90%
+   positive: +, negative: -
+   TP = true + , FN = false -, ...
+'Accuracy' = TP + TN / TP + TN + FN + FP
+
+Covid IgG testing: 96% sensitivity, 90% specificity
+                   1,000 population
+
+#            Prevalence 5%                     Prevalence 80%
+             (+)        (-)        total     (+)          (-)        total
+Truth        50         950        1000      800          200         1000
+(+) result  :50*.96=48  950-855=95  143     :800*.96=768  200-180=20  788
+(-) result   50-48=2   :950*.9=855  857      800-760=40  :200*.9=180  220
+
+from: 'COVID IgG Sensitivity, specificity, and predictive value.'
+       https://www.youtube.com/watch?v=x5FfTjJtV3E
+
+Sensitivity  50 / 50 + 2 = 96%
+Specificity  950 / 950 + 95 = 90%
+Accuracy     1,000 / 1,000 + 2 +95 = 91 %
+
+'PPV'/NPV: Positive/Negative predictive value
+
+PPV           48/143  = 34%                   760/780 = 97%
+NPV           855/857 = 99%                   180/220 = 81%
+P(sick)       5%                              80%
+P(healthy)    1 - P(sick) = 95%               10%
+P(positive)   143/1000 = 14.3%                788/1000 = 79%
+P(negative)   857/1000 = 85.7%                220/1000 = 22%
+P(accurate)   accuracy = 1,000/(1,000+2+855)  1,000/(1,000+40+20)
+                       = 54%                  =94%
+
+
+'Conditional probability', Bayes theorem:
+  P(B|A) = P(A|B)*P(B)/P(A)  ; probability for B if A is true = ....
+         = P(A∧B) / P(A)     ; A∧B both are true
+  'Sensitivity' = P(tests positive | if has the disease)
+  'Specificity' = P(tests negative | disease absent)
+  PPV = P(sick | if positive)     --> sensitivity &  prevalence rate
+      = P(positive | if sick) * P(positive)/ P(sick)
+      = P(sick ∧ positive) / P(positive)
+      = (48/1000) / (143/1000)
+      = 4.8% / 14.3%
+      = 34%
+      = (P*S) / (P*S - [1-P -(1-P)*C])       prevelance(P)=.05
+      = (P*S) / (P*S - [1-P][1-C])           (S)ensitivity=.96
+      = .05 *.96 / (.05 *.96 + .95*[1-.9])   Spe(C)ificity=.90
+      = .048 / (.048 + .095)
+      = .048 / .143
+      = .34
+  NPV = P(healthy | if negative)
+      = P(healthy ∧ negative) / P(negative)
+      = (855/1000) / (857/1000)
+      = 98.7%

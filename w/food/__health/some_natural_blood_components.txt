@@ -1,0 +1,50 @@
+           units ngr/cm3
+Elements
+  aluminum        100
+  arsenic           1
+  bromide          10   (Br-)
+  cadmium           1   non-essential
+  copper        1,000
+  fluoride        100   (F-)
+  hydrogen ions     0.4 (H+; pH 7.4)
+  iodine           10
+  iron        100,000
+  lead            100   non-essential
+  magnesium    10,000
+  mercury         <10   non-essential
+  nitrogen      8,000
+  phosphorus  400,000
+  potassium 1,000,000
+  Silicon       1,000
+  sulfur   10,000,000 (all)
+  tin             100
+  zinc          5,000
+
+Waste
+  acetoacetate  1,000 Produced by liver
+  acetone      10,000 fat metabolism
+  ammonia nitr. 1,000 nitrogen (NH3 & NH4+) protein waste
+  urea        100,000
+
+Energy
+  fructose    100,000
+  glucose   1,000,000
+
+Poison
+  cyanide           4 HCN, NaCN, KCN... blocks oxygen in heart/brain
+                      in cassava, lima beans, almonds, smoke
+                      not always almond like, not everyone can detect odor
+                      make plastics, remove gold, electroplate
+                      HCN: fumigate citrus trees, clothes in border crossings
+Misc
+  adrenaline        0.1   Stress hormone; increases heart rate & metabolism
+                          love/fear/run-fight hormone;
+                          in US adrenaline/epinephrine are patent/generic names
+  cortisol        100     Stress hormone; increases sugar, suppresses digestion
+                          hydro-cortisone for Addison's (adrenal disease)'
+  dopamine         <0.1   Adrenal cancer test
+  Oxytocin          0.001 (.040 33-40 weeks pregnant; love hormone)
+  RNA             600,000 Fibromyalgia test (2018); gene expression analysis
+
+ref:
+https://en.wikipedia.org/wiki/List_of_human_blood_components
