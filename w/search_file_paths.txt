@@ -5,7 +5,6 @@ apps/gps/position_🧭_test.html
 apps/gps/test/graph-test.html
 apps/webscrape/hacker_news_HIGH_SCORES_10-days.html
 apps/webscrape/hacker_news_HIGH_SCORES_3-days.html
-apps/webscrape/hacker_news_HIGH_SCORES_last_3-days.html
 apps/webscrape/twiv_picks_BOOK.html
 apps/webscrape/twiv_picks_COM.html
 apps/webscrape/twiv_picks_EDU.html
@@ -32,6 +31,7 @@ art/lists/notable_quotes.html
 art/lists/spanish-idioms.html
 art/lists/words;_good,_bad,_ugly.txt
 art/lists/words_internet.html
+art/lists/words_known_by_male_female.txt
 food/__book-notes/fast_food_nation_the_dark_side_of_american_meal.txt
 food/__book-notes/secret_life_of_groceries;_dark_miracle_of_american_supermarket .txt
 food/__health/belly_fat.txt

@@ -1,5 +1,8 @@
  **** DELETE - do not try to fix clone !!! ****
-1. CREATE & test REPO:
+A. Add new repo:
+      Google: Adding an existing project to GitHub using the command line
+      open github link...
+B. CREATE & test REPO:
    a. setup:
         git config --global user.email "coaspo@gmail.com"
         git config --global user.name "coaspo"
@@ -22,10 +25,14 @@
         git checkout 21-8-22
         git checkout 21-9-1
 
-2. CLONE REMOTE
+C. Clone remote
        git clone https://github.com/xxx/rep
        git pull origin {branch}
            xxx is user name, rep is repo name
+1. Create branch br1:
+       git checkout -b br1
+       git branch -a
+       git push -u origin br1
 1. check in (typical use):
        git add *
        git commit -m "message.."
