@@ -3,8 +3,13 @@ apps/browser_extensions/popup.html
 apps/gps/position_🧭.html
 apps/gps/position_🧭_test.html
 apps/gps/test/graph-test.html
-apps/webscrape/hacker_news_HIGH_SCORES_10-days.html
-apps/webscrape/hacker_news_HIGH_SCORES_3-days.html
+apps/webscrape/annual_links.html
+apps/webscrape/hacker_news_sort_03_feb.html
+apps/webscrape/hacker_news_sort_all_weeks.html
+apps/webscrape/hacker_news_sort_w05_feb.html
+apps/webscrape/hacker_news_sort_w06_feb.html
+apps/webscrape/hacker_news_sort_w07_feb.html
+apps/webscrape/temp.html
 apps/webscrape/twiv_picks_BOOK.html
 apps/webscrape/twiv_picks_COM.html
 apps/webscrape/twiv_picks_EDU.html
@@ -103,6 +108,7 @@ science/health/youtube_video_notes.html
 science/links/books.html
 science/links/internet_resources.html
 science/links/twiv_picks.html
+science/math/logic.txt
 science/math/numbers.txt
 science/math/sensitivity_specificity_predictive_value.txt
 science/physics/web_telescope.txt

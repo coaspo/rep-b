@@ -1,0 +1,90 @@
+Symbolic (deductive) Logic: A First Course  by Gary Hardegree  1999
+http://courses.umass.edu/phil110-gmh/MAIN/IHome-5.htm
+
+1. Logic: non-empirical science (like math) of correct/incorrect reasoning
+     --> to distinguish correct from incorrect reasoning
+
+2. Infer (to reason): premises (data/info/facts) --> conclusion
+   Argument = {statements [premise(s)+'therefore'/'thus'.. +conclusion]}
+     Statement: a true/false declaration
+        Premise(s) intended to support conclusion
+3. Inductive logic: probable though fallible conclusion from premises;
+     Smoke --> (likely but fallible) fire
+     True premises -->  likely true conclusion
+     Subject of probability/statistics;
+       No consensus of correct inductive reasoning
+     Science: deductive & inductive
+   Deductive logic: truth of premises necessitates truth of conclusion
+     deductive correct --> inductive correct  but not the other way
+     inductive  incorrect --> deductive incorrect
+4. Statement = set of words/sounds/symbols in a given language
+     topic of logic
+     noun + predicate phrases
+   Propositions = assertion of judgment/opinion - independent of language
+     (meaning lurking behind statement;
+      abstract; nobody knows exactly what they are)
+   Statement<-->Proposition : noun:object  (water[5 letters]:water[molecules])
+     Statement "Water is wet" is both
+       statement on wetness & proposition that it is wet
+   Statement "I am hungry", a proposition depends on context - who says it.
+
+5. Syllogistic (together discourse)logic:
+     all, some, no, not, is/are
+   Sentential (sentence)logic:
+     previous words + and, or, if..then, only if
+   Predicate logic (first-order logic, or first-order predicate calculus):
+     previous words + quantified variables
+     used in math, philosophy, linguistics, computer science
+   Logic form: precise semantic version of statement
+    form/statement: logic terms/descriptive terms
+
+6.  Argument:
+      FACTUAL - premises are true
+      VALID - good FORM - conclusion based on premise(s)
+         goal of logic: understand "follows from"; determine valid/invalid
+         ---> true premises give true conclusion
+         but may have F/T F/F
+      SOUND - factual & valid (form) --> always true conclusion
+
+7. (Categorical) Syllogism: argument of syllogistic logic;
+     2 premises + conclusion (all are descriptive terms of classes)
+     concrete sentence --> sentence form:
+       all dogs are mammals --> all X are Y
+    Valid argument:
+      all X are Y
+      some Y are Z
+      / some X are Z
+
+8. Demonstrate invalidity via Counterexample
+     (can prove invalidity, validity of form, but not validity of specific instance)
+     uniform substitution instance: distinct letters replaced bu distinct descriptive terms
+     intuitive definitions of validity:
+        valid argument: if premises were true conclusion would necessarily true
+   FUNDAMENTAL PRINCIPLE OF LOGIC:
+     Validity is function of form;
+     if argument is valid, every argument with same form is valid
+       (true premises & conclusion do not make argument valid)
+   TRIVIAL PRINCIPLE
+     true premises + false conclusion --> invalid argument
+   Counterexample:
+     substitution instance with true premises & false conclusion
+     Invalid argument:            Counter example:
+     no cats are dogs             no men are women
+     no dogs are apes             no women are fathers
+     / no cats are apes           / no men are fathers   (false)
+       Failure to find counter example does not make and argument valid.
+   Only false counterargument (all T premises/F conclusion)
+      ---> invalid argument.
+     For others; all T/T, not all T/T, not all T/F need more info.
+      (use Venn diagrams?)
+
+9. Syllogism: valid syllogistic arguments:
+     all X are Y     all X are Y       all X are Z     no X are Y
+     all Y are Z     some X are Z      no Y are Z      some Y are Z
+     / all X are     / some Y are Z    / no X are Y    / some Z are not X
+   premises/conclusion of valid argument maybe: T/T  F/T  F/F; example of last:
+     all carts are reptiles
+     all reptiles are mammals
+     /all cats are mammals
+
+
