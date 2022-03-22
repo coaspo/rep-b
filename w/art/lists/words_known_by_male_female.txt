@@ -22,7 +22,7 @@ bushido           60%  21%  the code of honour and morals developed by the Japan
 peplum            13%  64%  short gathered or pleated strip of fabric attached at the waist of a woman's jacket  dress  or blouse to create a hanging frill or flounce.
 tulle             27%  77%  soft  fine silk  cotton  or nylon material like net  used for making veils and dresses.
 chignon           24%  72%  knot or coil of hair arranged on the back of a woman's head.
-bandeau           35%  81%  narrow band worn round the head to hold the hair in position.
+bandeau           get_url_desc35%  81%  narrow band worn round the head to hold the hair in position.
 freesia           27%  72%  small southern African plant with fragrant  colourful  tubular flowers  many varieties of which are cultivated for the cut-flower trade.
 chenille          34%  76%  tufty  velvety cord or yarn  used for trimming furniture and made into carpets or clothing.
 kohl              36%  77%  black powder  usually antimony sulphide or lead sulphide  used as eye make-up especially in Eastern countries.

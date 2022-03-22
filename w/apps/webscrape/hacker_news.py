@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 #>>> create_web_page(['l3', '<li>', '<a href="l2">l2</a>'], [10, 100, 50], [5, 10, 3], 2)
-'<html><head></head><title>Hacker news sort</title>\\n<body>Top <a href="https://news.ycombinator.com/">https://news.ycombinator.com/</a> links\\n2 top points:\\n<li>, 100 points \\n<a href="l2">l2</a>, 50 points \\n\\n2 top comments:\\nl3, 5 comments \\n\\n2 top points*comments:\\n\\n2 top point non-🦜/\U0001fab5/📰:\\n\\n🦜 twitter/facebook   \U0001fab5 BLOG   📰 news</pre></body></html>'
+'<html><head><meta charset='UTF-8'></head><title>Hacker news sort</title>\\n<body>Top <a href="https://news.ycombinator.com/">https://news.ycombinator.com/</a> links\\n2 top points:\\n<li>, 100 points \\n<a href="l2">l2</a>, 50 points \\n\\n2 top comments:\\nl3, 5 comments \\n\\n2 top points*comments:\\n\\n2 top point non-🦜/\U0001fab5/📰:\\n\\n🦜 twitter/facebook   \U0001fab5 BLOG   📰 news</pre></body></html>'
 """
 import calendar
 import datetime
@@ -28,41 +28,30 @@ def parse_web_page(html: str):
     links = table.findAll('a', {"class": "titlelink"})
     descs = table.findAll('td', {"class": "subtext"})
 
-    print('====',len(links), len(descs))
+    print(f'BeautifulSoup extracted {len(links)} links, {len(descs)} desc')
     if len(links) != len(descs):
         raise ValueError('ERR len links/descs: ' + str(len(links)) + '!=' + str(len(descs)))
     points = []
     comments = []
     extract_points_and_comments(comments, descs, links, points)
-    if DEBUG:
-        print('  ---parse_web_page\n   ', len(points), len(comments), len(links),
-              '\n   ', points[0:5], '\n   ', comments[0:5], '\n   ', links[0:1])
+    print(f'  after filtering {len(links)} links, {len(descs)} desc')
     return links, points, comments
 
 
 def extract_points_and_comments(comments, descs, links, points):
     i = 0
     while i < len(links):
-        print(i, descs[i])
-        print('   ', links[i])
         point_spans = descs[i].find_all('span', {"class": "score"})
-        print(i, descs[i])
-        print('   links', links[i])
-        print('   point_spans', point_spans)
 
         if len(point_spans) == 0 or 'ycombinator.com' in links[i] \
                 or 'http' not in str(links[i]):
-            print('   removed invalid link')
-            print('   ',len(point_spans) == 0 , 'ycombinator.com' in links[i], 'http' not in str(links[i]))
-            if 'ycombinator.com' in links[i]:
-                print('   ', links[i])
+            print('   removed invalid link', links[i])
             del (descs[i])
             del (links[i])
             continue
         point = int(point_spans[0].text[:-7])
-        print('   point', point)
         if point < 200:
-            print('   removed link with less than 200 pts')
+            #print('   removed link with less than 200 pts')
             del (descs[i])
             del (links[i])
             continue
@@ -77,11 +66,7 @@ def extract_points_and_comments(comments, descs, links, points):
 
 
 def get_url_desc(link):
-    i = link.find('//') + 4
-    i2 = link.find('/', i)
-    i = link.rfind('.', i, i2) + 1  # http://www.overv.eu/
-    domain = link[i:i2].upper()
-
+    domain = util.get_domain(link).upper()
     desc = ''
     if 'twitter.com' in link or 'facebook.com' in link or 'linkedin.com' in link:
         desc = '🦜'
@@ -114,13 +99,15 @@ def get_url_desc(link):
         desc += ' 💻'
     if '.pdf' in link:
         desc += ' PDF'
+    if 'video' in link or 'youtube' in link :
+        desc += '🎞️'
     return desc.strip()
 
 
 def get_url_legend(html):
-    legend = ''
+    legend = 'Legend:   '
     if '🦜' in html:
-        legend = '🦜 twitter/facebook'
+        legend += '🦜 twitter/facebook'
     if '🪵' in html:
         legend += '   🪵 BLOG'
     if '🎞️' in html:
@@ -171,22 +158,27 @@ def scrape_ycombinator_links(month, day_start, day_end):
             points += points_i
             comments += comments_i
             ith_page += 1
-    if DEBUG:
-        print('   ---scrape_ycombinator_links\n    ', len(points), len(comments), len(links),
-              '\n    ', points[0:5], '\n    ', comments[0:5])
     return links, points, comments
 
 
 def annotate_links_i(links_i, comments_i, points_i, publish_date):
     for j in range(len(links_i)):
         link = str(links_i[j])
+        if '50-of-transactions-were-fraudulent' in link:
+            print('[[[[link', link)
+            print('====points', points_i[j])
+            print('====comments', comments_i[j])
         title = '" ' + 'title="' + str(points_i[j]) + ' pts, ' \
                 + str(comments_i[j]) + ' comments ' \
                 + publish_date + '">'
         link = link.replace('">', title)
         desc = get_url_desc(link)
+        if '50-of-transactions-were-fraudulent' in link:
+            print('[[[[desc', desc)
+            print('====link', link)
         if desc != '':
             link += ' <b>' + desc + '</b>'
+        # if is_link_valid(link):
         links_i[j] = link
 
 
@@ -198,13 +190,12 @@ def append_lines(html, sort_order, links, sfx, max_link_cnt, web_page_links):
     #     print('    ---append_lines; links_sorted 1:\n     ', links_sorted[0:1])
     i = 0
     is_non_etc = sfx == '\n'
-    print(f'==links_sorted {len(links_sorted)} ==web_page_links {len(web_page_links)}')
     for x in links_sorted:
         link = x[1]
         if is_non_etc and ('🦜' in link or '🪵' in link or '📰' in link):
             continue
         if link not in web_page_links:
-            html += link + ', ' + str(x[0]) + sfx
+            html += link + ', ' + "{:,}".format(x[0]) + sfx
             web_page_links.append(link)
             i += 1
             if i == max_link_cnt:
@@ -213,7 +204,7 @@ def append_lines(html, sort_order, links, sfx, max_link_cnt, web_page_links):
 
 
 def create_web_page(links, points, comments, top_count):
-    html = "<html><head></head><title>Hacker news sort</title>\n" \
+    html = "<html><head><meta charset='UTF-8'></head><title>Hacker news sort</title>\n" \
            "<body>Top <a href=\"{0}\">{1}" \
            "</a> links<pre>".format(HACKER_NEWS_URL, HACKER_NEWS_URL)
     html += '\n' + str(top_count) + ' top points:\n'
@@ -284,12 +275,12 @@ def date_parameters(month_abr, is_first_half_month):
     year = datetime.datetime.today().year
     if is_first_half_month:
         day_start = 1
-        day_end = 2
+        day_end = 15
     else:
         day_start = 16
         test_date = datetime.datetime(year, month, 1)
         day_end = calendar.monthrange(test_date.year, test_date.month)[1]
-    file_path = f'./hacker_news/{str(month).zfill(2)}_{month_abr}_{day_start}-{day_end}.html'
+    file_path = f'./HACKER_NEWS/{str(month).zfill(2)}_{month_abr}_{day_start}-{day_end}.html'
     if DEBUG:
         print(' --file_path', file_path)
     return file_path, month, day_start, day_end
@@ -298,7 +289,7 @@ def date_parameters(month_abr, is_first_half_month):
 def main():
     try:
         print('started')
-        file_path, month, day_start, day_end = date_parameters('mar', 1)
+        file_path, month, day_start, day_end = date_parameters('feb', 0)
         links, points, comments = scrape_ycombinator_links(month, day_start, day_end)
         html = create_web_page(links, points, comments, top_count=20)
         write_file(html, file_path)
@@ -315,7 +306,6 @@ def main():
         print(exc)
         import traceback
         traceback.print_exc()
-
 
 if __name__ == "__main__":
     main()
