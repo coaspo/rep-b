@@ -64,6 +64,7 @@ class Util:
         """
         link = link.replace('href= ', 'href=')
         quote = '"' if link.find('href="') > -1 else "'"
+        print(quote, '=====', link)
         try:
             i = link.index('href=' + quote) + 6
             i2 = link.index(quote, i)

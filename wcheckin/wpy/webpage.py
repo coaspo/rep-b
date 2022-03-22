@@ -76,6 +76,8 @@ class WebPage:
                 ii = line.index('</a>', i) + 4
                 link = line[i:ii]
                 if 'name=' not in link:
+                    print('++++ line', line)
+                    print('++++ line', link)
                     label_url = Util.extract_url_label(link)
                     indexes.append(label_url)
             # search for italic keywords:
